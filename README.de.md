@@ -27,7 +27,21 @@ Images unterscheiden sich **ausschließlich nach dem Boot-Medium** (`-sd` / `-em
 
 ---
 
-## 2. Offizielle Dokumentation, Datenblätter und Hardware-Unterlagen
+## 2. Bezugsquellen
+
+Im Kubuds-Shop (苦芽企业店) auf Taobao gibt es diese drei Varianten (für die Artikeldetails ist ein Taobao-Login nötig; die Links selbst liefern 200):
+
+- **Milk-V Duo 256M** (SG2002, 256 MB, kein Wi-Fi): https://item.taobao.com/item.htm?id=842972320584&skuId=5661357677549
+- **Milk-V Duo S Basisversion** (SG2000, 512 MB, kein Wi-Fi, kein eMMC): https://item.taobao.com/item.htm?id=842237425635&skuId=5659147544644
+- **Milk-V Duo S Wi-Fi** (SG2000, 512 MB, Wi-Fi 6 / BT, kein eMMC): https://item.taobao.com/item.htm?id=842237425635&skuId=5659147544645
+
+Die beiden Duo-S-Positionen sind **zwei SKUs desselben Artikels** (gleiche `id`, unterschiedliche `skuId`) — beim Bestellen im SKU-Namen prüfen, ob Wi-Fi enthalten ist. Beide haben kein eMMC; für Speicher auf dem Board braucht es eine eMMC-Variante. Das ursprüngliche Duo (CV1800B) ist abgekündigt und hat deshalb keinen Kauflink.
+
+Das ist der einzige kommerzielle Teil dieser Seite; alles andere verweist nur auf die Primärquellen.
+
+---
+
+## 3. Offizielle Dokumentation, Datenblätter und Hardware-Unterlagen
 
 **Dokumentationsseite: Seite für Seite indexiert**
 
@@ -56,7 +70,7 @@ Images unterscheiden sich **ausschließlich nach dem Boot-Medium** (`-sd` / `-em
 
 ---
 
-## 3. Offizielle Images und Flashen
+## 4. Offizielle Images und Flashen
 
 Die offiziellen Images basieren durchweg auf Buildroot und gliedern sich in zwei Linien, V1 und V2. **Für das Duo mit 64 MB empfiehlt sich V1** (die AI-Beispiele von V2 laufen auf 64 MB nicht); Duo 256M und Duo S nutzen V2.
 
@@ -91,7 +105,7 @@ Die offiziellen Images basieren durchweg auf Buildroot und gliedern sich in zwei
 
 ---
 
-## 4. Images von Drittanbietern (von der Community gepflegt, nach Board gegliedert)
+## 5. Images von Drittanbietern (von der Community gepflegt, nach Board gegliedert)
 
 Die offizielle Download-Seite enthält eine [Tabelle der Drittanbieter-Images](https://milkv.io/docs/duo/getting-started/download); hier ist sie nach Board aufgeschlüsselt, damit sich alles direkt anklicken lässt.
 
@@ -118,7 +132,7 @@ Die offizielle Download-Seite enthält eine [Tabelle der Drittanbieter-Images](h
 
 ---
 
-## 5. SDK, Toolchain und Beispiele
+## 6. SDK, Toolchain und Beispiele
 
 - SDK-Quellcode: [Buildroot SDK V1](https://github.com/milkv-duo/duo-buildroot-sdk) · [Buildroot SDK V2](https://github.com/milkv-duo/duo-buildroot-sdk-v2) · [Host-Toolchain](https://github.com/milkv-duo/host-tools)
 - [duo-examples](https://github.com/milkv-duo/duo-examples) – offizielle C/C++-Beispiele: [GPIO-Blinken](https://github.com/milkv-duo/duo-examples/tree/main/blink) · [I²C](https://github.com/milkv-duo/duo-examples/tree/main/i2c) · [SPI](https://github.com/milkv-duo/duo-examples/tree/main/spi) · [Anleitung zur Peripherietreiber-Nutzung (PDF)](https://github.com/milkv-duo/duo-examples/blob/main/adc/PeripheralDriverOperationGuide_en.pdf)
@@ -130,7 +144,7 @@ Die offizielle Download-Seite enthält eine [Tabelle der Drittanbieter-Images](h
 
 ---
 
-## 6. Offizielle Organisation, Community und Austausch
+## 7. Offizielle Organisation, Community und Austausch
 
 - [GitHub-Organisation milkv-duo](https://github.com/milkv-duo) – hier liegen die offiziellen SDKs, Beispiele und Hardware-Dateien
 - [Duo-Kategorie der Milk-V-Community](https://community.milkv.io/c/duo/5) – die zentrale Anlaufstelle für Fragen und Erfahrungsberichte
@@ -139,7 +153,7 @@ Die offizielle Download-Seite enthält eine [Tabelle der Drittanbieter-Images](h
 
 ---
 
-## 7. Videos: Bilibili (48 Stück)
+## 8. Videos: Bilibili (48 Stück)
 
 Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Titel bzw. Beschreibung weisen tatsächlich auf die Duo-Familie hin; die Aufrufzahlen sind eine Momentaufnahme vom 31.10.2026 und dienen nur als Hinweis auf die Beliebtheit.
 
@@ -214,7 +228,7 @@ Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Tite
 
 ---
 
-## 8. Videos: YouTube (37 Stück)
+## 9. Videos: YouTube (37 Stück)
 
 Seiten im Ausland, die sich nur über einen Proxy öffnen lassen; auch hier wurde jeder Eintrag einzeln geprüft, die Seite existiert und der Inhalt befasst sich tatsächlich mit dem Duo.
 
@@ -269,7 +283,7 @@ Seiten im Ausland, die sich nur über einen Proxy öffnen lassen; auch hier wurd
 
 ---
 
-## 9. Open-Source-Projekte auf GitHub
+## 10. Open-Source-Projekte auf GitHub
 
 Nach Einsatzzweck gegliedert. Star-Zahlen und Datum des letzten Commits sind eine Momentaufnahme vom 31.10.2026 und ändern sich; mit „offiziell“ gekennzeichnete Repositories gehören zur Organisation milkv-duo.
 
@@ -392,7 +406,7 @@ Nach Einsatzzweck gegliedert. Star-Zahlen und Datum des letzten Commits sind ein
 
 ---
 
-## 10. Gitee-Projekte und chinesischsprachige Anleitungen
+## 11. Gitee-Projekte und chinesischsprachige Anleitungen
 
 **Gitee (19 Stück)**
 
@@ -433,7 +447,7 @@ Nach Einsatzzweck gegliedert. Star-Zahlen und Datum des letzten Commits sind ein
 
 ---
 
-## 11. Wie dieser Index gepflegt wird
+## 12. Wie dieser Index gepflegt wird
 
 - Täglich um 14:00 Uhr läuft automatisch ein inkrementeller Scan des gesamten Netzes (offizielle Releases, neue Seiten der Dokumentation, neue Videos, neue Repositories); bei Änderungen wird ein Update eingereicht
 - Aufgenommen werden nur Links, die sich **öffnen lassen**; bei jeder Aktualisierung läuft eine vollständige Linkprüfung, tote Links werden entfernt oder durch neue Adressen ersetzt
