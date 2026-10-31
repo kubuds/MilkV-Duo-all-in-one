@@ -153,7 +153,7 @@ La página oficial de descargas incluye una [tabla de imágenes de terceros](htt
 
 ---
 
-## 8. Vídeos: Bilibili (48)
+## 8. Vídeos: Bilibili (49)
 
 Se comprobó uno por uno que cada página existe (HTTP 200) y que el título o la descripción remiten realmente a la familia Duo; las reproducciones son una instantánea del 2026-10-31 y solo sirven como referencia de popularidad.
 
@@ -225,6 +225,7 @@ Se comprobó uno por uno que cada página existe (HTTP 200) y que el título o l
 - Duo S 运行故事机 baby llama2（谁说现在是冬天呢）— [BV1dn4y197UW](https://www.bilibili.com/video/BV1dn4y197UW/) · 621
 - Duo S 上用 TDL SDK 部署人脸检测（谁说现在是冬天呢）— [BV1AM4m1m7fe](https://www.bilibili.com/video/BV1AM4m1m7fe/) · 522
 - YOLO 实战：车牌识别效果展示（谁说现在是冬天呢）— [BV1uYAHerEbL](https://www.bilibili.com/video/BV1uYAHerEbL/) · 1272
+- 【软硬件开源】TideSense双目VIO（单三拍）— [BV1EcnG6XESF](https://www.bilibili.com/video/BV1EcnG6XESF/) · 15376
 
 ---
 
@@ -383,6 +384,7 @@ Clasificados por uso. El número de estrellas y la fecha del último commit son 
 - [wanghengZzz/Milkv-Duo-FreeRTOS-DMA](https://github.com/wanghengZzz/Milkv-Duo-FreeRTOS-DMA) — HAL de DMA para FreeRTOS
 
 **Proyectos prácticos**
+- [tidesense](https://github.com/HumpbackLab/tidesense) — odometría visual-inercial estéreo sobre SG2002 (placa propia, no es una Duo 256M): dos OV9281 de obturador global más una IMU SC7U22, SchurVINS con corrección visual a 20 Hz y predicción a 200 Hz, además de comparación con OpenVINS, calibración y herramientas de dataset; el VIO corre en el Cortex-A53 y arranca solo desde SD. El hardware es abierto bajo CC BY-NC-SA 4.0 (enlace en el README del repositorio) · 142★
 
 - [pavelanni/milkv-duo-experiments](https://github.com/pavelanni/milkv-duo-experiments) — colección de experimentos escritos en Go · 27★
 - [driver1998/DiscEmu](https://github.com/driver1998/DiscEmu) — emulador de CD-ROM con el Duo · 11★

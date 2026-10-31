@@ -153,7 +153,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 
 ---
 
-## 8. 動画：Bilibili（48 本）
+## 8. 動画：Bilibili（49 本）
 
 すべて 1 件ずつページの存在（HTTP 200）と、タイトル・概要が実際に Duo シリーズを指していることを確認済みです。再生数は 2026-10-31 時点のスナップショットで、人気の参考程度です。
 
@@ -225,6 +225,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - Duo S 运行故事机 baby llama2（谁说现在是冬天呢）— [BV1dn4y197UW](https://www.bilibili.com/video/BV1dn4y197UW/) · 621
 - Duo S 上用 TDL SDK 部署人脸检测（谁说现在是冬天呢）— [BV1AM4m1m7fe](https://www.bilibili.com/video/BV1AM4m1m7fe/) · 522
 - YOLO 实战：车牌识别效果展示（谁说现在是冬天呢）— [BV1uYAHerEbL](https://www.bilibili.com/video/BV1uYAHerEbL/) · 1272
+- 【软硬件开源】TideSense双目VIO（单三拍）— [BV1EcnG6XESF](https://www.bilibili.com/video/BV1EcnG6XESF/) · 15376
 
 ---
 
@@ -383,6 +384,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [wanghengZzz/Milkv-Duo-FreeRTOS-DMA](https://github.com/wanghengZzz/Milkv-Duo-FreeRTOS-DMA) — FreeRTOS DMA HAL
 
 **実践プロジェクト**
+- [tidesense](https://github.com/HumpbackLab/tidesense) — SG2002 によるステレオ視覚惯性オドメトリ（自作ボードで、Duo 256M ではありません）：OV9281 グローバルシャッターのステレオ + SC7U22 IMU、SchurVINS が 20 Hz の視覚補正 / 200 Hz の予測、OpenVINS との比較・キャリブレーション・データセット用ツールを同梱。VIO は Cortex-A53 上で動作し、SD のみで起動。ハードウェアは CC BY-NC-SA 4.0 で公開（リンクはリポジトリの README）· 142★
 
 - [pavelanni/milkv-duo-experiments](https://github.com/pavelanni/milkv-duo-experiments) — Go で書いた実験集 · 27★
 - [driver1998/DiscEmu](https://github.com/driver1998/DiscEmu) — Duo で CD-ROM エミュレーター · 11★
