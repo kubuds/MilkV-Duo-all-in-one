@@ -19,6 +19,7 @@ Milk-V Duo（CV1800B，已 EOL）· Duo 256M（SG2002）· Duo S（SG2000，Wi-F
 | Section | Count |
 | --- | --- |
 | 板型与变体 / board variants | Duo · Duo 256M · Duo S（4 种组合）· Duo Module 01 |
+| 购买渠道 / where to buy | 淘宝苦芽企业店 3 款：Duo 256M · Duo S 基础版 · Duo S Wi-Fi 版 |
 | 官方文档 / official docs | 45 页，逐页索引 |
 | 官方镜像 / official images | V2 v2.0.1（7 个资产）· V1 v1.1.4（8 个资产） |
 | 第三方镜像 / third-party images | 按 Duo / Duo 256M / Duo S 分板列举 |

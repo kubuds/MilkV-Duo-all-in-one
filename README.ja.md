@@ -27,7 +27,21 @@ Milk-V Duo シリーズで見つけられるリソースは、できるだけこ
 
 ---
 
-## 2. 公式ドキュメント、データシート、ハードウェア資料
+## 2. 購入先
+
+Taobao の「苦芽企業店（Kubuds）」で以下の 3 種類を販売しています（商品ページの詳細表示には Taobao へのログインが必要です。リンク自体は 200 を返します）：
+
+- **Milk-V Duo 256M**（SG2002、256 MB、Wi-Fi なし）：https://item.taobao.com/item.htm?id=842972320584&skuId=5661357677549
+- **Milk-V Duo S ベーシック版**（SG2000、512 MB、Wi-Fi なし・eMMC なし）：https://item.taobao.com/item.htm?id=842237425635&skuId=5659147544644
+- **Milk-V Duo S Wi-Fi 版**（SG2000、512 MB、Wi-Fi 6 / BT あり、eMMC なし）：https://item.taobao.com/item.htm?id=842237425635&skuId=5659147544645
+
+Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` が異なります）。注文時は SKU 名に Wi-Fi が含まれるか確認してください。どちらも eMMC はありません。オンボードストレージが必要なら eMMC 版を別途探してください。初代 Duo（CV1800B）は生産終了のため購入リンクは載せていません。
+
+このページで商業色があるのはこの節だけです。それ以外は上流の出典のみを指しています。
+
+---
+
+## 3. 公式ドキュメント、データシート、ハードウェア資料
 
 **ドキュメントサイト：ページごとの索引**
 
@@ -56,7 +70,7 @@ Milk-V Duo シリーズで見つけられるリソースは、できるだけこ
 
 ---
 
-## 3. 公式イメージと書き込み
+## 4. 公式イメージと書き込み
 
 公式イメージはすべて Buildroot ベースで、V1 / V2 の 2 系統に分かれます。**64 MB の Duo には V1 をおすすめします**（V2 の AI サンプルは 64 MB では動きません）。Duo 256M と Duo S は V2 を使います。
 
@@ -91,7 +105,7 @@ Milk-V Duo シリーズで見つけられるリソースは、できるだけこ
 
 ---
 
-## 4. サードパーティイメージ（コミュニティ管理、ボード別）
+## 5. サードパーティイメージ（コミュニティ管理、ボード別）
 
 公式ダウンロードページに[サードパーティイメージの表](https://milkv.io/docs/duo/getting-started/download)があります。ここではボード別に並べ、直接クリックできるようにしています。
 
@@ -118,7 +132,7 @@ Milk-V Duo シリーズで見つけられるリソースは、できるだけこ
 
 ---
 
-## 5. SDK、ツールチェーン、サンプル
+## 6. SDK、ツールチェーン、サンプル
 
 - SDK ソース：[Buildroot SDK V1](https://github.com/milkv-duo/duo-buildroot-sdk) · [Buildroot SDK V2](https://github.com/milkv-duo/duo-buildroot-sdk-v2) · [ホスト側ツールチェーン](https://github.com/milkv-duo/host-tools)
 - [duo-examples](https://github.com/milkv-duo/duo-examples) —— 公式 C/C++ サンプル：[GPIO 点滅](https://github.com/milkv-duo/duo-examples/tree/main/blink) · [I²C](https://github.com/milkv-duo/duo-examples/tree/main/i2c) · [SPI](https://github.com/milkv-duo/duo-examples/tree/main/spi) · [ペリフェラルドライバ操作ガイド（PDF）](https://github.com/milkv-duo/duo-examples/blob/main/adc/PeripheralDriverOperationGuide_en.pdf)
@@ -130,7 +144,7 @@ Milk-V Duo シリーズで見つけられるリソースは、できるだけこ
 
 ---
 
-## 6. 公式組織、コミュニティ、交流
+## 7. 公式組織、コミュニティ、交流
 
 - [milkv-duo GitHub 組織](https://github.com/milkv-duo) —— 公式 SDK、サンプル、ハードウェアファイルはすべてここにあります
 - [Milk-V コミュニティの Duo カテゴリ](https://community.milkv.io/c/duo/5) —— 質問と体験談の主な場所
@@ -139,7 +153,7 @@ Milk-V Duo シリーズで見つけられるリソースは、できるだけこ
 
 ---
 
-## 7. 動画：Bilibili（48 本）
+## 8. 動画：Bilibili（48 本）
 
 すべて 1 件ずつページの存在（HTTP 200）と、タイトル・概要が実際に Duo シリーズを指していることを確認済みです。再生数は 2026-10-31 時点のスナップショットで、人気の参考程度です。
 
@@ -214,7 +228,7 @@ Milk-V Duo シリーズで見つけられるリソースは、できるだけこ
 
 ---
 
-## 8. 動画：YouTube（37 本）
+## 9. 動画：YouTube（37 本）
 
 海外サイトのため、プロキシ経由でないと開けません。こちらも 1 件ずつページの存在と、内容が実際に Duo に関係することを確認済みです。
 
@@ -269,7 +283,7 @@ Milk-V Duo シリーズで見つけられるリソースは、できるだけこ
 
 ---
 
-## 9. GitHub オープンソースプロジェクト
+## 10. GitHub オープンソースプロジェクト
 
 用途別に分類しています。star 数と最終コミット日は 2026-10-31 時点のスナップショットで、変化します。「公式」と付いたものは milkv-duo 組織のリポジトリです。
 
@@ -392,7 +406,7 @@ Milk-V Duo シリーズで見つけられるリソースは、できるだけこ
 
 ---
 
-## 10. Gitee プロジェクトと中国語チュートリアル
+## 11. Gitee プロジェクトと中国語チュートリアル
 
 **Gitee（19 件）**
 
@@ -433,7 +447,7 @@ Milk-V Duo シリーズで見つけられるリソースは、できるだけこ
 
 ---
 
-## 11. この索引のメンテナンス方法
+## 12. この索引のメンテナンス方法
 
 - 毎日 14:00 に Web 全体の増分スキャンを自動で 1 回実行し（公式 releases、ドキュメントサイトの新規ページ、新しい動画、新しいリポジトリ）、変更があれば更新をコミットします
 - **開くことができる**リンクだけを掲載します。更新のたびに全リンクのチェックを実行し、リンク切れは削除するか新しいアドレスに差し替えます

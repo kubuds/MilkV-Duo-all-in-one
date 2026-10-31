@@ -27,7 +27,21 @@ Images are **split only by boot medium** (`-sd` / `-emmc`), not by Wi-Fi — non
 
 ---
 
-## 2. Official documentation, datasheets, and hardware files
+## 2. Where to buy
+
+The Kubuds Taobao store (苦芽企业店) carries these three (the listing needs a Taobao login before it shows details; the links themselves return 200):
+
+- **Milk-V Duo 256M** (SG2002, 256 MB, no Wi-Fi): https://item.taobao.com/item.htm?id=842972320584&skuId=5661357677549
+- **Milk-V Duo S base version** (SG2000, 512 MB, no Wi-Fi, no eMMC): https://item.taobao.com/item.htm?id=842237425635&skuId=5659147544644
+- **Milk-V Duo S Wi-Fi version** (SG2000, 512 MB, Wi-Fi 6 / BT, no eMMC): https://item.taobao.com/item.htm?id=842237425635&skuId=5659147544645
+
+The two Duo S entries are **two SKUs of the same listing** (same `id`, different `skuId`) — check the SKU name for Wi-Fi when ordering. Neither has eMMC, so onboard storage means finding an eMMC variant elsewhere. The original Duo (CV1800B) is end-of-life, so there is no purchase link for it.
+
+This is the only commercial part of the page; everything else points at upstream sources.
+
+---
+
+## 3. Official documentation, datasheets, and hardware files
 
 **Documentation site: a page-by-page index**
 
@@ -56,7 +70,7 @@ Images are **split only by boot medium** (`-sd` / `-emmc`), not by Wi-Fi — non
 
 ---
 
-## 3. Official images and flashing
+## 4. Official images and flashing
 
 All official images are Buildroot-based and come in two lines, V1 and V2. **For the 64 MB Duo, use V1** (V2's AI samples will not run on 64 MB); Duo 256M and Duo S use V2.
 
@@ -91,7 +105,7 @@ All official images are Buildroot-based and come in two lines, V1 and V2. **For 
 
 ---
 
-## 4. Third-party images (community-maintained, by board)
+## 5. Third-party images (community-maintained, by board)
 
 The official download page has a [third-party image table](https://milkv.io/docs/duo/getting-started/download); here it is flattened out by board so you can click straight through.
 
@@ -118,7 +132,7 @@ The official download page has a [third-party image table](https://milkv.io/docs
 
 ---
 
-## 5. SDKs, toolchains, and examples
+## 6. SDKs, toolchains, and examples
 
 - SDK sources: [Buildroot SDK V1](https://github.com/milkv-duo/duo-buildroot-sdk) · [Buildroot SDK V2](https://github.com/milkv-duo/duo-buildroot-sdk-v2) · [Host-side toolchain](https://github.com/milkv-duo/host-tools)
 - [duo-examples](https://github.com/milkv-duo/duo-examples) — official C/C++ examples: [GPIO blink](https://github.com/milkv-duo/duo-examples/tree/main/blink) · [I²C](https://github.com/milkv-duo/duo-examples/tree/main/i2c) · [SPI](https://github.com/milkv-duo/duo-examples/tree/main/spi) · [Peripheral driver operation guide (PDF)](https://github.com/milkv-duo/duo-examples/blob/main/adc/PeripheralDriverOperationGuide_en.pdf)
@@ -130,7 +144,7 @@ The official download page has a [third-party image table](https://milkv.io/docs
 
 ---
 
-## 6. Official organization, community, and discussion
+## 7. Official organization, community, and discussion
 
 - [milkv-duo GitHub organization](https://github.com/milkv-duo) — official SDKs, examples, and hardware files all live here
 - [Milk-V community Duo category](https://community.milkv.io/c/duo/5) — the main venue for questions and experience reports
@@ -139,7 +153,7 @@ The official download page has a [third-party image table](https://milkv.io/docs
 
 ---
 
-## 7. Videos: Bilibili (48)
+## 8. Videos: Bilibili (48)
 
 Every page was checked individually to confirm it exists (HTTP 200) and that its title/description really points to the Duo family; view counts are a snapshot from 2026-10-31 and serve only as an indication of popularity.
 
@@ -214,7 +228,7 @@ Every page was checked individually to confirm it exists (HTTP 200) and that its
 
 ---
 
-## 8. Videos: YouTube (37)
+## 9. Videos: YouTube (37)
 
 An overseas site that requires a proxy to open; every page here was likewise checked to confirm it exists and really covers the Duo.
 
@@ -269,7 +283,7 @@ An overseas site that requires a proxy to open; every page here was likewise che
 
 ---
 
-## 9. GitHub open-source projects
+## 10. GitHub open-source projects
 
 Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31 and will change; entries described as official are repositories under the milkv-duo organization.
 
@@ -392,7 +406,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 
 ---
 
-## 10. Gitee projects and Chinese-language tutorials
+## 11. Gitee projects and Chinese-language tutorials
 
 **Gitee (19)**
 
@@ -433,7 +447,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 
 ---
 
-## 11. How this index is maintained
+## 12. How this index is maintained
 
 - An incremental full-web scan runs automatically once a day at 14:00 (official releases, new documentation pages, new videos, new repositories), and any change is committed as an update
 - Only links that **open** are included; every update runs a full link check, and dead links are dropped or replaced with a new address

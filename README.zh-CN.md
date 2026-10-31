@@ -27,7 +27,21 @@ Milk-V Duo 系列所有能找到的资源，尽量都收在这一页：官方文
 
 ---
 
-## 2. 官方文档、数据手册与硬件资料
+## 2. 购买渠道
+
+淘宝「苦芽企业店」在售以下三款（商品页需登录淘宝才能看到详情，链接本身实测返回 200）：
+
+- **Milk-V Duo 256M**（SG2002，256 MB，无 Wi-Fi）：https://item.taobao.com/item.htm?id=842972320584&skuId=5661357677549
+- **Milk-V Duo S 基础版**（SG2000，512 MB，无 Wi-Fi、无 eMMC）：https://item.taobao.com/item.htm?id=842237425635&skuId=5659147544644
+- **Milk-V Duo S Wi-Fi 版**（SG2000，512 MB，带 Wi-Fi 6 / BT，无 eMMC）：https://item.taobao.com/item.htm?id=842237425635&skuId=5659147544645
+
+Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不同），下单时看清 SKU 名称里有没有 Wi-Fi；两款都没有 eMMC，要板载存储得另找带 eMMC 的版本。原版 Duo（CV1800B）已停产，不放购买链接。
+
+这是全页唯一带商业性质的部分，其余内容只指向上游出处。
+
+---
+
+## 3. 官方文档、数据手册与硬件资料
 
 **文档站：挨页索引**
 
@@ -56,7 +70,7 @@ Milk-V Duo 系列所有能找到的资源，尽量都收在这一页：官方文
 
 ---
 
-## 3. 官方镜像与烧录
+## 4. 官方镜像与烧录
 
 官方镜像全部基于 Buildroot，分 V1 / V2 两条线。**64 MB 的 Duo 建议用 V1**（V2 的 AI 示例在 64 MB 上跑不动）；Duo 256M 与 Duo S 用 V2。
 
@@ -91,7 +105,7 @@ Milk-V Duo 系列所有能找到的资源，尽量都收在这一页：官方文
 
 ---
 
-## 4. 第三方镜像（社区维护，按板型分）
+## 5. 第三方镜像（社区维护，按板型分）
 
 官方下载页有一份[第三方镜像表](https://milkv.io/docs/duo/getting-started/download)，这里按板型摊平，方便直接点。
 
@@ -118,7 +132,7 @@ Milk-V Duo 系列所有能找到的资源，尽量都收在这一页：官方文
 
 ---
 
-## 5. SDK、工具链与示例
+## 6. SDK、工具链与示例
 
 - SDK 源码：[Buildroot SDK V1](https://github.com/milkv-duo/duo-buildroot-sdk) · [Buildroot SDK V2](https://github.com/milkv-duo/duo-buildroot-sdk-v2) · [主机侧工具链](https://github.com/milkv-duo/host-tools)
 - [duo-examples](https://github.com/milkv-duo/duo-examples) —— 官方 C/C++ 示例： [GPIO 闪灯](https://github.com/milkv-duo/duo-examples/tree/main/blink) · [I²C](https://github.com/milkv-duo/duo-examples/tree/main/i2c) · [SPI](https://github.com/milkv-duo/duo-examples/tree/main/spi) · [外设驱动操作指南（PDF）](https://github.com/milkv-duo/duo-examples/blob/main/adc/PeripheralDriverOperationGuide_en.pdf)
@@ -130,7 +144,7 @@ Milk-V Duo 系列所有能找到的资源，尽量都收在这一页：官方文
 
 ---
 
-## 6. 官方组织、社区与交流
+## 7. 官方组织、社区与交流
 
 - [milkv-duo GitHub 组织](https://github.com/milkv-duo) —— 官方 SDK、示例、硬件文件都在这里
 - [Milk-V 社区 Duo 分类](https://community.milkv.io/c/duo/5) —— 提问与经验贴的主场
@@ -139,7 +153,7 @@ Milk-V Duo 系列所有能找到的资源，尽量都收在这一页：官方文
 
 ---
 
-## 7. 视频：哔哩哔哩（48 支）
+## 8. 视频：哔哩哔哩（48 支）
 
 全部逐条核过页面存在（HTTP 200）且标题/简介确实指向 Duo 系列；播放量是 2026-10-31 的快照，只作热度参考。
 
@@ -214,7 +228,7 @@ Milk-V Duo 系列所有能找到的资源，尽量都收在这一页：官方文
 
 ---
 
-## 8. 视频：YouTube（37 支）
+## 9. 视频：YouTube（37 支）
 
 国外站点，走代理才能打开；同样逐条核过页面存在且内容真的涉及 Duo。
 
@@ -269,7 +283,7 @@ Milk-V Duo 系列所有能找到的资源，尽量都收在这一页：官方文
 
 ---
 
-## 9. GitHub 开源项目
+## 10. GitHub 开源项目
 
 按用途分类。star 数与最后提交日期是 2026-10-31 的快照，会变；带「官方」的是 milkv-duo 组织下的仓库。
 
@@ -392,7 +406,7 @@ Milk-V Duo 系列所有能找到的资源，尽量都收在这一页：官方文
 
 ---
 
-## 10. Gitee 项目与中文教程
+## 11. Gitee 项目与中文教程
 
 **Gitee（19 个）**
 
@@ -433,7 +447,7 @@ Milk-V Duo 系列所有能找到的资源，尽量都收在这一页：官方文
 
 ---
 
-## 11. 这个索引怎么维护
+## 12. 这个索引怎么维护
 
 - 每天 14:00 自动跑一次全网增量扫描（官方 releases、文档站新页、新视频、新仓库），有变化就提交更新
 - 只收**能打开**的链接；每次更新跑一遍全量链接检查，死链下线或换新地址
