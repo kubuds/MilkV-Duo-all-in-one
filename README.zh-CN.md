@@ -153,7 +153,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 
 ---
 
-## 8. 视频：哔哩哔哩（48 支）
+## 8. 视频：哔哩哔哩（49 支）
 
 全部逐条核过页面存在（HTTP 200）且标题/简介确实指向 Duo 系列；播放量是 2026-10-31 的快照，只作热度参考。
 
@@ -225,6 +225,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - Duo S 运行故事机 baby llama2（谁说现在是冬天呢）— [BV1dn4y197UW](https://www.bilibili.com/video/BV1dn4y197UW/) · 621
 - Duo S 上用 TDL SDK 部署人脸检测（谁说现在是冬天呢）— [BV1AM4m1m7fe](https://www.bilibili.com/video/BV1AM4m1m7fe/) · 522
 - YOLO 实战：车牌识别效果展示（谁说现在是冬天呢）— [BV1uYAHerEbL](https://www.bilibili.com/video/BV1uYAHerEbL/) · 1272
+- 【软硬件开源】TideSense双目VIO（单三拍）— [BV1EcnG6XESF](https://www.bilibili.com/video/BV1EcnG6XESF/) · 15376
 
 ---
 
@@ -383,6 +384,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - [wanghengZzz/Milkv-Duo-FreeRTOS-DMA](https://github.com/wanghengZzz/Milkv-Duo-FreeRTOS-DMA) — FreeRTOS DMA HAL
 
 **项目实战**
+- [tidesense](https://github.com/HumpbackLab/tidesense) — 基于 SG2002 的双目视觉惯性里程计（自研板，不是 Duo 256M）：OV9281 全局快门双目 + SC7U22 IMU，SchurVINS 做 20 Hz 视觉校正 / 200 Hz 预测，附 OpenVINS 对比、标定与数据集工具；VIO 跑在 Cortex-A53 上，纯 SD 启动。硬件按 CC BY-NC-SA 4.0 开源（链接见仓库 README）· 142★
 
 - [pavelanni/milkv-duo-experiments](https://github.com/pavelanni/milkv-duo-experiments) — Go 写的实验集 · 27★
 - [driver1998/DiscEmu](https://github.com/driver1998/DiscEmu) — 用 Duo 做 CD-ROM 模拟器 · 11★

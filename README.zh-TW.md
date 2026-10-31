@@ -153,7 +153,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 
 ---
 
-## 8. 影片：嗶哩嗶哩（48 支）
+## 8. 影片：嗶哩嗶哩（49 支）
 
 全部逐條核對過頁面存在（HTTP 200）且標題/簡介確實指向 Duo 系列；觀看次數是 2026-10-31 的快照，只作熱度參考。
 
@@ -225,6 +225,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - Duo S 執行故事機 baby llama2（誰說現在是冬天呢）— [BV1dn4y197UW](https://www.bilibili.com/video/BV1dn4y197UW/) · 621
 - Duo S 上用 TDL SDK 部署人臉偵測（誰說現在是冬天呢）— [BV1AM4m1m7fe](https://www.bilibili.com/video/BV1AM4m1m7fe/) · 522
 - YOLO 實戰：車牌識別效果展示（誰說現在是冬天呢）— [BV1uYAHerEbL](https://www.bilibili.com/video/BV1uYAHerEbL/) · 1272
+- 【软硬件开源】TideSense双目VIO（单三拍）— [BV1EcnG6XESF](https://www.bilibili.com/video/BV1EcnG6XESF/) · 15376
 
 ---
 
@@ -383,6 +384,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - [wanghengZzz/Milkv-Duo-FreeRTOS-DMA](https://github.com/wanghengZzz/Milkv-Duo-FreeRTOS-DMA) — FreeRTOS DMA HAL
 
 **專案實作**
+- [tidesense](https://github.com/HumpbackLab/tidesense) — 基於 SG2002 的雙目視覺慣性里程計（自研板，不是 Duo 256M）：OV9281 全域快門雙目 + SC7U22 IMU，SchurVINS 做 20 Hz 視覺校正 / 200 Hz 預測，附 OpenVINS 比較、標定與資料集工具；VIO 跑在 Cortex-A53 上，純 SD 開機。硬體依 CC BY-NC-SA 4.0 開源（連結見儲存庫 README）· 142★
 
 - [pavelanni/milkv-duo-experiments](https://github.com/pavelanni/milkv-duo-experiments) — Go 寫的實驗集 · 27★
 - [driver1998/DiscEmu](https://github.com/driver1998/DiscEmu) — 用 Duo 做 CD-ROM 模擬器 · 11★

@@ -153,7 +153,7 @@
 
 ---
 
-## 8. Видео: Bilibili (48 роликов)
+## 8. Видео: Bilibili (49 роликов)
 
 Для каждого ролика проверено, что страница существует (HTTP 200), а заголовок и описание действительно относятся к семейству Duo; число просмотров — снимок на 2026-10-31, приводится только как ориентир по популярности.
 
@@ -225,6 +225,7 @@
 - Duo S 运行故事机 baby llama2（谁说现在是冬天呢）— [BV1dn4y197UW](https://www.bilibili.com/video/BV1dn4y197UW/) · 621
 - Duo S 上用 TDL SDK 部署人脸检测（谁说现在是冬天呢）— [BV1AM4m1m7fe](https://www.bilibili.com/video/BV1AM4m1m7fe/) · 522
 - YOLO 实战：车牌识别效果展示（谁说现在是冬天呢）— [BV1uYAHerEbL](https://www.bilibili.com/video/BV1uYAHerEbL/) · 1272
+- 【软硬件开源】TideSense双目VIO（单三拍）— [BV1EcnG6XESF](https://www.bilibili.com/video/BV1EcnG6XESF/) · 15376
 
 ---
 
@@ -383,6 +384,7 @@
 - [wanghengZzz/Milkv-Duo-FreeRTOS-DMA](https://github.com/wanghengZzz/Milkv-Duo-FreeRTOS-DMA) — FreeRTOS DMA HAL
 
 **Практические проекты**
+- [tidesense](https://github.com/HumpbackLab/tidesense) — стерео визуально-инерционная одометрия на SG2002 (собственная плата, не Duo 256M): два глобальных затвора OV9281 плюс IMU SC7U22, SchurVINS с визуальной коррекцией 20 Гц и предсказанием 200 Гц, плюс сравнение с OpenVINS, калибровка и средства работы с датасетами; VIO работает на Cortex-A53 и загружается только с SD-карты. Аппаратная часть открыта под CC BY-NC-SA 4.0 (ссылка в README репозитория) · 142★
 
 - [pavelanni/milkv-duo-experiments](https://github.com/pavelanni/milkv-duo-experiments) — набор экспериментов на Go · 27★
 - [driver1998/DiscEmu](https://github.com/driver1998/DiscEmu) — эмулятор CD-ROM на Duo · 11★
