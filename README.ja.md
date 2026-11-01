@@ -362,6 +362,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [rota1001/milkv-baremetal-toolkit](https://github.com/rota1001/milkv-baremetal-toolkit) — ワンクリックでベアメタルイメージを生成 · 8★
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Duo 上の Forth · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — Zephyr と Linux の mailbox 通信
+- [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — Rust で書かれた RISC-V モノリシックカーネル（C++ ブートローダーとセルフホスト C コンパイラを含め全体で約 272 KB）。SG2000 のプラットフォームドライバを備え、対象ボードに Duo S を挙げています · 0★
 
 **ツールチェーンとビルド環境**
 
@@ -399,6 +400,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [ar90n/ptp-server-milkv-duos](https://github.com/ar90n/ptp-server-milkv-duos) — PTP マスタークロックサーバー
 - [avalitan/MilkV-Duo-S-NTP-UPS-Server](https://github.com/avalitan/MilkV-Duo-S-NTP-UPS-Server) — NTP + NUT UPS 監視
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — コールドブート 14.1 秒 → 3.2 秒の完全な記録
+- [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — Duo S 上で Rust から TPU の行列演算を実行：Makefile が host-tools、tpu-sdk-sg200x、tpu-mlir を自動取得し、ONNX を .cvimodel に変換、Rust を riscv64 musl 向けにクロスコンパイルして scp で転送 · 0★
 
 **ハードウェアとケース**
 

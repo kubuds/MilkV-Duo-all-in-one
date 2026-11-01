@@ -362,6 +362,7 @@
 - [rota1001/milkv-baremetal-toolkit](https://github.com/rota1001/milkv-baremetal-toolkit) — генерация bare-metal образа одной командой · 8★
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Forth на Duo · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — обмен через mailbox между Zephyr и Linux
+- [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — монолитное ядро RISC-V на Rust (около 272 KB вместе с загрузчиком на C++ и самодостаточным компилятором C); содержит драйверы платформы SG2000, среди целевых плат указан Duo S · 0★
 
 **Инструментальные цепочки и окружение сборки**
 
@@ -399,6 +400,7 @@
 - [ar90n/ptp-server-milkv-duos](https://github.com/ar90n/ptp-server-milkv-duos) — сервер точного времени PTP
 - [avalitan/MilkV-Duo-S-NTP-UPS-Server](https://github.com/avalitan/MilkV-Duo-S-NTP-UPS-Server) — мониторинг NTP + NUT UPS
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — полный разбор ускорения холодной загрузки с 14,1 s до 3,2 s
+- [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — матричные вычисления на TPU из Rust на Duo S: Makefile сам подтягивает host-tools, tpu-sdk-sg200x и tpu-mlir, собирает .cvimodel из ONNX, кросс-компилирует Rust под riscv64 musl и копирует на плату через scp · 0★
 
 **Аппаратная часть и корпуса**
 

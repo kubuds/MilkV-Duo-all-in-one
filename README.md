@@ -24,7 +24,7 @@ Milk-V Duo（CV1800B，已 EOL）· Duo 256M（SG2002）· Duo S（SG2000，Wi-F
 | 官方镜像 / official images | V2 v2.0.1（7 个资产）· V1 v1.1.4（8 个资产） |
 | 第三方镜像 / third-party images | 按 Duo / Duo 256M / Duo S 分板列举 |
 | 视频 / videos | B 站 49 · YouTube 37 |
-| 代码 / code | GitHub 92 · Gitee 19 |
+| 代码 / code | GitHub 94 · Gitee 19 |
 | 中文教程 / tutorials | 22 篇 |
 
 Every link in this repository was fetched and verified as reachable before being added; dead links are removed or replaced. Links point to their respective maintainers — **community software and images are not tested or endorsed by Milk-V**, so check board revision, compatibility and release notes before flashing or wiring anything up.
