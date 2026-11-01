@@ -362,6 +362,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [rota1001/milkv-baremetal-toolkit](https://github.com/rota1001/milkv-baremetal-toolkit) — one-command bare-metal image generation · 8★
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Forth on the Duo · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — mailbox communication between Zephyr and Linux
+- [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — monolithic RISC-V kernel in Rust (~272 KB in total, including a C++ bootloader and a self-hosting C compiler); ships SG2000 platform drivers and lists Duo S as a target board · 0★
 
 **Toolchains and build environments**
 
@@ -399,6 +400,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [ar90n/ptp-server-milkv-duos](https://github.com/ar90n/ptp-server-milkv-duos) — PTP grandmaster clock server
 - [avalitan/MilkV-Duo-S-NTP-UPS-Server](https://github.com/avalitan/MilkV-Duo-S-NTP-UPS-Server) — NTP + NUT UPS monitoring
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — full write-up of cold boot going from 14.1 s to 3.2 s
+- [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — TPU matrix multiplication from Rust on Duo S: the Makefile pulls host-tools, tpu-sdk-sg200x and tpu-mlir, compiles ONNX into .cvimodel, cross-builds Rust for riscv64 musl and deploys over scp · 0★
 
 **Hardware and enclosures**
 
