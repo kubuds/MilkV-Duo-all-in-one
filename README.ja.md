@@ -401,7 +401,6 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [ar90n/ptp-server-milkv-duos](https://github.com/ar90n/ptp-server-milkv-duos) — PTP マスタークロックサーバー
 - [avalitan/MilkV-Duo-S-NTP-UPS-Server](https://github.com/avalitan/MilkV-Duo-S-NTP-UPS-Server) — NTP + NUT UPS 監視
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — コールドブート 14.1 秒 → 3.2 秒の完全な記録
-- [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — Duo S 上で最小構成のハードウェア H.264 エンコード／デコード自己テスト：cvi_mpi の libsys / libvenc / libvdec を直接呼び、VI/VPSS/VO を介さずに合成フレームをエンコードしてデコードし PSNR を比較（既定 1280×720、60 フレーム）、Buildroot イメージ（カーネル 5.10.4）で実測 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — Duo S 上で Rust から TPU の行列演算を実行：Makefile が host-tools、tpu-sdk-sg200x、tpu-mlir を自動取得し、ONNX を .cvimodel に変換、Rust を riscv64 musl 向けにクロスコンパイルして scp で転送 · 0★
 
 **ハードウェアとケース**

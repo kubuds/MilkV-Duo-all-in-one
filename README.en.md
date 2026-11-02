@@ -401,7 +401,6 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [ar90n/ptp-server-milkv-duos](https://github.com/ar90n/ptp-server-milkv-duos) — PTP grandmaster clock server
 - [avalitan/MilkV-Duo-S-NTP-UPS-Server](https://github.com/avalitan/MilkV-Duo-S-NTP-UPS-Server) — NTP + NUT UPS monitoring
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — full write-up of cold boot going from 14.1 s to 3.2 s
-- [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — minimal hardware H.264 encode/decode self-test on Duo S: calls libsys / libvenc / libvdec from cvi_mpi directly, skipping VI/VPSS/VO, encodes synthetic frames and decodes them back for a PSNR check (default 1280×720, 60 frames), tested on a Buildroot image with kernel 5.10.4 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — TPU matrix multiplication from Rust on Duo S: the Makefile pulls host-tools, tpu-sdk-sg200x and tpu-mlir, compiles ONNX into .cvimodel, cross-builds Rust for riscv64 musl and deploys over scp · 0★
 
 **Hardware and enclosures**

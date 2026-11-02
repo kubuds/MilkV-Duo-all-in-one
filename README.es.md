@@ -401,7 +401,6 @@ Clasificados por uso. El número de estrellas y la fecha del último commit son 
 - [ar90n/ptp-server-milkv-duos](https://github.com/ar90n/ptp-server-milkv-duos) — servidor de reloj maestro PTP
 - [avalitan/MilkV-Duo-S-NTP-UPS-Server](https://github.com/avalitan/MilkV-Duo-S-NTP-UPS-Server) — monitorización de NTP + UPS con NUT
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — registro completo del arranque en frío de 14.1 s → 3.2 s
-- [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — autoprueba mínima de codificación/decodificación H.264 por hardware en la Duo S: llama directamente a libsys / libvenc / libvdec de cvi_mpi, sin VI/VPSS/VO, codifica tramas sintéticas y las decodifica para comparar el PSNR (por defecto 1280×720, 60 tramas), probado en una imagen Buildroot con kernel 5.10.4 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — multiplicación de matrices en la TPU desde Rust en la Duo S: el Makefile descarga host-tools, tpu-sdk-sg200x y tpu-mlir, compila ONNX a .cvimodel, compila Rust de forma cruzada para riscv64 musl y lo copia por scp · 0★
 
 **Hardware y carcasas**
