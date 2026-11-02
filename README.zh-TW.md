@@ -153,7 +153,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 
 ---
 
-## 8. 影片：嗶哩嗶哩（49 支）
+## 8. 影片：嗶哩嗶哩（50 支）
 
 全部逐條核對過頁面存在（HTTP 200）且標題/簡介確實指向 Duo 系列；觀看次數是 2026-10-31 的快照，只作熱度參考。
 
@@ -214,6 +214,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - 使用 Wi-Fi 連接 Duo S（誰說現在是冬天呢）— [BV11r421T7Sk](https://www.bilibili.com/video/BV11r421T7Sk/) · 318
 - 在 Duo S 上部署 Caddy 伺服器（誰說現在是冬天呢）— [BV1poBzYQEoC](https://www.bilibili.com/video/BV1poBzYQEoC/) · 214
 - Duo 256M 部署相簿檔案管理器和部落格筆記（蘭雅 sRGB）— [BV1cC4y1e7uk](https://www.bilibili.com/video/BV1cC4y1e7uk/) · 1455
+- GameOS 開發日常：自製系統上跑 Doom、用「小電視」按 BV 號播放 B 站影片（我的大可樂呢；作者未標板卡型號）— [BV1iZx46BEV7](https://www.bilibili.com/video/BV1iZx46BEV7/) · 38
 
 **AI / 視覺**
 

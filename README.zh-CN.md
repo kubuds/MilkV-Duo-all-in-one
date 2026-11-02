@@ -153,9 +153,9 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 
 ---
 
-## 8. 视频：哔哩哔哩（49 支）
+## 8. 视频：哔哩哔哩（50 支）
 
-全部逐条核过页面存在（HTTP 200）且标题/简介确实指向 Duo 系列；播放量是 2026-10-31 的快照，只作热度参考。
+全部逐条核过页面存在（HTTP 200）且标题/简介确实指向 Duo 系列；播放量是 2026-10-31 的快照，只作热度参考。个别条目作者没写板卡型号，已在条目内注明。
 
 **东东老师系列（eastdong）—— 最适合从零开始**
 
@@ -214,6 +214,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - 使用 Wi-Fi 连接 Duo S（谁说现在是冬天呢）— [BV11r421T7Sk](https://www.bilibili.com/video/BV11r421T7Sk/) · 318
 - 在 Duo S 上部署 Caddy 服务器（谁说现在是冬天呢）— [BV1poBzYQEoC](https://www.bilibili.com/video/BV1poBzYQEoC/) · 214
 - Duo 256M 部署相册文件管理器和博客笔记（蘭雅 sRGB）— [BV1cC4y1e7uk](https://www.bilibili.com/video/BV1cC4y1e7uk/) · 1455
+- GameOS 开发日常：自制系统上跑 Doom、用「小电视」按 BV 号播放 B 站视频（我的大可乐呢；作者未标板卡型号）— [BV1iZx46BEV7](https://www.bilibili.com/video/BV1iZx46BEV7/) · 38
 
 **AI / 视觉**
 

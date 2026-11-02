@@ -153,7 +153,7 @@ Die offizielle Download-Seite enthält eine [Tabelle der Drittanbieter-Images](h
 
 ---
 
-## 8. Videos: Bilibili (49 Stück)
+## 8. Videos: Bilibili (50 Stück)
 
 Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Titel bzw. Beschreibung weisen tatsächlich auf die Duo-Familie hin; die Aufrufzahlen sind eine Momentaufnahme vom 31.10.2026 und dienen nur als Hinweis auf die Beliebtheit.
 
@@ -214,6 +214,7 @@ Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Tite
 - 使用 Wi-Fi 连接 Duo S（谁说现在是冬天呢）— [BV11r421T7Sk](https://www.bilibili.com/video/BV11r421T7Sk/) · 318
 - 在 Duo S 上部署 Caddy 服务器（谁说现在是冬天呢）— [BV1poBzYQEoC](https://www.bilibili.com/video/BV1poBzYQEoC/) · 214
 - Duo 256M 部署相册文件管理器和博客笔记（蘭雅 sRGB）— [BV1cC4y1e7uk](https://www.bilibili.com/video/BV1cC4y1e7uk/) · 1455
+- GameOS-Entwicklungstagebuch: ein selbstgebautes OS spielt Doom und über einen eingebauten „Kleinfernseher“-Client Bilibili-Videos per BV-Nummer ab (我的大可乐呢; das Board wird im Video nicht genannt) — [BV1iZx46BEV7](https://www.bilibili.com/video/BV1iZx46BEV7/) · 38
 
 **KI / Vision**
 
