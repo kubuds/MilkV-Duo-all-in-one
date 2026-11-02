@@ -153,7 +153,7 @@
 
 ---
 
-## 8. Видео: Bilibili (49 роликов)
+## 8. Видео: Bilibili (50 роликов)
 
 Для каждого ролика проверено, что страница существует (HTTP 200), а заголовок и описание действительно относятся к семейству Duo; число просмотров — снимок на 2026-10-31, приводится только как ориентир по популярности.
 
@@ -214,6 +214,7 @@
 - 使用 Wi-Fi 连接 Duo S（谁说现在是冬天呢）— [BV11r421T7Sk](https://www.bilibili.com/video/BV11r421T7Sk/) · 318
 - 在 Duo S 上部署 Caddy 服务器（谁说现在是冬天呢）— [BV1poBzYQEoC](https://www.bilibili.com/video/BV1poBzYQEoC/) · 214
 - Duo 256M 部署相册文件管理器和博客笔记（蘭雅 sRGB）— [BV1cC4y1e7uk](https://www.bilibili.com/video/BV1cC4y1e7uk/) · 1455
+- Дневник разработки GameOS: самодельная ОС запускает Doom и проигрывает ролики Bilibili по BV-номеру через встроенный клиент «маленький телевизор» (我的大可乐呢; автор не указывает модель платы) — [BV1iZx46BEV7](https://www.bilibili.com/video/BV1iZx46BEV7/) · 38
 
 **ИИ / компьютерное зрение**
 
@@ -400,6 +401,7 @@
 - [ar90n/ptp-server-milkv-duos](https://github.com/ar90n/ptp-server-milkv-duos) — сервер точного времени PTP
 - [avalitan/MilkV-Duo-S-NTP-UPS-Server](https://github.com/avalitan/MilkV-Duo-S-NTP-UPS-Server) — мониторинг NTP + NUT UPS
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — полный разбор ускорения холодной загрузки с 14,1 s до 3,2 s
+- [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — минимальный самотест аппаратного кодирования и декодирования H.264 на Duo S: напрямую вызывает libsys / libvenc / libvdec из cvi_mpi, минуя VI/VPSS/VO, кодирует синтетические кадры и декодирует их обратно со сверкой PSNR (по умолчанию 1280×720, 60 кадров), проверено на образе Buildroot с ядром 5.10.4 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — матричные вычисления на TPU из Rust на Duo S: Makefile сам подтягивает host-tools, tpu-sdk-sg200x и tpu-mlir, собирает .cvimodel из ONNX, кросс-компилирует Rust под riscv64 musl и копирует на плату через scp · 0★
 
 **Аппаратная часть и корпуса**

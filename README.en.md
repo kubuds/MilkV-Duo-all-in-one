@@ -153,7 +153,7 @@ The official download page has a [third-party image table](https://milkv.io/docs
 
 ---
 
-## 8. Videos: Bilibili (49)
+## 8. Videos: Bilibili (50)
 
 Every page was checked individually to confirm it exists (HTTP 200) and that its title/description really points to the Duo family; view counts are a snapshot from 2026-10-31 and serve only as an indication of popularity.
 
@@ -214,6 +214,7 @@ Every page was checked individually to confirm it exists (HTTP 200) and that its
 - 使用 Wi-Fi 连接 Duo S（谁说现在是冬天呢）— [BV11r421T7Sk](https://www.bilibili.com/video/BV11r421T7Sk/) · 318
 - 在 Duo S 上部署 Caddy 服务器（谁说现在是冬天呢）— [BV1poBzYQEoC](https://www.bilibili.com/video/BV1poBzYQEoC/) · 214
 - Duo 256M 部署相册文件管理器和博客笔记（蘭雅 sRGB）— [BV1cC4y1e7uk](https://www.bilibili.com/video/BV1cC4y1e7uk/) · 1455
+- GameOS devlog: a homebrew OS running Doom and playing Bilibili clips by BV id through a built-in “little TV” client (我的大可乐呢; the author does not name the board) — [BV1iZx46BEV7](https://www.bilibili.com/video/BV1iZx46BEV7/) · 38
 
 **AI / vision**
 
@@ -400,6 +401,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [ar90n/ptp-server-milkv-duos](https://github.com/ar90n/ptp-server-milkv-duos) — PTP grandmaster clock server
 - [avalitan/MilkV-Duo-S-NTP-UPS-Server](https://github.com/avalitan/MilkV-Duo-S-NTP-UPS-Server) — NTP + NUT UPS monitoring
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — full write-up of cold boot going from 14.1 s to 3.2 s
+- [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — minimal hardware H.264 encode/decode self-test on Duo S: calls libsys / libvenc / libvdec from cvi_mpi directly, skipping VI/VPSS/VO, encodes synthetic frames and decodes them back for a PSNR check (default 1280×720, 60 frames), tested on a Buildroot image with kernel 5.10.4 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — TPU matrix multiplication from Rust on Duo S: the Makefile pulls host-tools, tpu-sdk-sg200x and tpu-mlir, compiles ONNX into .cvimodel, cross-builds Rust for riscv64 musl and deploys over scp · 0★
 
 **Hardware and enclosures**

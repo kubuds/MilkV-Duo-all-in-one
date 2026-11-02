@@ -153,7 +153,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 
 ---
 
-## 8. 動画：Bilibili（49 本）
+## 8. 動画：Bilibili（50 本）
 
 すべて 1 件ずつページの存在（HTTP 200）と、タイトル・概要が実際に Duo シリーズを指していることを確認済みです。再生数は 2026-10-31 時点のスナップショットで、人気の参考程度です。
 
@@ -214,6 +214,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - 使用 Wi-Fi 连接 Duo S（谁说现在是冬天呢）— [BV11r421T7Sk](https://www.bilibili.com/video/BV11r421T7Sk/) · 318
 - 在 Duo S 上部署 Caddy 服务器（谁说现在是冬天呢）— [BV1poBzYQEoC](https://www.bilibili.com/video/BV1poBzYQEoC/) · 214
 - Duo 256M 部署相册文件管理器和博客笔记（蘭雅 sRGB）— [BV1cC4y1e7uk](https://www.bilibili.com/video/BV1cC4y1e7uk/) · 1455
+- GameOS 開発日誌：自作 OS で Doom を動かし、内蔵の「小さなテレビ」機能から BV 番号で Bilibili 動画を再生（我的大可乐呢／作者はボード名を明記していません）— [BV1iZx46BEV7](https://www.bilibili.com/video/BV1iZx46BEV7/) · 38
 
 **AI / ビジョン**
 
@@ -400,6 +401,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [ar90n/ptp-server-milkv-duos](https://github.com/ar90n/ptp-server-milkv-duos) — PTP マスタークロックサーバー
 - [avalitan/MilkV-Duo-S-NTP-UPS-Server](https://github.com/avalitan/MilkV-Duo-S-NTP-UPS-Server) — NTP + NUT UPS 監視
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — コールドブート 14.1 秒 → 3.2 秒の完全な記録
+- [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — Duo S 上で最小構成のハードウェア H.264 エンコード／デコード自己テスト：cvi_mpi の libsys / libvenc / libvdec を直接呼び、VI/VPSS/VO を介さずに合成フレームをエンコードしてデコードし PSNR を比較（既定 1280×720、60 フレーム）、Buildroot イメージ（カーネル 5.10.4）で実測 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — Duo S 上で Rust から TPU の行列演算を実行：Makefile が host-tools、tpu-sdk-sg200x、tpu-mlir を自動取得し、ONNX を .cvimodel に変換、Rust を riscv64 musl 向けにクロスコンパイルして scp で転送 · 0★
 
 **ハードウェアとケース**

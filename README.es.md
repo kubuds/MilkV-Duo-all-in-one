@@ -153,7 +153,7 @@ La página oficial de descargas incluye una [tabla de imágenes de terceros](htt
 
 ---
 
-## 8. Vídeos: Bilibili (49)
+## 8. Vídeos: Bilibili (50)
 
 Se comprobó uno por uno que cada página existe (HTTP 200) y que el título o la descripción remiten realmente a la familia Duo; las reproducciones son una instantánea del 2026-10-31 y solo sirven como referencia de popularidad.
 
@@ -214,6 +214,7 @@ Se comprobó uno por uno que cada página existe (HTTP 200) y que el título o l
 - 使用 Wi-Fi 连接 Duo S（谁说现在是冬天呢）— [BV11r421T7Sk](https://www.bilibili.com/video/BV11r421T7Sk/) · 318
 - 在 Duo S 上部署 Caddy 服务器（谁说现在是冬天呢）— [BV1poBzYQEoC](https://www.bilibili.com/video/BV1poBzYQEoC/) · 214
 - Duo 256M 部署相册文件管理器和博客笔记（蘭雅 sRGB）— [BV1cC4y1e7uk](https://www.bilibili.com/video/BV1cC4y1e7uk/) · 1455
+- Diario de desarrollo de GameOS: un sistema propio que ejecuta Doom y reproduce vídeos de Bilibili por BV a través de un cliente «pequeña televisión» integrado (我的大可乐呢; el autor no indica el modelo de placa) — [BV1iZx46BEV7](https://www.bilibili.com/video/BV1iZx46BEV7/) · 38
 
 **IA / visión**
 
@@ -400,6 +401,7 @@ Clasificados por uso. El número de estrellas y la fecha del último commit son 
 - [ar90n/ptp-server-milkv-duos](https://github.com/ar90n/ptp-server-milkv-duos) — servidor de reloj maestro PTP
 - [avalitan/MilkV-Duo-S-NTP-UPS-Server](https://github.com/avalitan/MilkV-Duo-S-NTP-UPS-Server) — monitorización de NTP + UPS con NUT
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — registro completo del arranque en frío de 14.1 s → 3.2 s
+- [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — autoprueba mínima de codificación/decodificación H.264 por hardware en la Duo S: llama directamente a libsys / libvenc / libvdec de cvi_mpi, sin VI/VPSS/VO, codifica tramas sintéticas y las decodifica para comparar el PSNR (por defecto 1280×720, 60 tramas), probado en una imagen Buildroot con kernel 5.10.4 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — multiplicación de matrices en la TPU desde Rust en la Duo S: el Makefile descarga host-tools, tpu-sdk-sg200x y tpu-mlir, compila ONNX a .cvimodel, compila Rust de forma cruzada para riscv64 musl y lo copia por scp · 0★
 
 **Hardware y carcasas**
