@@ -401,6 +401,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - [ar90n/ptp-server-milkv-duos](https://github.com/ar90n/ptp-server-milkv-duos) — PTP 主時鐘伺服器
 - [avalitan/MilkV-Duo-S-NTP-UPS-Server](https://github.com/avalitan/MilkV-Duo-S-NTP-UPS-Server) — NTP + NUT UPS 監控
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — 冷開機 14.1 s → 3.2 s 的完整記錄
+- [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — Duo S 上最小的硬體 H.264 編解碼自檢：直接呼叫 cvi_mpi 的 libsys / libvenc / libvdec，跳過 VI/VPSS/VO，編碼合成幀再解碼回來比對 PSNR（預設 1280×720、60 幀），在 Buildroot 映像（核心 5.10.4）上實測 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — 在 Duo S 上用 Rust 跑 TPU 矩陣乘法：Makefile 自動拉 host-tools、tpu-sdk-sg200x 與 tpu-mlir，把 ONNX 編成 .cvimodel，Rust 交叉編譯到 riscv64 musl 後以 scp 部署 · 0★
 
 **硬體與外殼**
