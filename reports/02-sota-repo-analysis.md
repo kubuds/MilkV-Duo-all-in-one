@@ -11,8 +11,8 @@
 1. **只做应用开发 / 快速出活**：烧录 **SDK V2 官方镜像**（`milkv-duo/duo-buildroot-sdk-v2`，buildroot 2025.02），跑 `duo-examples` / `duo-tdl-examples`，工具用 `duo-pinmux`、`duo-wiringx`、`kubuds/sophgo-arduino`。
 2. **做产品 / 要长期维护**：走 **mainline 内核 6.18 LTS**（Arm 与 RISC-V 双线），vendor BSP 只借它的 TPU / ISP / 多媒体用户态；不要再基于 5.10.4 BSP 开新项目。
 3. **内核版本现状**：BSP = 5.10.4（2021 年代码，**缺 5 年安全修复**）；最新 LTS = **6.18.60**；最新开发分支 = **7.4-rc1**（linux-next 20261102）。
-4. **mainline 对 Duo 系列的支持已经“能启动、能干活”**：v6.18 内含 CV1800B（Duo）RISC-V DTS、SG2002（Duo 256M 同芯片）RISC-V DTS、SG2000（Duo S 同芯片）**arm64** DTS（Duo Module 01），以及 pinctrl/clk/gpio/reset/mmc/usb 等一批 sophgo 驱动。
-5. **mainline 还缺的**：Duo 256M / Duo S 的**板级** DTS、SG2002 的 arm64 DTS、AIC8800 Wi-Fi 6/BT 驱动、TPU 驱动、ISP/视频编解码（MMF 闭源/半闭源）、音频。这些只能走 vendor 栈。
+4. **mainline 对 Duo 系列的支持已经“能启动、能干活”**：v6.18 内含 CV1800B（Duo）RISC-V DTS、SG2002（Duo 256M 同芯片）RISC-V DTS、SG2000（Duo S 同芯片）**arm64** DTS（Duo Module 01），以及 pinctrl/clk/gpio/reset/mmc/usb 等一批 sophgo 驱动；**7.4-rc1（HEAD）更进一步：Duo S（双架构）与 Duo 256M（RISC-V + 以太网 overlay）的板级 DTS 已进 mainline**。
+5. **mainline 还缺的**：Duo 256M 的 **arm64** 板级 DTS（唯一板级缺口）、AIC8800 Wi-Fi 6/BT 驱动、TPU 驱动、ISP/视频编解码（MMF 闭源/半闭源）、音频。这些只能走 vendor 栈；6.18 LTS 用户可直接用升级工程的回植 DTS（duosdk-next）。
 6. **TPU 能力**：`tpu-mlir`（模型→cvimodel）+ `cviruntime/cvikernel/cvimath/cvibuilder`（运行时）+ `tdl_sdk`（一站式算法）+ `ive` + `tdl-models`（模型库）。全都随 SDK V2 或 milkv-duo 独立仓库发布。
 7. **Duo 64M（CV1800B）已 EOL**，官方停产；新设计选 **Duo 256M（SG2002）/ Duo S（SG2000）/ Duo Module 01**。
 8. **不用看的仓库**：`duosdk` 组织除 `u-boot@duo-next`、`qemu@duo-qemu` 外全是 2023 快照；`milkv-duo/milkv-duo-*` 拆分组件、`duo-buildroot-sdk`(V1)、`duo-sdk`、`duo-arduino`、`cvitek-tdl-sdk-*`、`tpu-sdk-cv180x` 均已被取代（详见 §7）。
@@ -102,8 +102,8 @@
 - 驱动：`drivers/pinctrl/sophgo/`（pinctrl-cv1800b/cv1812h/**sg2000**/**sg2002**/sg2042/sg2044）、`drivers/clk/sophgo/`（clk-cv1800 家族）、reset/gpio/mmc/usb/ethernet 等（2024 年 upstream-status 表中 “Accepted” 的均已合入）。
 
 **Linux v6.18 尚缺（相对三块板的完整体验）**：
-1. `sg2002-milkv-duo256m` 板级 DTS（RISC-V 与 arm64 两个核）；
-2. `sg2000-milkv-duos` 板级 DTS（RISC-V 与 arm64）；arm64 侧连 `sg2002.dtsi` 都还没有；
+1. `sg2002-milkv-duo256m` 板级 DTS（RISC-V 与 arm64 两个核）；**注意：7.4-rc1 已补 riscv 侧**（含 `-eth` 以太网 overlay）；
+2. `sg2000-milkv-duos` 板级 DTS（RISC-V 与 arm64）；**注意：7.4-rc1 已补双侧**（上游命名 `sg2000-milkv-duo-s`）；arm64 侧连 `sg2002.dtsi` 都还没有（7.4 仍缺，Duo 256M arm64 是最后一个板级缺口）；
 3. AIC8800 Wi-Fi 6 / BT 驱动（vendor extdrv 里，未 upstream）；
 4. TPU（`osdrv/interdrv/tpu`）、IVE、ISP（vi/vpss）、视频编解码（cvi_vc_drv/jpeg）、音频等多媒体驱动；
 5. 小核 remoteproc 管理（可用 `kubuds/rproc-burn` 用户态方案绕过）。

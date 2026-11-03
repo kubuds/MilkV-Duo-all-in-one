@@ -8,6 +8,7 @@
 | [01-current-status-survey.md](01-current-status-survey.md) | 现状报告：`duosdk` / `milkv-duo` / `sophgocommunity` / `kubuds` 四个组织 101 个仓库逐个摸底，含 fork 关系、定制分支、重复与冗余分析 | 想知道“都有什么”的人 |
 | [02-sota-repo-analysis.md](02-sota-repo-analysis.md) | State-of-the-Art 仓库分析：以官方 milkv.io overview（2024-06 版）为底稿核对更新到 2026-11；内核选型（5.10.4 BSP vs 6.18 LTS vs 7.4-rc1）、mainline 支持实测、TPU 全图、CVE 现状、三条入门路径、仓库评级（✅ 主力 / 🟡 参考 / ❌ 不用看） | **刚买板子的开发者与厂商（先读这份）** |
 | [03-upgrade-plan.md](03-upgrade-plan.md) | 系统升级计划与执行记录：Arm → RISC-V → TPU → RT-Thread 的升级路线、步骤与产出物索引 | 要跟着做升级的人 |
+| [04-upgrade-execution-summary.md](04-upgrade-execution-summary.md) | 升级执行总结：LTS/HEAD 内核构建结果、TPU 工具、RT-Thread v5.3.0 对齐、交付物索引 | 想看“做到哪了”的人 |
 
 生成信息：2026-11-03 · Karen KUBUDS AI Coders \<kubuds@kubuds.cn\> · Co-authored-by: Mimo-v2.6-Pro + Pi Agent
 数据来源：GitHub API / compare 接口、kernel.org releases.json、milkv.io 官方文档、torvalds/linux v6.18 与 u-boot master 仓库实测核对。
