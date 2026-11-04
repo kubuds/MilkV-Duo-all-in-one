@@ -342,6 +342,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian (with WiFi/Bluetooth/USB host/camera) · 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
+- [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — Alpine images for the Duo 256M (SG2002), built with Docker: one run produces both the RISC-V (C906) and ARM64 (A53) variants and tracks the latest Alpine release · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — build Ubuntu images with Docker · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — build and write straight to the card · 21★
 - [RawFish69/ubuntu-milkv-duos](https://github.com/RawFish69/ubuntu-milkv-duos) — Duo S Ubuntu 22.04
@@ -375,6 +376,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 **Drivers and peripherals**
 
 - [hexdump0815/linux-cvitek-cv18xx-kernel](https://github.com/hexdump0815/linux-cvitek-cv18xx-kernel) — community kernel tree (the kernel source for several images)
+- [leafpmpmp/sg200x-camera-dkms](https://github.com/leafpmpmp/sg200x-camera-dkms) — DKMS packaging of the mainline SG200x camera drivers (`cv1800-csi2`, `cv1800-vi`); Armbian builds them into its kernels. Tested on the Duo S with Linux 7.2 on both cores: Camera Module 3 / v1 on J2, Milk-V CAM-GC2083 on J1 (riscv64 only) · 0★
 - [ret7020/CVI_HW_OpenCV](https://github.com/ret7020/CVI_HW_OpenCV) — OpenCV port accelerated with the NPU · 7★
 - [pavelanni/gpiod-milkvduo](https://github.com/pavelanni/gpiod-milkvduo) — libgpiod usage · 3★
 - [Satharus/I2C-WiringX-Milk-V](https://github.com/Satharus/I2C-WiringX-Milk-V) — I²C through wiringX · 2★
@@ -403,6 +405,9 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — full write-up of cold boot going from 14.1 s to 3.2 s
 - [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — the smallest hardware H.264 codec self-test on Duo S: it calls cvi_mpi's libsys / libvenc / libvdec directly, skipping VI/VPSS/VO, encodes synthetic frames and decodes them back to compare PSNR (1280×720, 60 frames by default), measured on a Buildroot image (kernel 5.10.4) · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — TPU matrix multiplication from Rust on Duo S: the Makefile pulls host-tools, tpu-sdk-sg200x and tpu-mlir, compiles ONNX into .cvimodel, cross-builds Rust for riscv64 musl and deploys over scp · 0★
+- [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Full write-up of driving the CAM-GC2083 on the Duo S: 1080p at 29.7 fps on J1, with the drivers merged into Armbian main (PR #10936); H.265 still in progress · 0★
+- [leafpmpmp/duos-llm](https://github.com/leafpmpmp/duos-llm) — SmolLM2-135M on the Duo S: the TPU runs from the ARM core at 12.7 tok/s decode (41.1 tok/s prefill), plus llama.cpp builds for both CPUs with XTheadVector kernels on the C906 · 0★
+- [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — YOLO11 person detection on the Duo S with a Camera Module 3: 60 fps, 35 ms end to end, JSON API / SSE / MJPEG preview, Debian packages and a systemd service · 0★
 
 **Hardware and enclosures**
 
