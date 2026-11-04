@@ -342,6 +342,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian（WiFi/Bluetooth/USB host/カメラ対応）· 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
+- [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — Duo 256M（SG2002）向け Alpine イメージ。Docker でビルドし、RISC-V（C906）版と ARM64（A53）版を同時に生成、Alpine の最新版に自動追従 · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — Docker で Ubuntu イメージをビルド · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — ビルドして直接カードに書き込み · 21★
 - [RawFish69/ubuntu-milkv-duos](https://github.com/RawFish69/ubuntu-milkv-duos) — Duo S Ubuntu 22.04
@@ -375,6 +376,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 **ドライバとペリフェラル**
 
 - [hexdump0815/linux-cvitek-cv18xx-kernel](https://github.com/hexdump0815/linux-cvitek-cv18xx-kernel) — コミュニティのカーネルツリー（複数のイメージのカーネル供給元）
+- [leafpmpmp/sg200x-camera-dkms](https://github.com/leafpmpmp/sg200x-camera-dkms) — SG200x のメインラインカメラドライバ（`cv1800-csi2` / `cv1800-vi` など）の DKMS パッケージ。Armbian はこれをカーネルに組み込む。Duo S + Linux 7.2 の両コアで実測：J2 に Camera Module 3 / v1、J1 に Milk-V CAM-GC2083（riscv64 のみ）· 0★
 - [ret7020/CVI_HW_OpenCV](https://github.com/ret7020/CVI_HW_OpenCV) — NPU で高速化した OpenCV 移植 · 7★
 - [pavelanni/gpiod-milkvduo](https://github.com/pavelanni/gpiod-milkvduo) — libgpiod の使い方 · 3★
 - [Satharus/I2C-WiringX-Milk-V](https://github.com/Satharus/I2C-WiringX-Milk-V) — wiringX で I²C を操作 · 2★
@@ -403,6 +405,9 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — コールドブート 14.1 秒 → 3.2 秒の完全な記録
 - [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — Duo S で最小構成のハードウェア H.264 コーデック自己診断：cvi_mpi の libsys / libvenc / libvdec を直接呼び、VI/VPSS/VO を経由せずに合成フレームをエンコードしてデコードし直し PSNR を比較（既定 1280×720・60 フレーム）。Buildroot イメージ（カーネル 5.10.4）で実測 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — Duo S 上で Rust から TPU の行列演算を実行：Makefile が host-tools、tpu-sdk-sg200x、tpu-mlir を自動取得し、ONNX を .cvimodel に変換、Rust を riscv64 musl 向けにクロスコンパイルして scp で転送 · 0★
+- [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Duo S で CAM-GC2083 を動かすまでの記録。J1 から 1080p 29.7 fps、ドライバは Armbian 本線にマージ済み（PR #10936）、H.265 は作業中 · 0★
+- [leafpmpmp/duos-llm](https://github.com/leafpmpmp/duos-llm) — Duo S で SmolLM2-135M を実行。TPU は ARM コアから駆動し、デコード 12.7 tok/s（プリフィル 41.1 tok/s）。ARM / RISC-V 向け llama.cpp 版もあり、C906 では XTheadVector カーネルを使用 · 0★
+- [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — Duo S + Camera Module 3 による YOLO11 人物検出。60 fps、エンドツーエンド 35 ms、JSON API / SSE / MJPEG プレビュー、Debian パッケージと systemd サービス付き · 0★
 
 **ハードウェアとケース**
 

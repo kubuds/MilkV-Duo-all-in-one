@@ -342,6 +342,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian（含 WiFi/藍牙/USB host/攝影機）· 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
+- [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — Duo 256M（SG2002）的 Alpine 映像：Docker 建置，一次產出 RISC-V（C906）與 ARM64（A53）兩版，自動跟隨 Alpine 最新版本 · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — Docker 建置 Ubuntu 映像檔 · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — 建置並直接寫卡 · 21★
 - [RawFish69/ubuntu-milkv-duos](https://github.com/RawFish69/ubuntu-milkv-duos) — Duo S Ubuntu 22.04
@@ -375,6 +376,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 **驅動程式與週邊**
 
 - [hexdump0815/linux-cvitek-cv18xx-kernel](https://github.com/hexdump0815/linux-cvitek-cv18xx-kernel) — 社群核心樹（多個映像檔的核心來源）
+- [leafpmpmp/sg200x-camera-dkms](https://github.com/leafpmpmp/sg200x-camera-dkms) — SG200x 主線相機驅動的 DKMS 打包（`cv1800-csi2` / `cv1800-vi` 等），Armbian 直接編進核心；在 Duo S + Linux 7.2 上雙核實測：J2 接 Camera Module 3 / v1，J1 接 Milk-V CAM-GC2083（僅 riscv64）· 0★
 - [ret7020/CVI_HW_OpenCV](https://github.com/ret7020/CVI_HW_OpenCV) — 用 NPU 加速的 OpenCV 移植 · 7★
 - [pavelanni/gpiod-milkvduo](https://github.com/pavelanni/gpiod-milkvduo) — libgpiod 用法 · 3★
 - [Satharus/I2C-WiringX-Milk-V](https://github.com/Satharus/I2C-WiringX-Milk-V) — wiringX 操作 I²C · 2★
@@ -403,6 +405,9 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - [vojinvukcevic/boot-time-optimization-milkv](https://github.com/vojinvukcevic/boot-time-optimization-milkv) — 冷開機 14.1 s → 3.2 s 的完整記錄
 - [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — Duo S 上最小的硬體 H.264 編解碼自檢：直接呼叫 cvi_mpi 的 libsys / libvenc / libvdec，跳過 VI/VPSS/VO，編碼合成幀再解碼回來比對 PSNR（預設 1280×720、60 幀），在 Buildroot 映像（核心 5.10.4）上實測 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — 在 Duo S 上用 Rust 跑 TPU 矩陣乘法：Makefile 自動拉 host-tools、tpu-sdk-sg200x 與 tpu-mlir，把 ONNX 編成 .cvimodel，Rust 交叉編譯到 riscv64 musl 後以 scp 部署 · 0★
+- [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Duo S 上驅動 CAM-GC2083 的完整記錄：J1 輸出 1080p 29.7 fps，相關驅動已併入 Armbian 主線（PR #10936），H.265 仍在進行 · 0★
+- [leafpmpmp/duos-llm](https://github.com/leafpmpmp/duos-llm) — Duo S 上跑 SmolLM2-135M：TPU 由 ARM 核驅動，解碼 12.7 tok/s（預填充 41.1 tok/s）；另有 llama.cpp 的 ARM / RISC-V 版本，C906 加上 XTheadVector 核心 · 0★
+- [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — Duo S + Camera Module 3 的 YOLO11 人體偵測：60 fps、端到端 35 ms，JSON API / SSE / MJPEG 預覽，附 Debian 套件與 systemd 服務 · 0★
 
 **硬體與外殼**
 
