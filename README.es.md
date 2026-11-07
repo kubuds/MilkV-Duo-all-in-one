@@ -365,6 +365,7 @@ Clasificados por uso. El número de estrellas y la fecha del último commit son 
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Forth en el Duo · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — comunicación por mailbox entre Zephyr y Linux
 - [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — núcleo monolítico RISC-V escrito en Rust (unos 272 KB en total, con cargador de arranque en C++ y compilador de C autohospedado); incluye controladores de plataforma SG2000 y menciona la Duo S entre las placas objetivo · 0★
+- [iceice666/slime_os](https://github.com/iceice666/slime_os) — espacio de usuario en Rust `no_std` sobre upstream seL4; el objetivo `riscv64-sel4-milkv-duo` incluye una configuración de seL4 para cv1800b-duo, un script que empaqueta la carga útil en un FIT arrancable para la Duo y registros de arranque en placa real en modo S, mientras que el resto de la validación sigue en QEMU aarch64 · 3★
 
 **Cadenas de herramientas y entornos de compilación**
 

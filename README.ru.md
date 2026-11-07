@@ -365,6 +365,7 @@
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Forth на Duo · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — обмен через mailbox между Zephyr и Linux
 - [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — монолитное ядро RISC-V на Rust (около 272 KB вместе с загрузчиком на C++ и самодостаточным компилятором C); содержит драйверы платформы SG2000, среди целевых плат указан Duo S · 0★
+- [iceice666/slime_os](https://github.com/iceice666/slime_os) — пользовательское пространство на Rust `no_std` поверх upstream seL4; цель `riscv64-sel4-milkv-duo` включает конфигурацию seL4 для cv1800b-duo, скрипт упаковки полезной нагрузки в загрузочный FIT для Duo и журналы запуска на реальной плате в режиме S, остальная проверка пока идёт на QEMU aarch64 · 3★
 
 **Инструментальные цепочки и окружение сборки**
 
