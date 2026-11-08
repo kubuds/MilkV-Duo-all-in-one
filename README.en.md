@@ -327,6 +327,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [johandevlabs/milk-v-duo-s-notes](https://github.com/johandevlabs/milk-v-duo-s-notes) — Duo S tinkering notes · 5★
 - [Mirrorium227/MilkvDuo_Basic](https://github.com/Mirrorium227/MilkvDuo_Basic) — CV1800B troubleshooting and examples
 - [imagineeeinc/things-on-milkv-duo](https://github.com/imagineeeinc/things-on-milkv-duo) — playing with the Duo in Nim
+- [NatTuck/sg2000-hints](https://github.com/NatTuck/sg2000-hints) — teaching notes and slides for the SG2000 (Milk-V Duo S): from flashing the Fishwaldo image and running Arduino on the second core to GPIO / I2C / TPU / NPU / FreeRTOS, physical memory and power, plus notes on porting to the Oz64 · 1★
 
 **Boot and firmware**
 
@@ -334,6 +335,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [sg_boot](https://github.com/platform-system-interface/sg_boot) — bootloader for CV1800B/SG200x written in Rust · 12★
 - [gtxzsxxk/milkv-duo-firmware-fsbl](https://github.com/gtxzsxxk/milkv-duo-firmware-fsbl) — FSBL implementation · 6★
 - [Taumille/uboot-milkv](https://github.com/Taumille/uboot-milkv) — community fork of the official u-boot repository that has disappeared
+- [NixVegas/sophgone](https://github.com/NixVegas/sophgone) — mask-ROM secure-boot bypass for SG2000/SG200x: one polyglot `fip.bin` hijacks both the A53 and the C906 BootROM, gains EL3 / M-mode execution before verification, then chainloads NixOS on whichever core the GPIO strap selects; the advisory names the Milk-V Duo S and Duo Module 01 as affected, and the ROM itself cannot be patched · 4★
 
 **Distributions and system images**
 
@@ -342,6 +344,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian (with WiFi/Bluetooth/USB host/camera) · 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
+- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Alpine Linux port for the Duo S: reuses the kernel and device tree from duo-buildroot-sdk-v2, `build.sh --board duos` produces an A53 (ARM64) + musl rootfs with first-boot resizing and dropbear / dnsmasq / iwd; v1.0.0 is still in development, no image released yet · 0★
 - [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — Alpine images for the Duo 256M (SG2002), built with Docker: one run produces both the RISC-V (C906) and ARM64 (A53) variants and tracks the latest Alpine release · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — build Ubuntu images with Docker · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — build and write straight to the card · 21★

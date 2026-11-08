@@ -327,6 +327,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - [johandevlabs/milk-v-duo-s-notes](https://github.com/johandevlabs/milk-v-duo-s-notes) — Duo S 折腾笔记 · 5★
 - [Mirrorium227/MilkvDuo_Basic](https://github.com/Mirrorium227/MilkvDuo_Basic) — CV1800B 排障与例程
 - [imagineeeinc/things-on-milkv-duo](https://github.com/imagineeeinc/things-on-milkv-duo) — 用 Nim 玩 Duo
+- [NatTuck/sg2000-hints](https://github.com/NatTuck/sg2000-hints) — 面向 SG2000（Milk-V Duo S）的教学笔记与课件：从烧 Fishwaldo 镜像、在第二个核上跑 Arduino，到 GPIO / I2C / TPU / NPU / FreeRTOS、物理内存与功耗，另附 Oz64 移植笔记 · 1★
 
 **引导与固件**
 
@@ -334,6 +335,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - [sg_boot](https://github.com/platform-system-interface/sg_boot) — Rust 写的 CV1800B/SG200x 引导器 · 12★
 - [gtxzsxxk/milkv-duo-firmware-fsbl](https://github.com/gtxzsxxk/milkv-duo-firmware-fsbl) — FSBL 实现 · 6★
 - [Taumille/uboot-milkv](https://github.com/Taumille/uboot-milkv) — 已消失的官方 u-boot 仓库的社区 fork
+- [NixVegas/sophgone](https://github.com/NixVegas/sophgone) — SG2000/SG200x 掩膜 ROM 安全启动绕过：一个 polyglot `fip.bin` 同时劫持 A53 与 C906 的 BootROM，在校验前拿到 EL3 / M 态执行权，再按 GPIO strap 链式加载 NixOS；安全公告点名 Milk-V Duo S 与 Duo Module 01 受影响，ROM 本身无法修补 · 4★
 
 **发行版与系统镜像**
 
@@ -342,6 +344,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian（含 WiFi/蓝牙/USB host/摄像头）· 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
+- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Duo S 的 Alpine Linux 移植：复用 duo-buildroot-sdk-v2 的内核与设备树，`build.sh --board duos` 产出 A53（ARM64）+ musl 的 rootfs，带首次启动扩容与 dropbear / dnsmasq / iwd；v1.0.0 仍在开发，暂无镜像发布 · 0★
 - [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — Duo 256M（SG2002）的 Alpine 镜像：Docker 构建，一次产出 RISC-V（C906）与 ARM64（A53）两版，自动跟随 Alpine 最新版本 · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — Docker 构建 Ubuntu 镜像 · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — 构建并直接写卡 · 21★

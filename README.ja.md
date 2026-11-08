@@ -327,6 +327,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [johandevlabs/milkv-duo-s-notes](https://github.com/johandevlabs/milk-v-duo-s-notes) — Duo S の試行錯誤メモ · 5★
 - [Mirrorium227/MilkvDuo_Basic](https://github.com/Mirrorium227/MilkvDuo_Basic) — CV1800B のトラブルシューティングとサンプル
 - [imagineeeinc/things-on-milkv-duo](https://github.com/imagineeeinc/things-on-milkv-duo) — Nim で Duo を動かす
+- [NatTuck/sg2000-hints](https://github.com/NatTuck/sg2000-hints) — SG2000（Milk-V Duo S）向けの講義ノートとスライド：Fishwaldo イメージの書き込みと 2 コア目での Arduino 実行から、GPIO / I2C / TPU / NPU / FreeRTOS、物理メモリと消費電力まで。Oz64 への移植ノートも付属 · 1★
 
 **ブートローダーとファームウェア**
 
@@ -334,6 +335,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [sg_boot](https://github.com/platform-system-interface/sg_boot) — Rust で書かれた CV1800B/SG200x ブートローダー · 12★
 - [gtxzsxxk/milkv-duo-firmware-fsbl](https://github.com/gtxzsxxk/milkv-duo-firmware-fsbl) — FSBL の実装 · 6★
 - [Taumille/uboot-milkv](https://github.com/Taumille/uboot-milkv) — すでに消えた公式 u-boot リポジトリのコミュニティ fork
+- [NixVegas/sophgone](https://github.com/NixVegas/sophgone) — SG2000/SG200x のマスク ROM によるセキュアブート回避：1 つの polyglot `fip.bin` が A53 と C906 の両方の BootROM を乗っ取り、検証前に EL3 / M モードの実行権を得て、GPIO ストラップで選ばれたコアに NixOS をチェーンロードする。セキュリティ勧告は Milk-V Duo S と Duo Module 01 を対象として明記しており、ROM 側に修正はない · 4★
 
 **ディストリビューションとシステムイメージ**
 
@@ -342,6 +344,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian（WiFi/Bluetooth/USB host/カメラ対応）· 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
+- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Duo S 向け Alpine Linux 移植：duo-buildroot-sdk-v2 のカーネルとデバイスツリーを流用し、`build.sh --board duos` で A53（ARM64）+ musl の rootfs を生成。初回起動時の拡張、dropbear / dnsmasq / iwd を含む。v1.0.0 は開発中で、イメージは未公開 · 0★
 - [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — Duo 256M（SG2002）向け Alpine イメージ。Docker でビルドし、RISC-V（C906）版と ARM64（A53）版を同時に生成、Alpine の最新版に自動追従 · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — Docker で Ubuntu イメージをビルド · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — ビルドして直接カードに書き込み · 21★
