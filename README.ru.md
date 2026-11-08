@@ -327,6 +327,7 @@
 - [johandevlabs/milk-v-duo-s-notes](https://github.com/johandevlabs/milk-v-duo-s-notes) — заметки об экспериментах с Duo S · 5★
 - [Mirrorium227/MilkvDuo_Basic](https://github.com/Mirrorium227/MilkvDuo_Basic) — диагностика неполадок и примеры для CV1800B
 - [imagineeeinc/things-on-milkv-duo](https://github.com/imagineeeinc/things-on-milkv-duo) — Duo на Nim
+- [NatTuck/sg2000-hints](https://github.com/NatTuck/sg2000-hints) — учебные заметки и слайды по SG2000 (Milk-V Duo S): от записи образа Fishwaldo и запуска Arduino на втором ядре до GPIO / I2C / TPU / NPU / FreeRTOS, физической памяти и энергопотребления, плюс заметки о переносе на Oz64 · 1★
 
 **Загрузчики и прошивки**
 
@@ -334,6 +335,7 @@
 - [sg_boot](https://github.com/platform-system-interface/sg_boot) — загрузчик для CV1800B/SG200x на Rust · 12★
 - [gtxzsxxk/milkv-duo-firmware-fsbl](https://github.com/gtxzsxxk/milkv-duo-firmware-fsbl) — реализация FSBL · 6★
 - [Taumille/uboot-milkv](https://github.com/Taumille/uboot-milkv) — форк сообщества, появившийся после исчезновения официального репозитория u-boot
+- [NixVegas/sophgone](https://github.com/NixVegas/sophgone) — обход secure boot через масочный ROM SG2000/SG200x: один polyglot `fip.bin` перехватывает BootROM и ядра A53, и C906, получает исполнение в EL3 / M-режиме до проверки, а затем цепочкой загружает NixOS на том ядре, которое выбрано перемычкой GPIO; в бюллетене прямо указаны Milk-V Duo S и Duo Module 01, сам ROM исправить нельзя · 4★
 
 **Дистрибутивы и системные образы**
 
@@ -342,6 +344,7 @@
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Ubuntu для Duo · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Debian для Duo S 512MB (с WiFi/Bluetooth/USB host/камерой) · 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Alpine для Duo S · 9★
+- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — порт Alpine Linux для Duo S: используются ядро и device tree из duo-buildroot-sdk-v2, `build.sh --board duos` собирает rootfs для A53 (ARM64) на musl с расширением раздела при первой загрузке, dropbear / dnsmasq / iwd; v1.0.0 всё ещё в разработке, образов пока нет · 0★
 - [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — образы Alpine для Duo 256M (SG2002): сборка в Docker сразу выдаёт варианты для RISC-V (C906) и ARM64 (A53) и следует за последним релизом Alpine · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — сборка образа Ubuntu в Docker · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — сборка с записью сразу на карту · 21★
