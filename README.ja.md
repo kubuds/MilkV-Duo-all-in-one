@@ -365,6 +365,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Duo 上の Forth · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — Zephyr と Linux の mailbox 通信
 - [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — Rust で書かれた RISC-V モノリシックカーネル（C++ ブートローダーとセルフホスト C コンパイラを含め全体で約 272 KB）。SG2000 のプラットフォームドライバを備え、対象ボードに Duo S を挙げています · 0★
+- [iceice666/slime_os](https://github.com/iceice666/slime_os) — upstream seL4 上で動く Rust の `no_std` ユーザー空間システム。`riscv64-sel4-milkv-duo` ターゲットには cv1800b-duo 向け seL4 設定、ペイロードを Duo で起動可能な FIT にまとめるスクリプト、S モードでの実機起動ログが含まれ、その他の検証は主に QEMU aarch64 で行われています · 3★
 
 **ツールチェーンとビルド環境**
 

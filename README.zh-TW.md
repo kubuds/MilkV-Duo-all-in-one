@@ -365,6 +365,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Duo 上的 Forth · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — Zephyr 與 Linux 的 mailbox 通訊
 - [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — 以 Rust 撰寫的 RISC-V 單體內核（整機約 272 KB，含 C++ 引導器與自舉 C 編譯器），內核帶 SG2000 平台驅動，目標板包括 Duo S · 0★
+- [iceice666/slime_os](https://github.com/iceice666/slime_os) — 跑在 upstream seL4 上的 Rust `no_std` 使用者空間系統；`riscv64-sel4-milkv-duo` 目標帶 cv1800b-duo 的 seL4 設定、把載荷封裝成 Duo 可啟動 FIT 的腳本，以及 S 模式實機啟動日誌，其餘驗證以 QEMU aarch64 為主 · 3★
 
 **工具鏈與建置環境**
 

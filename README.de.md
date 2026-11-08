@@ -365,6 +365,7 @@ Nach Einsatzzweck gegliedert. Star-Zahlen und Datum des letzten Commits sind ein
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Forth auf dem Duo · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — Mailbox-Kommunikation zwischen Zephyr und Linux
 - [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — monolithischer RISC-V-Kernel in Rust (insgesamt ca. 272 KB inklusive C++-Bootloader und Self-Hosting-C-Compiler); enthält SG2000-Plattformtreiber, Duo S ist als Zielplatine genannt · 0★
+- [iceice666/slime_os](https://github.com/iceice666/slime_os) — Rust-`no_std`-Userspace auf upstream seL4; das Ziel `riscv64-sel4-milkv-duo` enthält eine seL4-Konfiguration für cv1800b-duo, ein Skript zum Verpacken der Payload in ein bootfähiges Duo-FIT sowie Startprotokolle vom realen Board im S-Modus, der übrige Nachweis läuft noch überwiegend auf QEMU aarch64 · 3★
 
 **Toolchain und Build-Umgebung**
 
