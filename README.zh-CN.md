@@ -410,7 +410,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — Duo S 上最小的硬件 H.264 编解码自检：直接调 cvi_mpi 的 libsys / libvenc / libvdec，跳过 VI/VPSS/VO，编码合成帧再解码回来比对 PSNR（默认 1280×720、60 帧），在 Buildroot 镜像（内核 5.10.4）上实测 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — Duo S 上用 Rust 跑 TPU 矩阵乘法：Makefile 自动拉 host-tools、tpu-sdk-sg200x 与 tpu-mlir，把 ONNX 编成 .cvimodel，Rust 交叉编译到 riscv64 musl 后 scp 部署 · 0★
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Duo S 上驱动 CAM-GC2083 的完整记录：J1 接出 1080p 29.7 fps，相关驱动已并入 Armbian 主线（PR #10936），H.265 仍在做 · 0★
-- [leafpmpmp/duos-llm](https://github.com/leafpmpmp/duos-llm) — Duo S 上跑 SmolLM2-135M：TPU 由 ARM 核驱动，解码 12.7 tok/s（预填充 41.1 tok/s）；另有 llama.cpp 的 ARM / RISC-V 版本，C906 加 XTheadVector 内核 · 0★
+- [leafpmpmp/duosight](https://github.com/leafpmpmp/duosight) — Duo S 上的端侧多模态（仓库原为 duos-llm）：SmolLM2-135M 由 ARM 核驱动 SG2000 TPU，解码 12.7 tok/s、预填充 41.1 tok/s；新增 `tpu/smolvlm` 把 SmolVLM-256M 与 duos-detect 的 YOLO11n 驻留在同一程序，板上网页可对最新帧提问，150 题 VQA v2 得 48.5（float 参考 50.9），单问中位 0.36–0.59 s，检测帧率从 15 fps 降到 12.5–14.5 fps；另有 llama.cpp 的 ARM / RISC-V 版本，C906 加 XTheadVector 内核 · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — Duo S + Camera Module 3 的 YOLO11 人体检测：60 fps、端到端 35 ms，JSON API / SSE / MJPEG 预览，带 Debian 包与 systemd 服务 · 0★
 
 **硬件与外壳**
