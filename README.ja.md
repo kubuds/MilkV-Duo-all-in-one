@@ -410,7 +410,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — Duo S で最小構成のハードウェア H.264 コーデック自己診断：cvi_mpi の libsys / libvenc / libvdec を直接呼び、VI/VPSS/VO を経由せずに合成フレームをエンコードしてデコードし直し PSNR を比較（既定 1280×720・60 フレーム）。Buildroot イメージ（カーネル 5.10.4）で実測 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — Duo S 上で Rust から TPU の行列演算を実行：Makefile が host-tools、tpu-sdk-sg200x、tpu-mlir を自動取得し、ONNX を .cvimodel に変換、Rust を riscv64 musl 向けにクロスコンパイルして scp で転送 · 0★
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Duo S で CAM-GC2083 を動かすまでの記録。J1 から 1080p 29.7 fps、ドライバは Armbian 本線にマージ済み（PR #10936）、H.265 は作業中 · 0★
-- [leafpmpmp/duos-llm](https://github.com/leafpmpmp/duos-llm) — Duo S で SmolLM2-135M を実行。TPU は ARM コアから駆動し、デコード 12.7 tok/s（プリフィル 41.1 tok/s）。ARM / RISC-V 向け llama.cpp 版もあり、C906 では XTheadVector カーネルを使用 · 0★
+- [leafpmpmp/duosight](https://github.com/leafpmpmp/duosight) — Duo S 上のオンデバイス・マルチモーダル（リポジトリは旧 duos-llm）。SmolLM2-135M を ARM コアから SG2000 TPU で動かし、デコード 12.7 tok/s・プリフィル 41.1 tok/s。新たに `tpu/smolvlm` が SmolVLM-256M と duos-detect の YOLO11n を同一プログラムに常駐させ、板上の Web ページから最新フレームについて質問できる。150 問の VQA v2 で 48.5（float 参考値 50.9）、1 問あたり中央値 0.36–0.59 秒、検出は 15 fps のうち 12.5–14.5 fps を維持。ARM / RISC-V 向け llama.cpp 版もあり、C906 では XTheadVector カーネルを使用 · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — Duo S + Camera Module 3 による YOLO11 人物検出。60 fps、エンドツーエンド 35 ms、JSON API / SSE / MJPEG プレビュー、Debian パッケージと systemd サービス付き · 0★
 
 **ハードウェアとケース**
