@@ -112,7 +112,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 ### Duo（CV1800B、64 MB）
 
 - [Fedora 41 ミラーサイト](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/Duo/images/latest/) —— Fedora-V Force が管理、上流に追随して更新
-- [Ubuntu 22.04](https://github.com/bassusteur/milkv-duo-ubuntu) —— イメージビルドスクリプト、Duo 256M 用もビルドできます
+- [Ubuntu 22.04](https://github.com/ambraglow/milkv-duo-ubuntu) —— イメージビルドスクリプト、Duo 256M 用もビルドできます
 - [Debian / Ubuntu イメージビルダー](https://github.com/logicethos/Milk-V_Duo_Linux2SD) —— 自分でイメージを作るならこれ
 - [Arch Linux](https://community.milkv.io/t/arch-linux-on-milkv-duo-milkv-duo-arch-linux/329) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1) · [Debian フルイメージ](https://community.milkv.io/t/milkv-duo-duo-debian-full-7z-519m-download/862)
 - [OpenWrt / VizOS](https://github.com/Pillar1989/VizOS) · [Zephyr（サブコア）](https://github.com/kinsamanka/milkv-zephyros) · [Yocto レイヤー](https://github.com/kinsamanka/meta-milkv)
@@ -121,13 +121,14 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 ### Duo 256M（SG2002）
 
 - [Fedora 41 ミラーサイト](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/Duo256M/images/latest/)
-- [Debian（Fishwaldo / sophgo-sg200x-debian）](https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/tag/v1.2.0)
-- [Ubuntu 22.04](https://github.com/bassusteur/milkv-duo-ubuntu) · [Arch Linux](https://community.milkv.io/t/debian-arch-linux-on-milkv-duo-256m-milkv-duo-256m-debian-arch-linux/1110) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1)
+- [Debian（Fishwaldo / sophgo-sg200x-debian）](https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/tag/v1.4.0) —— 最新 v1.4.0（2024-06-01）、Duo S の eMMC 対応を追加
+- [Debian sid（scpcom / sophgo-sg200x-debian）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— Duo 256M と Duo S の両方をカバー（SD カードと eMMC のイメージ）、現在 v1.9.24（2026-11-09）
+- [Ubuntu 22.04](https://github.com/ambraglow/milkv-duo-ubuntu) · [Arch Linux](https://community.milkv.io/t/debian-arch-linux-on-milkv-duo-256m-milkv-duo-256m-debian-arch-linux/1110) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1)
 
 ### Duo S（SG2000）
 
 - [Fedora 41 ミラーサイト](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/DuoS/images/latest/) —— デフォルトのアカウントは `root`、パスワードは `riscv`
-- [Debian（scpcom）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— `root`/`rv` と `debian`/`rv` の 2 組のアカウント
+- [Debian（scpcom）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— `root`/`rv` と `debian`/`rv` の 2 組のアカウント、現在 v1.9.24（2026-11-09）
 - [NuttX（lupyuen）](https://github.com/lupyuen/nuttx-sg2000/releases) —— Duo S で NuttX を動かす既成イメージ
 
 ---
@@ -340,7 +341,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 **ディストリビューションとシステムイメージ**
 
 - [armbian/build](https://github.com/armbian/build) — `milkv-duos-riscv` / `milkv-duos-arm` ボードを含む · 5499★
-- [Fishwaldo/sophgo-sg200x-debian](https://github.com/Fishwaldo/sophgo-sg200x-debian) — 最も活発な SG200x Debian ビルド · 219★
+- [Fishwaldo/sophgo-sg200x-debian](https://github.com/Fishwaldo/sophgo-sg200x-debian) — SG200x Debian の最初のビルド（Duo 256M / Duo S / LicheeRV Nano）、2024-11 以降は更新なし。現在活発に保守されているのは scpcom のフォーク · 219★
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian（WiFi/Bluetooth/USB host/カメラ対応）· 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
@@ -410,7 +411,6 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — Duo S で最小構成のハードウェア H.264 コーデック自己診断：cvi_mpi の libsys / libvenc / libvdec を直接呼び、VI/VPSS/VO を経由せずに合成フレームをエンコードしてデコードし直し PSNR を比較（既定 1280×720・60 フレーム）。Buildroot イメージ（カーネル 5.10.4）で実測 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — Duo S 上で Rust から TPU の行列演算を実行：Makefile が host-tools、tpu-sdk-sg200x、tpu-mlir を自動取得し、ONNX を .cvimodel に変換、Rust を riscv64 musl 向けにクロスコンパイルして scp で転送 · 0★
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Duo S で CAM-GC2083 を動かすまでの記録。J1 から 1080p 29.7 fps、ドライバは Armbian 本線にマージ済み（PR #10936）、H.265 は作業中 · 0★
-- [leafpmpmp/duosight](https://github.com/leafpmpmp/duosight) — Duo S 上のオンデバイス・マルチモーダル（リポジトリは旧 duos-llm）。SmolLM2-135M を ARM コアから SG2000 TPU で動かし、デコード 12.7 tok/s・プリフィル 41.1 tok/s。新たに `tpu/smolvlm` が SmolVLM-256M と duos-detect の YOLO11n を同一プログラムに常駐させ、板上の Web ページから最新フレームについて質問できる。150 問の VQA v2 で 48.5（float 参考値 50.9）、1 問あたり中央値 0.36–0.59 秒、検出は 15 fps のうち 12.5–14.5 fps を維持。ARM / RISC-V 向け llama.cpp 版もあり、C906 では XTheadVector カーネルを使用 · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — Duo S + Camera Module 3 による YOLO11 人物検出。60 fps、エンドツーエンド 35 ms、JSON API / SSE / MJPEG プレビュー、Debian パッケージと systemd サービス付き · 0★
 
 **ハードウェアとケース**

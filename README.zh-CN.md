@@ -112,7 +112,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 ### Duo（CV1800B，64 MB）
 
 - [Fedora 41 镜像站](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/Duo/images/latest/) —— Fedora-V Force 维护，跟着上游滚动
-- [Ubuntu 22.04](https://github.com/bassusteur/milkv-duo-ubuntu) —— 镜像构建脚本，也能编 Duo 256M 的
+- [Ubuntu 22.04](https://github.com/ambraglow/milkv-duo-ubuntu) —— 镜像构建脚本，也能编 Duo 256M 的
 - [Debian / Ubuntu 镜像构建器](https://github.com/logicethos/Milk-V_Duo_Linux2SD) —— 自己出镜像用这个
 - [Arch Linux](https://community.milkv.io/t/arch-linux-on-milkv-duo-milkv-duo-arch-linux/329) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1) · [Debian 全量镜像](https://community.milkv.io/t/milkv-duo-duo-debian-full-7z-519m-download/862)
 - [OpenWrt / VizOS](https://github.com/Pillar1989/VizOS) · [Zephyr（辅助核）](https://github.com/kinsamanka/milkv-zephyros) · [Yocto 层](https://github.com/kinsamanka/meta-milkv)
@@ -121,13 +121,14 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 ### Duo 256M（SG2002）
 
 - [Fedora 41 镜像站](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/Duo256M/images/latest/)
-- [Debian（Fishwaldo / sophgo-sg200x-debian）](https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/tag/v1.2.0)
-- [Ubuntu 22.04](https://github.com/bassusteur/milkv-duo-ubuntu) · [Arch Linux](https://community.milkv.io/t/debian-arch-linux-on-milkv-duo-256m-milkv-duo-256m-debian-arch-linux/1110) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1)
+- [Debian（Fishwaldo / sophgo-sg200x-debian）](https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/tag/v1.4.0) —— 最新 v1.4.0（2024-06-01），新增 Duo S eMMC 支持
+- [Debian sid（scpcom / sophgo-sg200x-debian）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— 同时覆盖 Duo 256M 与 Duo S（SD 卡与 eMMC 镜像），当前 v1.9.24（2026-11-09）
+- [Ubuntu 22.04](https://github.com/ambraglow/milkv-duo-ubuntu) · [Arch Linux](https://community.milkv.io/t/debian-arch-linux-on-milkv-duo-256m-milkv-duo-256m-debian-arch-linux/1110) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1)
 
 ### Duo S（SG2000）
 
 - [Fedora 41 镜像站](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/DuoS/images/latest/) —— 默认账号 `root` / 密码 `riscv`
-- [Debian（scpcom）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— `root`/`rv` 与 `debian`/`rv` 两套账号
+- [Debian（scpcom）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— `root`/`rv` 与 `debian`/`rv` 两套账号；当前 v1.9.24（2026-11-09）
 - [NuttX（lupyuen）](https://github.com/lupyuen/nuttx-sg2000/releases) —— 在 Duo S 上跑 NuttX 的现成镜像
 
 ---
@@ -340,7 +341,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 **发行版与系统镜像**
 
 - [armbian/build](https://github.com/armbian/build) — 已含 `milkv-duos-riscv` / `milkv-duos-arm` 板型 · 5499★
-- [Fishwaldo/sophgo-sg200x-debian](https://github.com/Fishwaldo/sophgo-sg200x-debian) — 最活跃的 SG200x Debian 构建 · 219★
+- [Fishwaldo/sophgo-sg200x-debian](https://github.com/Fishwaldo/sophgo-sg200x-debian) — SG200x Debian 的原始构建（Duo 256M / Duo S / LicheeRV Nano），2024-11 后未再更新；活跃维护的是 scpcom 的分支 · 219★
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian（含 WiFi/蓝牙/USB host/摄像头）· 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
@@ -410,7 +411,6 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — Duo S 上最小的硬件 H.264 编解码自检：直接调 cvi_mpi 的 libsys / libvenc / libvdec，跳过 VI/VPSS/VO，编码合成帧再解码回来比对 PSNR（默认 1280×720、60 帧），在 Buildroot 镜像（内核 5.10.4）上实测 · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — Duo S 上用 Rust 跑 TPU 矩阵乘法：Makefile 自动拉 host-tools、tpu-sdk-sg200x 与 tpu-mlir，把 ONNX 编成 .cvimodel，Rust 交叉编译到 riscv64 musl 后 scp 部署 · 0★
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Duo S 上驱动 CAM-GC2083 的完整记录：J1 接出 1080p 29.7 fps，相关驱动已并入 Armbian 主线（PR #10936），H.265 仍在做 · 0★
-- [leafpmpmp/duosight](https://github.com/leafpmpmp/duosight) — Duo S 上的端侧多模态（仓库原为 duos-llm）：SmolLM2-135M 由 ARM 核驱动 SG2000 TPU，解码 12.7 tok/s、预填充 41.1 tok/s；新增 `tpu/smolvlm` 把 SmolVLM-256M 与 duos-detect 的 YOLO11n 驻留在同一程序，板上网页可对最新帧提问，150 题 VQA v2 得 48.5（float 参考 50.9），单问中位 0.36–0.59 s，检测帧率从 15 fps 降到 12.5–14.5 fps；另有 llama.cpp 的 ARM / RISC-V 版本，C906 加 XTheadVector 内核 · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — Duo S + Camera Module 3 的 YOLO11 人体检测：60 fps、端到端 35 ms，JSON API / SSE / MJPEG 预览，带 Debian 包与 systemd 服务 · 0★
 
 **硬件与外壳**
