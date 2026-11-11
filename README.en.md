@@ -112,7 +112,7 @@ The official download page has a [third-party image table](https://milkv.io/docs
 ### Duo (CV1800B, 64 MB)
 
 - [Fedora 41 image mirror](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/Duo/images/latest/) — maintained by Fedora-V Force, tracks upstream
-- [Ubuntu 22.04](https://github.com/bassusteur/milkv-duo-ubuntu) — image build scripts; can also build for the Duo 256M
+- [Ubuntu 22.04](https://github.com/ambraglow/milkv-duo-ubuntu) — image build scripts; can also build for the Duo 256M
 - [Debian / Ubuntu image builder](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — use this one to produce your own images
 - [Arch Linux](https://community.milkv.io/t/arch-linux-on-milkv-duo-milkv-duo-arch-linux/329) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1) · [Full Debian image](https://community.milkv.io/t/milkv-duo-duo-debian-full-7z-519m-download/862)
 - [OpenWrt / VizOS](https://github.com/Pillar1989/VizOS) · [Zephyr (secondary core)](https://github.com/kinsamanka/milkv-zephyros) · [Yocto layer](https://github.com/kinsamanka/meta-milkv)
@@ -121,13 +121,14 @@ The official download page has a [third-party image table](https://milkv.io/docs
 ### Duo 256M (SG2002)
 
 - [Fedora 41 image mirror](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/Duo256M/images/latest/)
-- [Debian (Fishwaldo / sophgo-sg200x-debian)](https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/tag/v1.2.0)
-- [Ubuntu 22.04](https://github.com/bassusteur/milkv-duo-ubuntu) · [Arch Linux](https://community.milkv.io/t/debian-arch-linux-on-milkv-duo-256m-milkv-duo-256m-debian-arch-linux/1110) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1)
+- [Debian (Fishwaldo / sophgo-sg200x-debian)](https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/tag/v1.4.0) — latest v1.4.0 (2024-06-01), which adds eMMC support for the Duo S
+- [Debian sid (scpcom / sophgo-sg200x-debian)](https://github.com/scpcom/sophgo-sg200x-debian/releases) — covers the Duo 256M as well as the Duo S (SD-card and eMMC images); current v1.9.24 (2026-11-09)
+- [Ubuntu 22.04](https://github.com/ambraglow/milkv-duo-ubuntu) · [Arch Linux](https://community.milkv.io/t/debian-arch-linux-on-milkv-duo-256m-milkv-duo-256m-debian-arch-linux/1110) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1)
 
 ### Duo S (SG2000)
 
 - [Fedora 41 image mirror](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/DuoS/images/latest/) — default account `root` / password `riscv`
-- [Debian (scpcom)](https://github.com/scpcom/sophgo-sg200x-debian/releases) — two account sets, `root`/`rv` and `debian`/`rv`
+- [Debian (scpcom)](https://github.com/scpcom/sophgo-sg200x-debian/releases) — two account sets, `root`/`rv` and `debian`/`rv`; current v1.9.24 (2026-11-09)
 - [NuttX (lupyuen)](https://github.com/lupyuen/nuttx-sg2000/releases) — ready-made images for running NuttX on the Duo S
 
 ---
@@ -340,7 +341,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 **Distributions and system images**
 
 - [armbian/build](https://github.com/armbian/build) — already includes `milkv-duos-riscv` / `milkv-duos-arm` board targets · 5499★
-- [Fishwaldo/sophgo-sg200x-debian](https://github.com/Fishwaldo/sophgo-sg200x-debian) — the most active SG200x Debian build · 219★
+- [Fishwaldo/sophgo-sg200x-debian](https://github.com/Fishwaldo/sophgo-sg200x-debian) — the original SG200x Debian build (Duo 256M / Duo S / LicheeRV Nano), last updated in November 2024; the actively maintained fork is scpcom's · 219★
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian (with WiFi/Bluetooth/USB host/camera) · 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
@@ -410,7 +411,6 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [manio/milkv-duos-hwcodec-test](https://github.com/manio/milkv-duos-hwcodec-test) — the smallest hardware H.264 codec self-test on Duo S: it calls cvi_mpi's libsys / libvenc / libvdec directly, skipping VI/VPSS/VO, encodes synthetic frames and decodes them back to compare PSNR (1280×720, 60 frames by default), measured on a Buildroot image (kernel 5.10.4) · 0★
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — TPU matrix multiplication from Rust on Duo S: the Makefile pulls host-tools, tpu-sdk-sg200x and tpu-mlir, compiles ONNX into .cvimodel, cross-builds Rust for riscv64 musl and deploys over scp · 0★
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Full write-up of driving the CAM-GC2083 on the Duo S: 1080p at 29.7 fps on J1, with the drivers merged into Armbian main (PR #10936); H.265 still in progress · 0★
-- [leafpmpmp/duosight](https://github.com/leafpmpmp/duosight) — On-device multimodal work on the Duo S (the repo used to be duos-llm): SmolLM2-135M runs on the SG2000 TPU from the ARM core at 12.7 tok/s decode and 41.1 tok/s prefill; the new `tpu/smolvlm` keeps SmolVLM-256M beside the YOLO11n from duos-detect in one resident program, and a page on the board answers questions about the newest frame – 48.5 on 150 held-out VQA v2 questions (float reference 50.9), median 0.36–0.59 s per answer, the detector holding 12.5–14.5 of its 15 fps; plus llama.cpp builds for both CPUs with XTheadVector kernels on the C906 · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — YOLO11 person detection on the Duo S with a Camera Module 3: 60 fps, 35 ms end to end, JSON API / SSE / MJPEG preview, Debian packages and a systemd service · 0★
 
 **Hardware and enclosures**
