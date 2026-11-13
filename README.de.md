@@ -157,9 +157,9 @@ Die offizielle Download-Seite enthält eine [Tabelle der Drittanbieter-Images](h
 
 ---
 
-## 8. Videos: Bilibili (50 Stück)
+## 8. Videos: Bilibili (73 Stück)
 
-Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Titel bzw. Beschreibung weisen tatsächlich auf die Duo-Familie hin; die Aufrufzahlen sind eine Momentaufnahme vom 31.10.2026 und dienen nur als Hinweis auf die Beliebtheit.
+Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Titel bzw. Beschreibung weisen tatsächlich auf die Duo-Familie hin; die Aufrufzahlen sind eine Momentaufnahme vom Tag der Aufnahme des jeweiligen Eintrags (31.10.2026 für die früheren) und dienen nur als Hinweis auf die Beliebtheit.
 
 **Reihe von Lehrer Dongdong (eastdong) – ideal, um bei null anzufangen**
 
@@ -187,6 +187,7 @@ Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Tite
 - 学习 RISC-V 能跑 Debian & Linux 的最便宜开发板之一（蘭雅 sRGB）— [BV1XQ4y1E7Tj](https://www.bilibili.com/video/BV1XQ4y1E7Tj/) · 3054
 - 好玩！RISC-V duo256M 开发板测玩（蘭雅 sRGB）— [BV1Zw411V7bK](https://www.bilibili.com/video/BV1Zw411V7bK/) · 2257
 - 麻雀虽小五脏俱全：超高性价比开发板 Milk-V Duo S（qinyunti）— [BV1hyKmzJEw5](https://www.bilibili.com/video/BV1hyKmzJEw5/) · 664
+- 刷机教程：Milk-V Duo S 512MB（斑梨电子）— [BV1ez421z7r2](https://www.bilibili.com/video/BV1ez421z7r2/) · 938
 
 **Umgebung einrichten und Flashen**
 
@@ -196,6 +197,14 @@ Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Tite
 - Duo 简介和开发环境搭建（谁说现在是冬天呢）— [BV1PF411S7To](https://www.bilibili.com/video/BV1PF411S7To/) · 1959
 - Buildroot SDK 简介和编译镜像的方法（谁说现在是冬天呢）— [BV1xc411s7qk](https://www.bilibili.com/video/BV1xc411s7qk/) · 462
 - 安装 Hyper-V & 配置 Docker 开发环境（_1dentity）— [BV1nC4y117WS](https://www.bilibili.com/video/BV1nC4y117WS/) · 1826
+- 【Milk-V Duo】新手入门环境配置（谁说现在是冬天呢）— [BV12AE9zREWE](https://www.bilibili.com/video/BV12AE9zREWE/) · 908
+- 【Milk-V Duo】使用 RuyiSDK 给 Milk-V Duo S 刷写镜像（谁说现在是冬天呢）— [BV1VMtweWEkZ](https://www.bilibili.com/video/BV1VMtweWEkZ/) · 210
+- Ruyi 包管理器构建 milkv-duo-examples 示例程序（郝可爱111）— [BV1WyrEB8EWi](https://www.bilibili.com/video/BV1WyrEB8EWi/) · 116
+- 仝嘉成：RuyiSDK 下 GCC 和 LLVM 对 Milk-V Duo 256M 的支持（PLCT 内部报告）— [BV1SxWqzYEbA](https://www.bilibili.com/video/BV1SxWqzYEbA/) · 630
+- milkv duo 编译 buildroot，安装配置 opkg 包管理器（跟随时间的脚步）— [BV1hW4y1A7UX](https://www.bilibili.com/video/BV1hW4y1A7UX/) · 396
+- Arduino+Milk-VDuo 入门教程 1.2：GPIO 高低电平测试和 LED 控制（谁说现在是冬天呢）— [BV1DVYde7EAZ](https://www.bilibili.com/video/BV1DVYde7EAZ/) · 381
+- Arduino+Milk-VDuo 入门教程 2.1：UART 测试（谁说现在是冬天呢）— [BV1wWWzePEW1](https://www.bilibili.com/video/BV1wWWzePEW1/) · 293
+- Arduino+Milk-VDuo 入门教程 2.3：SPI 测试（谁说现在是冬天呢）— [BV1R1pveBETH](https://www.bilibili.com/video/BV1R1pveBETH/) · 328
 
 **Peripherie, Display und Dual-Core**
 
@@ -206,6 +215,10 @@ Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Tite
 - 通过大核控制小核点亮 LED（谁说现在是冬天呢）— [BV1nH4y1y7CM](https://www.bilibili.com/video/BV1nH4y1y7CM/) · 1057
 - 用 Duo 驱动 DF9GMS 微型舵机（谁说现在是冬天呢）— [BV1Dj411E7yD](https://www.bilibili.com/video/BV1Dj411E7yD/) · 571
 - Duo S 硬件解码 MP4 并在 LCD 上播放（一只御坂美琴）— [BV1ktvseWEhr](https://www.bilibili.com/video/BV1ktvseWEhr/) · 519
+- 【Milk-V Duo】用 Duo 驱动 DHT22 温湿度传感器（谁说现在是冬天呢）— [BV1uG411S7cz](https://www.bilibili.com/video/BV1uG411S7cz/) · 444
+- 【Milk-V Duo】在 Duo 上运行 opencv-mobile（谁说现在是冬天呢）— [BV1WEvCeVEbQ](https://www.bilibili.com/video/BV1WEvCeVEbQ/) · 478
+- 【Milk-V Duo】在 Duo 上运行 opencv-mobile：硬件加速实现方法（谁说现在是冬天呢）— [BV1MJeueDEBT](https://www.bilibili.com/video/BV1MJeueDEBT/) · 344
+- milkv_duo256 libjpeg 显示图片（人世難逢開口笑）— [BV1F37ezREX5](https://www.bilibili.com/video/BV1F37ezREX5/) · 40
 
 **Systemportierung**
 
@@ -219,6 +232,11 @@ Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Tite
 - 在 Duo S 上部署 Caddy 服务器（谁说现在是冬天呢）— [BV1poBzYQEoC](https://www.bilibili.com/video/BV1poBzYQEoC/) · 214
 - Duo 256M 部署相册文件管理器和博客笔记（蘭雅 sRGB）— [BV1cC4y1e7uk](https://www.bilibili.com/video/BV1cC4y1e7uk/) · 1455
 - GameOS-Entwicklungstagebuch: ein selbstgebautes OS spielt Doom und über einen eingebauten „Kleinfernseher“-Client Bilibili-Videos per BV-Nummer ab (我的大可乐呢; das Board wird im Video nicht genannt) — [BV1iZx46BEV7](https://www.bilibili.com/video/BV1iZx46BEV7/) · 38
+- 【Milk-V Duo】Milk-V Duo u-boot 支持 tftp 下载 kernel（谁说现在是冬天呢）— [BV1SWHGehE4c](https://www.bilibili.com/video/BV1SWHGehE4c/) · 146
+- 【Milk-V Duo】创建自定义 BL33 镜像并引导 RISC-V 操作系统（谁说现在是冬天呢）— [BV1umbweDEnK](https://www.bilibili.com/video/BV1umbweDEnK/) · 228
+- 【Milk-V Duo】为 Duo256M 编写一个最简单的内核模块（驱动）（谁说现在是冬天呢）— [BV1kPW7eqEGu](https://www.bilibili.com/video/BV1kPW7eqEGu/) · 546
+- 【Milk-V Duo】在 Duo 上运行 OpenWrt 系统（谁说现在是冬天呢）— [BV1z9YRecEVk](https://www.bilibili.com/video/BV1z9YRecEVk/) · 329
+- milkv-duo 支持的 simple_http_server_python 简单文件服务器（蘭雅 sRGB）— [BV1KF411r7no](https://www.bilibili.com/video/BV1KF411r7no/) · 608
 
 **KI / Vision**
 
@@ -231,10 +249,15 @@ Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Tite
 - Duo S 上用 TDL SDK 部署人脸检测（谁说现在是冬天呢）— [BV1AM4m1m7fe](https://www.bilibili.com/video/BV1AM4m1m7fe/) · 522
 - YOLO 实战：车牌识别效果展示（谁说现在是冬天呢）— [BV1uYAHerEbL](https://www.bilibili.com/video/BV1uYAHerEbL/) · 1272
 - 【软硬件开源】TideSense双目VIO（单三拍）— [BV1EcnG6XESF](https://www.bilibili.com/video/BV1EcnG6XESF/) · 15376
+- 【Milk-V Duo】基于 Milk-V Duo 和 ResNet18 的图像分类（谁说现在是冬天呢）— [BV1zj411a7Ka](https://www.bilibili.com/video/BV1zj411a7Ka/) · 408
+- 【Milk-V Duo】基于 Milk-V Duo 和 SqueezeNet 的图像分类（谁说现在是冬天呢）— [BV1sN41137ot](https://www.bilibili.com/video/BV1sN41137ot/) · 450
+- 【Milk-V Duo】基于 Milk-V Duo 和 DenseNet 的图像分类（谁说现在是冬天呢）— [BV1BN4y1k7Z1](https://www.bilibili.com/video/BV1BN4y1k7Z1/) · 514
+- 【Milk-V Duo】基于 Milk-V Duo 和 ShuffleNetV2 的图像分类（谁说现在是冬天呢）— [BV1bu4y1j7yG](https://www.bilibili.com/video/BV1bu4y1j7yG/) · 423
+- Milk-V Duo S 人脸检测（qinyunti）— [BV1ETuGzzEdT](https://www.bilibili.com/video/BV1ETuGzzEdT/) · 226
 
 ---
 
-## 9. Videos: YouTube (37 Stück)
+## 9. Videos: YouTube (41 Stück)
 
 Seiten im Ausland, die sich nur über einen Proxy öffnen lassen; auch hier wurde jeder Eintrag einzeln geprüft, die Seite existiert und der Inhalt befasst sich tatsächlich mit dem Duo.
 
@@ -252,6 +275,7 @@ Seiten im Ausland, die sich nur über einen Proxy öffnen lassen; auch hier wurd
 - Technically Unsure — Unleashing the $10 tech revolution: Duo S rocks the Linux world — [rby8a_DsSYc](https://www.youtube.com/watch?v=rby8a_DsSYc) · Duo S
 - StableCore PC — Duo 256M: a RISC-V mini SBC — [c5FCJgvBkN8](https://www.youtube.com/watch?v=c5FCJgvBkN8) · Duo 256M
 - Hotel Foxtrot Tango Echo — Extremely small Linux computer, 1 GHz Duo 256M — [2MMSqUrZ0kk](https://www.youtube.com/watch?v=2MMSqUrZ0kk) · Duo 256M
+- Platima Tinkers — Duo Module 01 EvalBoard (briefly): RISC-V + ARM + 8051, 8GB eMMC on-board, dual LAN, Wi-Fi 6 — [klMoXcsrh20](https://www.youtube.com/watch?v=klMoXcsrh20) · Duo Module 01
 
 **Einstieg, Flashen und Netzwerk**
 
@@ -267,6 +291,7 @@ Seiten im Ausland, die sich nur über einen Proxy öffnen lassen; auch hier wurd
 - spotpear — Linux kernel compilation — [_KwRw36hA4U](https://www.youtube.com/watch?v=_KwRw36hA4U) · Duo
 - 蘭雅 sRGB — Burning Linux and USB virtual RNDIS network card — [fCE62HeDFP8](https://www.youtube.com/watch?v=fCE62HeDFP8) · Duo
 - 蘭雅 sRGB — Build the compilation environment, Hello World and blink LED — [Fe7IWqkbFFU](https://www.youtube.com/watch?v=Fe7IWqkbFFU) · Duo
+- spotpear — Duo S 512MB SG2000 RISC-V Linux board, top version with Wi-Fi / 8GB eMMC / PoE options — [LV1BDpGVqJw](https://www.youtube.com/watch?v=LV1BDpGVqJw) · Duo S
 
 **Peripherie und KI**
 
@@ -276,6 +301,7 @@ Seiten im Ausland, die sich nur über einen Proxy öffnen lassen; auch hier wurd
 - Sonny Cruz — RC servo demo using PWM — [1u2LZJWPtNU](https://www.youtube.com/watch?v=1u2LZJWPtNU) · Duo
 - Leigh — Duo + CAM-GC2083: fix RTSP streaming to VLC — [PjiUDsoWCvo](https://www.youtube.com/watch?v=PjiUDsoWCvo) · Duo
 - Muhammad Yunus — YOLOX inference on Duo S using TDL SDK + VPSS — [wzUTGK4TuqA](https://www.youtube.com/watch?v=wzUTGK4TuqA) · Duo S
+- RISC-V Developers — S1E3 Enjoy RISC-V with Milk-V Duo: LED, DHT22 and DF9GMS — [IGVcgQISmaw](https://www.youtube.com/watch?v=IGVcgQISmaw) · Duo
 
 **Systemportierung und Komplettprojekte**
 
@@ -286,6 +312,7 @@ Seiten im Ausland, die sich nur über einen Proxy öffnen lassen; auch hier wurd
 - 福田重夫 — Running Linux on the Duo 256M (RISC-V + ARM) — [Ga3HX-d8GHQ](https://www.youtube.com/watch?v=Ga3HX-d8GHQ) · Duo 256M
 - Nch-Lab — Milk-V Duo 256M を買ったので Linux を動かしてみる — [tcAqYCwbqeU](https://www.youtube.com/watch?v=tcAqYCwbqeU) · Duo 256M
 - Mark Birss — Duo 256 CyberDeck LoRa communicator (TLMVC) — [9qOJ3fKwfC0](https://www.youtube.com/watch?v=9qOJ3fKwfC0) · Duo 256M
+- Lup Yuen Lee — #RISCV #Sophgo SG2000 Debian CoreMark: 2,470 (#MilkV Duo S) — [ql8hauB3Cyo](https://www.youtube.com/watch?v=ql8hauB3Cyo) · Duo S
 
 ---
 

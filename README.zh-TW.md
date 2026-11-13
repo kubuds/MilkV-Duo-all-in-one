@@ -157,9 +157,9 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 
 ---
 
-## 8. 影片：嗶哩嗶哩（50 支）
+## 8. 影片：嗶哩嗶哩（73 支）
 
-全部逐條核對過頁面存在（HTTP 200）且標題/簡介確實指向 Duo 系列；觀看次數是 2026-10-31 的快照，只作熱度參考。
+全部逐條核對過頁面存在（HTTP 200）且標題/簡介確實指向 Duo 系列；觀看次數是各條目收錄當日的快照（早期條目為 2026-10-31），只作熱度參考。
 
 **東東老師系列（eastdong）—— 最適合從零開始**
 
@@ -187,6 +187,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - 學習 RISC-V 能跑 Debian & Linux 的最便宜開發板之一（蘭雅 sRGB）— [BV1XQ4y1E7Tj](https://www.bilibili.com/video/BV1XQ4y1E7Tj/) · 3054
 - 好玩！RISC-V duo256M 開發板測玩（蘭雅 sRGB）— [BV1Zw411V7bK](https://www.bilibili.com/video/BV1Zw411V7bK/) · 2257
 - 麻雀雖小五臟俱全：超高性價比開發板 Milk-V Duo S（qinyunti）— [BV1hyKmzJEw5](https://www.bilibili.com/video/BV1hyKmzJEw5/) · 664
+- 刷機教程：Milk-V Duo S 512MB（斑梨電子）— [BV1ez421z7r2](https://www.bilibili.com/video/BV1ez421z7r2/) · 938
 
 **環境建置與燒錄**
 
@@ -196,6 +197,14 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - Duo 簡介和開發環境建置（誰說現在是冬天呢）— [BV1PF411S7To](https://www.bilibili.com/video/BV1PF411S7To/) · 1959
 - Buildroot SDK 簡介和編譯映像檔的方法（誰說現在是冬天呢）— [BV1xc411s7qk](https://www.bilibili.com/video/BV1xc411s7qk/) · 462
 - 安裝 Hyper-V & 設定 Docker 開發環境（_1dentity）— [BV1nC4y117WS](https://www.bilibili.com/video/BV1nC4y117WS/) · 1826
+- 【Milk-V Duo】新手入門環境配置（誰說現在是冬天呢）— [BV12AE9zREWE](https://www.bilibili.com/video/BV12AE9zREWE/) · 908
+- 【Milk-V Duo】使用 RuyiSDK 給 Milk-V Duo S 刷寫映像（誰說現在是冬天呢）— [BV1VMtweWEkZ](https://www.bilibili.com/video/BV1VMtweWEkZ/) · 210
+- Ruyi 包管理器構建 milkv-duo-examples 示例程式（郝可愛111）— [BV1WyrEB8EWi](https://www.bilibili.com/video/BV1WyrEB8EWi/) · 116
+- 仝嘉成：RuyiSDK 下 GCC 和 LLVM 對 Milk-V Duo 256M 的支援（PLCT 內部報告）— [BV1SxWqzYEbA](https://www.bilibili.com/video/BV1SxWqzYEbA/) · 630
+- milkv duo 編譯 buildroot，安裝配置 opkg 包管理器（跟隨時間的腳步）— [BV1hW4y1A7UX](https://www.bilibili.com/video/BV1hW4y1A7UX/) · 396
+- Arduino+Milk-VDuo 入門教程 1.2：GPIO 高低電平測試和 LED 控制（誰說現在是冬天呢）— [BV1DVYde7EAZ](https://www.bilibili.com/video/BV1DVYde7EAZ/) · 381
+- Arduino+Milk-VDuo 入門教程 2.1：UART 測試（誰說現在是冬天呢）— [BV1wWWzePEW1](https://www.bilibili.com/video/BV1wWWzePEW1/) · 293
+- Arduino+Milk-VDuo 入門教程 2.3：SPI 測試（誰說現在是冬天呢）— [BV1R1pveBETH](https://www.bilibili.com/video/BV1R1pveBETH/) · 328
 
 **週邊、顯示與雙核**
 
@@ -206,6 +215,10 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - 透過大核控制小核點亮 LED（誰說現在是冬天呢）— [BV1nH4y1y7CM](https://www.bilibili.com/video/BV1nH4y1y7CM/) · 1057
 - 用 Duo 驅動 DF9GMS 微型舵機（誰說現在是冬天呢）— [BV1Dj411E7yD](https://www.bilibili.com/video/BV1Dj411E7yD/) · 571
 - Duo S 硬體解碼 MP4 並在 LCD 上播放（一隻御坂美琴）— [BV1ktvseWEhr](https://www.bilibili.com/video/BV1ktvseWEhr/) · 519
+- 【Milk-V Duo】用 Duo 驅動 DHT22 溫溼度感測器（誰說現在是冬天呢）— [BV1uG411S7cz](https://www.bilibili.com/video/BV1uG411S7cz/) · 444
+- 【Milk-V Duo】在 Duo 上執行 opencv-mobile（誰說現在是冬天呢）— [BV1WEvCeVEbQ](https://www.bilibili.com/video/BV1WEvCeVEbQ/) · 478
+- 【Milk-V Duo】在 Duo 上執行 opencv-mobile：硬體加速實現方法（誰說現在是冬天呢）— [BV1MJeueDEBT](https://www.bilibili.com/video/BV1MJeueDEBT/) · 344
+- milkv_duo256 libjpeg 顯示圖片（人世難逢開口笑）— [BV1F37ezREX5](https://www.bilibili.com/video/BV1F37ezREX5/) · 40
 
 **系統移植**
 
@@ -219,6 +232,11 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - 在 Duo S 上部署 Caddy 伺服器（誰說現在是冬天呢）— [BV1poBzYQEoC](https://www.bilibili.com/video/BV1poBzYQEoC/) · 214
 - Duo 256M 部署相簿檔案管理器和部落格筆記（蘭雅 sRGB）— [BV1cC4y1e7uk](https://www.bilibili.com/video/BV1cC4y1e7uk/) · 1455
 - GameOS 開發日常：自製系統上跑 Doom、用「小電視」按 BV 號播放 B 站影片（我的大可樂呢；作者未標板卡型號）— [BV1iZx46BEV7](https://www.bilibili.com/video/BV1iZx46BEV7/) · 38
+- 【Milk-V Duo】Milk-V Duo u-boot 支援 tftp 下載 kernel（誰說現在是冬天呢）— [BV1SWHGehE4c](https://www.bilibili.com/video/BV1SWHGehE4c/) · 146
+- 【Milk-V Duo】建立自定義 BL33 映像並引導 RISC-V 作業系統（誰說現在是冬天呢）— [BV1umbweDEnK](https://www.bilibili.com/video/BV1umbweDEnK/) · 228
+- 【Milk-V Duo】為 Duo256M 編寫一個最簡單的核心模組（驅動）（誰說現在是冬天呢）— [BV1kPW7eqEGu](https://www.bilibili.com/video/BV1kPW7eqEGu/) · 546
+- 【Milk-V Duo】在 Duo 上執行 OpenWrt 系統（誰說現在是冬天呢）— [BV1z9YRecEVk](https://www.bilibili.com/video/BV1z9YRecEVk/) · 329
+- milkv-duo 支援的 simple_http_server_python 簡單檔案伺服器（蘭雅 sRGB）— [BV1KF411r7no](https://www.bilibili.com/video/BV1KF411r7no/) · 608
 
 **AI / 視覺**
 
@@ -231,10 +249,15 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - Duo S 上用 TDL SDK 部署人臉偵測（誰說現在是冬天呢）— [BV1AM4m1m7fe](https://www.bilibili.com/video/BV1AM4m1m7fe/) · 522
 - YOLO 實戰：車牌識別效果展示（誰說現在是冬天呢）— [BV1uYAHerEbL](https://www.bilibili.com/video/BV1uYAHerEbL/) · 1272
 - 【软硬件开源】TideSense双目VIO（单三拍）— [BV1EcnG6XESF](https://www.bilibili.com/video/BV1EcnG6XESF/) · 15376
+- 【Milk-V Duo】基於 Milk-V Duo 和 ResNet18 的影像分類（誰說現在是冬天呢）— [BV1zj411a7Ka](https://www.bilibili.com/video/BV1zj411a7Ka/) · 408
+- 【Milk-V Duo】基於 Milk-V Duo 和 SqueezeNet 的影像分類（誰說現在是冬天呢）— [BV1sN41137ot](https://www.bilibili.com/video/BV1sN41137ot/) · 450
+- 【Milk-V Duo】基於 Milk-V Duo 和 DenseNet 的影像分類（誰說現在是冬天呢）— [BV1BN4y1k7Z1](https://www.bilibili.com/video/BV1BN4y1k7Z1/) · 514
+- 【Milk-V Duo】基於 Milk-V Duo 和 ShuffleNetV2 的影像分類（誰說現在是冬天呢）— [BV1bu4y1j7yG](https://www.bilibili.com/video/BV1bu4y1j7yG/) · 423
+- Milk-V Duo S 人臉檢測（qinyunti）— [BV1ETuGzzEdT](https://www.bilibili.com/video/BV1ETuGzzEdT/) · 226
 
 ---
 
-## 9. 影片：YouTube（37 支）
+## 9. 影片：YouTube（41 支）
 
 國外站點，走代理才能開啟；同樣逐條核對過頁面存在且內容真的涉及 Duo。
 
@@ -252,6 +275,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - Technically Unsure — Unleashing the $10 tech revolution: Duo S rocks the Linux world — [rby8a_DsSYc](https://www.youtube.com/watch?v=rby8a_DsSYc) · Duo S
 - StableCore PC — Duo 256M: a RISC-V mini SBC — [c5FCJgvBkN8](https://www.youtube.com/watch?v=c5FCJgvBkN8) · Duo 256M
 - Hotel Foxtrot Tango Echo — Extremely small Linux computer, 1 GHz Duo 256M — [2MMSqUrZ0kk](https://www.youtube.com/watch?v=2MMSqUrZ0kk) · Duo 256M
+- Platima Tinkers — Duo Module 01 EvalBoard (briefly): RISC-V + ARM + 8051, 8GB eMMC on-board, dual LAN, Wi-Fi 6 — [klMoXcsrh20](https://www.youtube.com/watch?v=klMoXcsrh20) · Duo Module 01
 
 **入門、燒錄與網路**
 
@@ -267,6 +291,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - spotpear — Linux kernel compilation — [_KwRw36hA4U](https://www.youtube.com/watch?v=_KwRw36hA4U) · Duo
 - 蘭雅 sRGB — Burning Linux and USB virtual RNDIS network card — [fCE62HeDFP8](https://www.youtube.com/watch?v=fCE62HeDFP8) · Duo
 - 蘭雅 sRGB — Build the compilation environment, Hello World and blink LED — [Fe7IWqkbFFU](https://www.youtube.com/watch?v=Fe7IWqkbFFU) · Duo
+- spotpear — Duo S 512MB SG2000 RISC-V Linux board, top version with Wi-Fi / 8GB eMMC / PoE options — [LV1BDpGVqJw](https://www.youtube.com/watch?v=LV1BDpGVqJw) · Duo S
 
 **週邊與 AI**
 
@@ -276,6 +301,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - Sonny Cruz — RC servo demo using PWM — [1u2LZJWPtNU](https://www.youtube.com/watch?v=1u2LZJWPtNU) · Duo
 - Leigh — Duo + CAM-GC2083: fix RTSP streaming to VLC — [PjiUDsoWCvo](https://www.youtube.com/watch?v=PjiUDsoWCvo) · Duo
 - Muhammad Yunus — YOLOX inference on Duo S using TDL SDK + VPSS — [wzUTGK4TuqA](https://www.youtube.com/watch?v=wzUTGK4TuqA) · Duo S
+- RISC-V Developers — S1E3 Enjoy RISC-V with Milk-V Duo: LED, DHT22 and DF9GMS — [IGVcgQISmaw](https://www.youtube.com/watch?v=IGVcgQISmaw) · Duo
 
 **系統移植與整機專案**
 
@@ -286,6 +312,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - 福田重夫 — Running Linux on the Duo 256M (RISC-V + ARM) — [Ga3HX-d8GHQ](https://www.youtube.com/watch?v=Ga3HX-d8GHQ) · Duo 256M
 - Nch-Lab — Milk-V Duo 256M を買ったので Linux を動かしてみる — [tcAqYCwbqeU](https://www.youtube.com/watch?v=tcAqYCwbqeU) · Duo 256M
 - Mark Birss — Duo 256 CyberDeck LoRa communicator (TLMVC) — [9qOJ3fKwfC0](https://www.youtube.com/watch?v=9qOJ3fKwfC0) · Duo 256M
+- Lup Yuen Lee — #RISCV #Sophgo SG2000 Debian CoreMark: 2,470 (#MilkV Duo S) — [ql8hauB3Cyo](https://www.youtube.com/watch?v=ql8hauB3Cyo) · Duo S
 
 ---
 
