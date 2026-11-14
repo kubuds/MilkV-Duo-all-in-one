@@ -257,7 +257,7 @@ Every page was checked individually to confirm it exists (HTTP 200) and that its
 
 ---
 
-## 9. Videos: YouTube (41)
+## 9. Videos: YouTube (50)
 
 An overseas site that requires a proxy to open; every page here was likewise checked to confirm it exists and really covers the Duo.
 
@@ -272,6 +272,7 @@ An overseas site that requires a proxy to open; every page here was likewise che
 - Andreas Spiess — (485) $8 MilkV Duo: Arduino on one core and Linux on the other — [SeExddxWdNs](https://www.youtube.com/watch?v=SeExddxWdNs) · Duo
 - Biblioman09 — Review Milk-V Duo S — [GiNb60_oEDk](https://www.youtube.com/watch?v=GiNb60_oEDk) · Duo S
 - Biblioman09 — Review Milk-V Duo — [4pejiKvLW_U](https://www.youtube.com/watch?v=4pejiKvLW_U) · Duo
+- Simon Vannarath — Quick unboxing and testing of Duo S (WiFi/SD) — [vG5xVpvK2bI](https://www.youtube.com/watch?v=vG5xVpvK2bI) · Duo S
 - Technically Unsure — Unleashing the $10 tech revolution: Duo S rocks the Linux world — [rby8a_DsSYc](https://www.youtube.com/watch?v=rby8a_DsSYc) · Duo S
 - StableCore PC — Duo 256M: a RISC-V mini SBC — [c5FCJgvBkN8](https://www.youtube.com/watch?v=c5FCJgvBkN8) · Duo 256M
 - Hotel Foxtrot Tango Echo — Extremely small Linux computer, 1 GHz Duo 256M — [2MMSqUrZ0kk](https://www.youtube.com/watch?v=2MMSqUrZ0kk) · Duo 256M
@@ -292,6 +293,12 @@ An overseas site that requires a proxy to open; every page here was likewise che
 - 蘭雅 sRGB — Burning Linux and USB virtual RNDIS network card — [fCE62HeDFP8](https://www.youtube.com/watch?v=fCE62HeDFP8) · Duo
 - 蘭雅 sRGB — Build the compilation environment, Hello World and blink LED — [Fe7IWqkbFFU](https://www.youtube.com/watch?v=Fe7IWqkbFFU) · Duo
 - spotpear — Duo S 512MB SG2000 RISC-V Linux board, top version with Wi-Fi / 8GB eMMC / PoE options — [LV1BDpGVqJw](https://www.youtube.com/watch?v=LV1BDpGVqJw) · Duo S
+- Biblioman09 — Tinkering with the Milk-V Duo (1): main core + auxiliary core — [5KZCQrnWpwg](https://www.youtube.com/watch?v=5KZCQrnWpwg) · Duo
+- Biblioman09 — Tinkering with the Milk-V Duo (2): inter-core communication — [2sAWq0tHEQ4](https://www.youtube.com/watch?v=2sAWq0tHEQ4) · Duo
+- Biblioman09 — Tinkering with the Milk-V Duo (3): passing data from the secondary core to the main core — [rRLpFgnZ2kw](https://www.youtube.com/watch?v=rRLpFgnZ2kw) · Duo
+- Biblioman09 — Tinkering with the Milk-V Duo 256M (4): Ethernet connection — [O2bxdHN7nog](https://www.youtube.com/watch?v=O2bxdHN7nog) · Duo 256M
+- Biblioman09 — Tinkering with the Milk-V Duo 256M (5): 8051 MCU — [55JqqV7xPfk](https://www.youtube.com/watch?v=55JqqV7xPfk) · Duo 256M
+- Biblioman09 — Milk-V Duo with Arduino IDE 2.x: C and Python — [5TTUmC5YKqo](https://www.youtube.com/watch?v=5TTUmC5YKqo) · Duo
 
 **Peripherals and AI**
 
@@ -313,6 +320,8 @@ An overseas site that requires a proxy to open; every page here was likewise che
 - Nch-Lab — Milk-V Duo 256M を買ったので Linux を動かしてみる — [tcAqYCwbqeU](https://www.youtube.com/watch?v=tcAqYCwbqeU) · Duo 256M
 - Mark Birss — Duo 256 CyberDeck LoRa communicator (TLMVC) — [9qOJ3fKwfC0](https://www.youtube.com/watch?v=9qOJ3fKwfC0) · Duo 256M
 - Lup Yuen Lee — #RISCV #Sophgo SG2000 Debian CoreMark: 2,470 (#MilkV Duo S) — [ql8hauB3Cyo](https://www.youtube.com/watch?v=ql8hauB3Cyo) · Duo S
+- Trey Dahlberg — Doom on the Duo S — [ZidiVE5-7M4](https://www.youtube.com/watch?v=ZidiVE5-7M4) · Duo S
+- Julian DeVante — Project Blue OS Alpha 1.5 update (Duo S) — [5p_DkVa_BQE](https://www.youtube.com/watch?v=5p_DkVa_BQE) · Duo S
 
 ---
 
@@ -407,6 +416,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [Tosainu/docker-milkv-duo-linux](https://github.com/Tosainu/docker-milkv-duo-linux) — containerized Linux builds
 - [boberace/milkv_duo_dc](https://github.com/boberace/milkv_duo_dc) — VS Code Dev Container
 - [kitnerboy/milkv-duo-buildroot](https://github.com/kitnerboy/milkv-duo-buildroot) — mainline-style Buildroot BSP
+- [jorgencorrea/milkv-duos-v2](https://github.com/jorgencorrea/milkv-duos-v2) — brings Arduino support back to SDK V2: what the v1 `arduino` branch had and V2 lacked — the `cvitek_remoteproc` driver, the reserved-memory region and `c906l_rproc` device-tree node, and the `burnd` daemon — is packaged as three patches applied with `git am`, checked on a real Duo S (SSH, serial console, sketch upload); pinpong support is still in progress · 0★
 
 **Drivers and peripherals**
 
