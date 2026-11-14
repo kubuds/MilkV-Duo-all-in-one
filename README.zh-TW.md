@@ -257,7 +257,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 
 ---
 
-## 9. 影片：YouTube（41 支）
+## 9. 影片：YouTube（50 支）
 
 國外站點，走代理才能開啟；同樣逐條核對過頁面存在且內容真的涉及 Duo。
 
@@ -272,6 +272,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - Andreas Spiess — (485) $8 MilkV Duo: Arduino on one core and Linux on the other — [SeExddxWdNs](https://www.youtube.com/watch?v=SeExddxWdNs) · Duo
 - Biblioman09 — Review Milk-V Duo S — [GiNb60_oEDk](https://www.youtube.com/watch?v=GiNb60_oEDk) · Duo S
 - Biblioman09 — Review Milk-V Duo — [4pejiKvLW_U](https://www.youtube.com/watch?v=4pejiKvLW_U) · Duo
+- Simon Vannarath — Duo S（WiFi/SD 版）快速开箱与测试 — [vG5xVpvK2bI](https://www.youtube.com/watch?v=vG5xVpvK2bI) · Duo S
 - Technically Unsure — Unleashing the $10 tech revolution: Duo S rocks the Linux world — [rby8a_DsSYc](https://www.youtube.com/watch?v=rby8a_DsSYc) · Duo S
 - StableCore PC — Duo 256M: a RISC-V mini SBC — [c5FCJgvBkN8](https://www.youtube.com/watch?v=c5FCJgvBkN8) · Duo 256M
 - Hotel Foxtrot Tango Echo — Extremely small Linux computer, 1 GHz Duo 256M — [2MMSqUrZ0kk](https://www.youtube.com/watch?v=2MMSqUrZ0kk) · Duo 256M
@@ -292,6 +293,12 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - 蘭雅 sRGB — Burning Linux and USB virtual RNDIS network card — [fCE62HeDFP8](https://www.youtube.com/watch?v=fCE62HeDFP8) · Duo
 - 蘭雅 sRGB — Build the compilation environment, Hello World and blink LED — [Fe7IWqkbFFU](https://www.youtube.com/watch?v=Fe7IWqkbFFU) · Duo
 - spotpear — Duo S 512MB SG2000 RISC-V Linux board, top version with Wi-Fi / 8GB eMMC / PoE options — [LV1BDpGVqJw](https://www.youtube.com/watch?v=LV1BDpGVqJw) · Duo S
+- Biblioman09 — 折腾 Milk-V Duo（1）：主核与小核 — [5KZCQrnWpwg](https://www.youtube.com/watch?v=5KZCQrnWpwg) · Duo
+- Biblioman09 — 折腾 Milk-V Duo（2）：核间通信 — [2sAWq0tHEQ4](https://www.youtube.com/watch?v=2sAWq0tHEQ4) · Duo
+- Biblioman09 — 折腾 Milk-V Duo（3）：小核把数据传给主核 — [rRLpFgnZ2kw](https://www.youtube.com/watch?v=rRLpFgnZ2kw) · Duo
+- Biblioman09 — 折腾 Milk-V Duo 256M（4）：以太网连接 — [O2bxdHN7nog](https://www.youtube.com/watch?v=O2bxdHN7nog) · Duo 256M
+- Biblioman09 — 折腾 Milk-V Duo 256M（5）：8051 小核 — [55JqqV7xPfk](https://www.youtube.com/watch?v=55JqqV7xPfk) · Duo 256M
+- Biblioman09 — Milk-V Duo 与 Arduino IDE 2.x：C 和 Python — [5TTUmC5YKqo](https://www.youtube.com/watch?v=5TTUmC5YKqo) · Duo
 
 **週邊與 AI**
 
@@ -313,6 +320,8 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - Nch-Lab — Milk-V Duo 256M を買ったので Linux を動かしてみる — [tcAqYCwbqeU](https://www.youtube.com/watch?v=tcAqYCwbqeU) · Duo 256M
 - Mark Birss — Duo 256 CyberDeck LoRa communicator (TLMVC) — [9qOJ3fKwfC0](https://www.youtube.com/watch?v=9qOJ3fKwfC0) · Duo 256M
 - Lup Yuen Lee — #RISCV #Sophgo SG2000 Debian CoreMark: 2,470 (#MilkV Duo S) — [ql8hauB3Cyo](https://www.youtube.com/watch?v=ql8hauB3Cyo) · Duo S
+- Trey Dahlberg — 在 Duo S 上跑 Doom — [ZidiVE5-7M4](https://www.youtube.com/watch?v=ZidiVE5-7M4) · Duo S
+- Julian DeVante — Project Blue OS Alpha 1.5 更新（Duo S） — [5p_DkVa_BQE](https://www.youtube.com/watch?v=5p_DkVa_BQE) · Duo S
 
 ---
 
@@ -407,6 +416,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - [Tosainu/docker-milkv-duo-linux](https://github.com/Tosainu/docker-milkv-duo-linux) — 容器化建置 Linux
 - [boberace/milkv_duo_dc](https://github.com/boberace/milkv_duo_dc) — VS Code Dev Container
 - [kitnerboy/milkv-duo-buildroot](https://github.com/kitnerboy/milkv-duo-buildroot) — 主線風格 Buildroot BSP
+- [jorgencorrea/milkv-duos-v2](https://github.com/jorgencorrea/milkv-duos-v2) — 把 Arduino 支援補回 SDK V2：v1 的 `arduino` 分支缺的就是 `cvitek_remoteproc` 驅動、保留記憶體與 `c906l_rproc` 裝置樹節點、`burnd` 守護行程，這裡做成 3 個可用 `git am` 套用的 patch，已在 Duo S 實機驗證 SSH / 序列埠 / sketch 上傳；pinpong 適配仍在進行 · 0★
 
 **驅動程式與週邊**
 
