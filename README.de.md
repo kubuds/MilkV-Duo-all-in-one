@@ -257,7 +257,7 @@ Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Tite
 
 ---
 
-## 9. Videos: YouTube (50 Stück)
+## 9. Videos: YouTube (51 Stück)
 
 Seiten im Ausland, die sich nur über einen Proxy öffnen lassen; auch hier wurde jeder Eintrag einzeln geprüft, die Seite existiert und der Inhalt befasst sich tatsächlich mit dem Duo.
 
@@ -322,6 +322,7 @@ Seiten im Ausland, die sich nur über einen Proxy öffnen lassen; auch hier wurd
 - Lup Yuen Lee — #RISCV #Sophgo SG2000 Debian CoreMark: 2,470 (#MilkV Duo S) — [ql8hauB3Cyo](https://www.youtube.com/watch?v=ql8hauB3Cyo) · Duo S
 - Trey Dahlberg — Doom on the Duo S — [ZidiVE5-7M4](https://www.youtube.com/watch?v=ZidiVE5-7M4) · Duo S
 - Julian DeVante — Project Blue OS Alpha 1.5 update (Duo S) — [5p_DkVa_BQE](https://www.youtube.com/watch?v=5p_DkVa_BQE) · Duo S
+- hgfullspec — Duo 256M treibt eine 16×10-WS2812-Matrix als RSS-Nachrichtenticker: der Linux-Kern holt die Schlagzeilen, der FreeRTOS-Kern steuert 160 LEDs — [X6sXmO1LhgM](https://www.youtube.com/watch?v=X6sXmO1LhgM) · Duo 256M
 
 ---
 
@@ -404,6 +405,7 @@ Nach Einsatzzweck gegliedert. Star-Zahlen und Datum des letzten Commits sind ein
 - [zuki/xv6-milkv-duo](https://github.com/zuki/xv6-milkv-duo) — xv6 on Duo · 7★
 - [jiegegena/milkv-sg2002-xv6](https://github.com/jiegegena/milkv-sg2002-xv6) — xv6 on SG2002
 - [Lam920/xv6-cv1800b](https://github.com/Lam920/xv6-cv1800b) — xv6 on CV1800B
+- [Velcaen/Myxv6-milkvduo-riscv](https://github.com/Velcaen/Myxv6-milkvduo-riscv) — xv6-riscv auf das Duo 256M (SG2002 / C906) portiert, mit 15 KB chinesischer Portierungsanleitung (vier Stufen: UART → Interrupts → Dateisystem) und einer Diff-Auswertung · 0★
 - [rota1001/milkv-baremetal-toolkit](https://github.com/rota1001/milkv-baremetal-toolkit) — Bare-Metal-Images mit einem Befehl erzeugen · 8★
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Forth auf dem Duo · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — Mailbox-Kommunikation zwischen Zephyr und Linux
