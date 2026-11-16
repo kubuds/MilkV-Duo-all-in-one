@@ -257,7 +257,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 
 ---
 
-## 9. 视频：YouTube（51 支）
+## 9. 视频：YouTube（52 支）
 
 国外站点，走代理才能打开；同样逐条核过页面存在且内容真的涉及 Duo。
 
@@ -323,6 +323,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - Trey Dahlberg — 在 Duo S 上跑 Doom — [ZidiVE5-7M4](https://www.youtube.com/watch?v=ZidiVE5-7M4) · Duo S
 - Julian DeVante — Project Blue OS Alpha 1.5 更新（Duo S） — [5p_DkVa_BQE](https://www.youtube.com/watch?v=5p_DkVa_BQE) · Duo S
 - hgfullspec — Duo 256M 驱动 16×10 WS2812 矩阵做 RSS 新闻滚动条：Linux 核拉取头条、FreeRTOS 核刷 160 颗灯 — [X6sXmO1LhgM](https://www.youtube.com/watch?v=X6sXmO1LhgM) · Duo 256M
+- Julian DeVante — Project Blue OS V1.7 更新（Duo S） — [Zqdmpxj7mmo](https://www.youtube.com/watch?v=Zqdmpxj7mmo) · Duo S
 
 ---
 
@@ -385,7 +386,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian（含 WiFi/蓝牙/USB host/摄像头）· 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
-- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Duo S 的 Alpine Linux 移植：复用 duo-buildroot-sdk-v2 的内核与设备树，`build.sh --board duos` 产出 A53（ARM64）+ musl 的 rootfs，带首次启动扩容与 dropbear / dnsmasq / iwd；v1.0.0 仍在开发，暂无镜像发布 · 0★
+- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Duo S 的 Alpine Linux 移植：保留官方内核、设备树与引导器，用户空间换成 Alpine aarch64（musl）+ apk / OpenRC / wpa_supplicant / Dropbear；镜像已发到 v1.0.4（约 12 MB），rootfs 固定 768 MB、扩容要手动做 · 0★
 - [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — Duo 256M（SG2002）的 Alpine 镜像：Docker 构建，一次产出 RISC-V（C906）与 ARM64（A53）两版，自动跟随 Alpine 最新版本 · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — Docker 构建 Ubuntu 镜像 · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — 构建并直接写卡 · 21★
@@ -415,6 +416,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 **工具链与构建环境**
 
 - [aidancrowther/Milk-V-Duo-Docker-Compile](https://github.com/aidancrowther/Milk-V-Duo-Docker-Compile) — 预装工具链的 Docker 镜像 · 24★
+- [ejortega/milkv-host-tools](https://github.com/ejortega/milkv-host-tools) — 在 Docker 里用 crosstool-ng 从 SDK V2 源码打出 riscv64 musl 交叉工具链，Release 直接给 amd64 / arm64 两个平台的 tarball；工具链固定在 SDK V2 v2.0.0，host-tools 的预编译二进制在新发行版上跑不起来时可作替代 · 1★
 - [Tosainu/docker-milkv-duo-linux](https://github.com/Tosainu/docker-milkv-duo-linux) — 容器化构建 Linux
 - [boberace/milkv_duo_dc](https://github.com/boberace/milkv_duo_dc) — VS Code Dev Container
 - [kitnerboy/milkv-duo-buildroot](https://github.com/kitnerboy/milkv-duo-buildroot) — 主线风格 Buildroot BSP

@@ -257,7 +257,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 
 ---
 
-## 9. 動画：YouTube（51 本）
+## 9. 動画：YouTube（52 本）
 
 海外サイトのため、プロキシ経由でないと開けません。こちらも 1 件ずつページの存在と、内容が実際に Duo に関係することを確認済みです。
 
@@ -323,6 +323,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - Trey Dahlberg — Doom on the Duo S — [ZidiVE5-7M4](https://www.youtube.com/watch?v=ZidiVE5-7M4) · Duo S
 - Julian DeVante — Project Blue OS Alpha 1.5 update (Duo S) — [5p_DkVa_BQE](https://www.youtube.com/watch?v=5p_DkVa_BQE) · Duo S
 - hgfullspec — Duo 256M で 16×10 の WS2812 マトリクスを駆動する RSS ニュースティッカー。Linux コアがヘッドラインを取得し、FreeRTOS コアが 160 個の LED を制御 — [X6sXmO1LhgM](https://www.youtube.com/watch?v=X6sXmO1LhgM) · Duo 256M
+- Julian DeVante — Project Blue OS V1.7 アップデート（Duo S） — [Zqdmpxj7mmo](https://www.youtube.com/watch?v=Zqdmpxj7mmo) · Duo S
 
 ---
 
@@ -385,7 +386,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian（WiFi/Bluetooth/USB host/カメラ対応）· 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
-- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Duo S 向け Alpine Linux 移植：duo-buildroot-sdk-v2 のカーネルとデバイスツリーを流用し、`build.sh --board duos` で A53（ARM64）+ musl の rootfs を生成。初回起動時の拡張、dropbear / dnsmasq / iwd を含む。v1.0.0 は開発中で、イメージは未公開 · 0★
+- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Duo S 向け Alpine Linux 移植：公式のカーネル、デバイスツリー、ブートローダーを残し、ユーザー空間を Alpine aarch64（musl）+ apk / OpenRC / wpa_supplicant / Dropbear に置き換える。イメージは v1.0.4 まで公開済み（約 12 MB）、rootfs は 768 MB 固定で手動拡張が必要 · 0★
 - [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — Duo 256M（SG2002）向け Alpine イメージ。Docker でビルドし、RISC-V（C906）版と ARM64（A53）版を同時に生成、Alpine の最新版に自動追従 · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — Docker で Ubuntu イメージをビルド · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — ビルドして直接カードに書き込み · 21★
@@ -415,6 +416,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 **ツールチェーンとビルド環境**
 
 - [aidancrowther/Milk-V-Duo-Docker-Compile](https://github.com/aidancrowther/Milk-V-Duo-Docker-Compile) — ツールチェーンをプリインストールした Docker イメージ · 24★
+- [ejortega/milkv-host-tools](https://github.com/ejortega/milkv-host-tools) — Docker 内の crosstool-ng で SDK V2 のソースから riscv64 musl クロスツールチェーンをビルドし、amd64 / arm64 向け tarball を Releases で配布。SDK V2 v2.0.0 に固定されており、host-tools のプリビルドバイナリが新しいディストリビューションで動かないときの代替になる · 1★
 - [Tosainu/docker-milkv-duo-linux](https://github.com/Tosainu/docker-milkv-duo-linux) — コンテナ化した Linux ビルド
 - [boberace/milkv_duo_dc](https://github.com/boberace/milkv_duo_dc) — VS Code Dev Container
 - [kitnerboy/milkv-duo-buildroot](https://github.com/kitnerboy/milkv-duo-buildroot) — メインライン流の Buildroot BSP
