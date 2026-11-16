@@ -257,7 +257,7 @@
 
 ---
 
-## 9. Видео: YouTube (51 роликов)
+## 9. Видео: YouTube (52 роликов)
 
 Зарубежный сайт, открывается только через прокси; каждая страница также проверена по отдельности — она существует, и её содержание действительно касается Duo.
 
@@ -323,6 +323,7 @@
 - Trey Dahlberg — Doom on the Duo S — [ZidiVE5-7M4](https://www.youtube.com/watch?v=ZidiVE5-7M4) · Duo S
 - Julian DeVante — Project Blue OS Alpha 1.5 update (Duo S) — [5p_DkVa_BQE](https://www.youtube.com/watch?v=5p_DkVa_BQE) · Duo S
 - hgfullspec — Duo 256M управляет матрицей 16×10 на WS2812 в роли бегущей строки RSS: ядро Linux получает заголовки, ядро FreeRTOS управляет 160 светодиодами — [X6sXmO1LhgM](https://www.youtube.com/watch?v=X6sXmO1LhgM) · Duo 256M
+- Julian DeVante — обновление Project Blue OS V1.7 (Duo S) — [Zqdmpxj7mmo](https://www.youtube.com/watch?v=Zqdmpxj7mmo) · Duo S
 
 ---
 
@@ -385,7 +386,7 @@
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Ubuntu для Duo · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Debian для Duo S 512MB (с WiFi/Bluetooth/USB host/камерой) · 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Alpine для Duo S · 9★
-- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — порт Alpine Linux для Duo S: используются ядро и device tree из duo-buildroot-sdk-v2, `build.sh --board duos` собирает rootfs для A53 (ARM64) на musl с расширением раздела при первой загрузке, dropbear / dnsmasq / iwd; v1.0.0 всё ещё в разработке, образов пока нет · 0★
+- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — порт Alpine Linux для Duo S: официальные ядро, device tree и загрузчик сохраняются, пользовательское пространство заменено на Alpine aarch64 (musl) с apk / OpenRC / wpa_supplicant / Dropbear; образы выходят вплоть до v1.0.4 (около 12 MB), rootfs фиксирован на 768 MB и расширяется вручную · 0★
 - [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — образы Alpine для Duo 256M (SG2002): сборка в Docker сразу выдаёт варианты для RISC-V (C906) и ARM64 (A53) и следует за последним релизом Alpine · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — сборка образа Ubuntu в Docker · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — сборка с записью сразу на карту · 21★
@@ -415,6 +416,7 @@
 **Инструментальные цепочки и окружение сборки**
 
 - [aidancrowther/Milk-V-Duo-Docker-Compile](https://github.com/aidancrowther/Milk-V-Duo-Docker-Compile) — Docker-образ с предустановленной инструментальной цепочкой · 24★
+- [ejortega/milkv-host-tools](https://github.com/ejortega/milkv-host-tools) — сборка кросс-цепочки riscv64 musl из исходников SDK V2 через crosstool-ng в Docker; в Releases лежат готовые tarball для amd64 и arm64, версия привязана к SDK V2 v2.0.0 — пригодится, когда готовые бинарники host-tools не запускаются на новых дистрибутивах · 1★
 - [Tosainu/docker-milkv-duo-linux](https://github.com/Tosainu/docker-milkv-duo-linux) — сборка Linux в контейнере
 - [boberace/milkv_duo_dc](https://github.com/boberace/milkv_duo_dc) — VS Code Dev Container
 - [kitnerboy/milkv-duo-buildroot](https://github.com/kitnerboy/milkv-duo-buildroot) — Buildroot BSP в стиле mainline

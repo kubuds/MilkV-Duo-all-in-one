@@ -257,7 +257,7 @@ Every page was checked individually to confirm it exists (HTTP 200) and that its
 
 ---
 
-## 9. Videos: YouTube (51)
+## 9. Videos: YouTube (52)
 
 An overseas site that requires a proxy to open; every page here was likewise checked to confirm it exists and really covers the Duo.
 
@@ -323,6 +323,7 @@ An overseas site that requires a proxy to open; every page here was likewise che
 - Trey Dahlberg — Doom on the Duo S — [ZidiVE5-7M4](https://www.youtube.com/watch?v=ZidiVE5-7M4) · Duo S
 - Julian DeVante — Project Blue OS Alpha 1.5 update (Duo S) — [5p_DkVa_BQE](https://www.youtube.com/watch?v=5p_DkVa_BQE) · Duo S
 - hgfullspec — Duo 256M driving a 16×10 WS2812 matrix as an RSS news ticker: the Linux core pulls the headlines, the FreeRTOS core drives 160 LEDs — [X6sXmO1LhgM](https://www.youtube.com/watch?v=X6sXmO1LhgM) · Duo 256M
+- Julian DeVante — Project Blue OS V1.7 update (Duo S) — [Zqdmpxj7mmo](https://www.youtube.com/watch?v=Zqdmpxj7mmo) · Duo S
 
 ---
 
@@ -385,7 +386,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian (with WiFi/Bluetooth/USB host/camera) · 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
-- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Alpine Linux port for the Duo S: reuses the kernel and device tree from duo-buildroot-sdk-v2, `build.sh --board duos` produces an A53 (ARM64) + musl rootfs with first-boot resizing and dropbear / dnsmasq / iwd; v1.0.0 is still in development, no image released yet · 0★
+- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Alpine Linux port for the Duo S: keeps the official kernel, device tree and bootloader and swaps the user space for Alpine aarch64 (musl) with apk / OpenRC / wpa_supplicant / Dropbear; images are published up to v1.0.4 (about 12 MB), the rootfs is a fixed 768 MB and has to be expanded by hand · 0★
 - [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — Alpine images for the Duo 256M (SG2002), built with Docker: one run produces both the RISC-V (C906) and ARM64 (A53) variants and tracks the latest Alpine release · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — build Ubuntu images with Docker · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — build and write straight to the card · 21★
@@ -415,6 +416,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 **Toolchains and build environments**
 
 - [aidancrowther/Milk-V-Duo-Docker-Compile](https://github.com/aidancrowther/Milk-V-Duo-Docker-Compile) — Docker image with the toolchain preinstalled · 24★
+- [ejortega/milkv-host-tools](https://github.com/ejortega/milkv-host-tools) — builds a riscv64 musl cross toolchain from the SDK V2 source with crosstool-ng inside Docker and ships amd64 / arm64 tarballs in Releases; pinned to SDK V2 v2.0.0, handy when the prebuilt host-tools binaries no longer run on newer distros · 1★
 - [Tosainu/docker-milkv-duo-linux](https://github.com/Tosainu/docker-milkv-duo-linux) — containerized Linux builds
 - [boberace/milkv_duo_dc](https://github.com/boberace/milkv_duo_dc) — VS Code Dev Container
 - [kitnerboy/milkv-duo-buildroot](https://github.com/kitnerboy/milkv-duo-buildroot) — mainline-style Buildroot BSP
