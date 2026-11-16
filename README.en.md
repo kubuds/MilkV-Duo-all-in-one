@@ -257,7 +257,7 @@ Every page was checked individually to confirm it exists (HTTP 200) and that its
 
 ---
 
-## 9. Videos: YouTube (50)
+## 9. Videos: YouTube (51)
 
 An overseas site that requires a proxy to open; every page here was likewise checked to confirm it exists and really covers the Duo.
 
@@ -322,6 +322,7 @@ An overseas site that requires a proxy to open; every page here was likewise che
 - Lup Yuen Lee — #RISCV #Sophgo SG2000 Debian CoreMark: 2,470 (#MilkV Duo S) — [ql8hauB3Cyo](https://www.youtube.com/watch?v=ql8hauB3Cyo) · Duo S
 - Trey Dahlberg — Doom on the Duo S — [ZidiVE5-7M4](https://www.youtube.com/watch?v=ZidiVE5-7M4) · Duo S
 - Julian DeVante — Project Blue OS Alpha 1.5 update (Duo S) — [5p_DkVa_BQE](https://www.youtube.com/watch?v=5p_DkVa_BQE) · Duo S
+- hgfullspec — Duo 256M driving a 16×10 WS2812 matrix as an RSS news ticker: the Linux core pulls the headlines, the FreeRTOS core drives 160 LEDs — [X6sXmO1LhgM](https://www.youtube.com/watch?v=X6sXmO1LhgM) · Duo 256M
 
 ---
 
@@ -404,6 +405,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [zuki/xv6-milkv-duo](https://github.com/zuki/xv6-milkv-duo) — xv6 on Duo · 7★
 - [jiegegena/milkv-sg2002-xv6](https://github.com/jiegegena/milkv-sg2002-xv6) — xv6 on SG2002
 - [Lam920/xv6-cv1800b](https://github.com/Lam920/xv6-cv1800b) — xv6 on CV1800B
+- [Velcaen/Myxv6-milkvduo-riscv](https://github.com/Velcaen/Myxv6-milkvduo-riscv) — xv6-riscv ported to the Duo 256M (SG2002 / C906), with a 15 KB Chinese porting guide (four stages: UART → interrupts → filesystem) and a diffs write-up · 0★
 - [rota1001/milkv-baremetal-toolkit](https://github.com/rota1001/milkv-baremetal-toolkit) — one-command bare-metal image generation · 8★
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Forth on the Duo · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — mailbox communication between Zephyr and Linux

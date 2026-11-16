@@ -257,7 +257,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 
 ---
 
-## 9. 视频：YouTube（50 支）
+## 9. 视频：YouTube（51 支）
 
 国外站点，走代理才能打开；同样逐条核过页面存在且内容真的涉及 Duo。
 
@@ -322,6 +322,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - Lup Yuen Lee — #RISCV #Sophgo SG2000 Debian CoreMark: 2,470 (#MilkV Duo S) — [ql8hauB3Cyo](https://www.youtube.com/watch?v=ql8hauB3Cyo) · Duo S
 - Trey Dahlberg — 在 Duo S 上跑 Doom — [ZidiVE5-7M4](https://www.youtube.com/watch?v=ZidiVE5-7M4) · Duo S
 - Julian DeVante — Project Blue OS Alpha 1.5 更新（Duo S） — [5p_DkVa_BQE](https://www.youtube.com/watch?v=5p_DkVa_BQE) · Duo S
+- hgfullspec — Duo 256M 驱动 16×10 WS2812 矩阵做 RSS 新闻滚动条：Linux 核拉取头条、FreeRTOS 核刷 160 颗灯 — [X6sXmO1LhgM](https://www.youtube.com/watch?v=X6sXmO1LhgM) · Duo 256M
 
 ---
 
@@ -404,6 +405,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - [zuki/xv6-milkv-duo](https://github.com/zuki/xv6-milkv-duo) — xv6 on Duo · 7★
 - [jiegegena/milkv-sg2002-xv6](https://github.com/jiegegena/milkv-sg2002-xv6) — xv6 on SG2002
 - [Lam920/xv6-cv1800b](https://github.com/Lam920/xv6-cv1800b) — xv6 on CV1800B
+- [Velcaen/Myxv6-milkvduo-riscv](https://github.com/Velcaen/Myxv6-milkvduo-riscv) — 把 xv6-riscv 移植到 Duo 256M（SG2002 / C906），附 15 KB 中文移植指南（串口 → 中断 → 文件系统分四阶段）与差异对比 · 0★
 - [rota1001/milkv-baremetal-toolkit](https://github.com/rota1001/milkv-baremetal-toolkit) — 一键生成裸机镜像 · 8★
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Duo 上的 Forth · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — Zephyr 与 Linux 的 mailbox 通信

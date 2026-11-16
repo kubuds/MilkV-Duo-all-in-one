@@ -257,7 +257,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 
 ---
 
-## 9. 動画：YouTube（50 本）
+## 9. 動画：YouTube（51 本）
 
 海外サイトのため、プロキシ経由でないと開けません。こちらも 1 件ずつページの存在と、内容が実際に Duo に関係することを確認済みです。
 
@@ -322,6 +322,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - Lup Yuen Lee — #RISCV #Sophgo SG2000 Debian CoreMark: 2,470 (#MilkV Duo S) — [ql8hauB3Cyo](https://www.youtube.com/watch?v=ql8hauB3Cyo) · Duo S
 - Trey Dahlberg — Doom on the Duo S — [ZidiVE5-7M4](https://www.youtube.com/watch?v=ZidiVE5-7M4) · Duo S
 - Julian DeVante — Project Blue OS Alpha 1.5 update (Duo S) — [5p_DkVa_BQE](https://www.youtube.com/watch?v=5p_DkVa_BQE) · Duo S
+- hgfullspec — Duo 256M で 16×10 の WS2812 マトリクスを駆動する RSS ニュースティッカー。Linux コアがヘッドラインを取得し、FreeRTOS コアが 160 個の LED を制御 — [X6sXmO1LhgM](https://www.youtube.com/watch?v=X6sXmO1LhgM) · Duo 256M
 
 ---
 
@@ -404,6 +405,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [zuki/xv6-milkv-duo](https://github.com/zuki/xv6-milkv-duo) — xv6 on Duo · 7★
 - [jiegegena/milkv-sg2002-xv6](https://github.com/jiegegena/milkv-sg2002-xv6) — xv6 on SG2002
 - [Lam920/xv6-cv1800b](https://github.com/Lam920/xv6-cv1800b) — xv6 on CV1800B
+- [Velcaen/Myxv6-milkvduo-riscv](https://github.com/Velcaen/Myxv6-milkvduo-riscv) — xv6-riscv を Duo 256M（SG2002 / C906）へ移植。15 KB の中国語移植ガイド（UART → 割り込み → ファイルシステムの 4 段階）と差分解説付き · 0★
 - [rota1001/milkv-baremetal-toolkit](https://github.com/rota1001/milkv-baremetal-toolkit) — ワンクリックでベアメタルイメージを生成 · 8★
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Duo 上の Forth · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — Zephyr と Linux の mailbox 通信

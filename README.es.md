@@ -257,7 +257,7 @@ Se comprobó uno por uno que cada página existe (HTTP 200) y que el título o l
 
 ---
 
-## 9. Vídeos: YouTube (50)
+## 9. Vídeos: YouTube (51)
 
 Sitio extranjero: hace falta un proxy para abrirlo; también se comprobó uno por uno que la página existe y que el contenido trata realmente del Duo.
 
@@ -322,6 +322,7 @@ Sitio extranjero: hace falta un proxy para abrirlo; también se comprobó uno po
 - Lup Yuen Lee — #RISCV #Sophgo SG2000 Debian CoreMark: 2,470 (#MilkV Duo S) — [ql8hauB3Cyo](https://www.youtube.com/watch?v=ql8hauB3Cyo) · Duo S
 - Trey Dahlberg — Doom on the Duo S — [ZidiVE5-7M4](https://www.youtube.com/watch?v=ZidiVE5-7M4) · Duo S
 - Julian DeVante — Project Blue OS Alpha 1.5 update (Duo S) — [5p_DkVa_BQE](https://www.youtube.com/watch?v=5p_DkVa_BQE) · Duo S
+- hgfullspec — Duo 256M mueve una matriz WS2812 de 16×10 como teletipo de noticias RSS: el núcleo Linux descarga los titulares y el núcleo FreeRTOS controla 160 LED — [X6sXmO1LhgM](https://www.youtube.com/watch?v=X6sXmO1LhgM) · Duo 256M
 
 ---
 
@@ -404,6 +405,7 @@ Clasificados por uso. El número de estrellas y la fecha del último commit son 
 - [zuki/xv6-milkv-duo](https://github.com/zuki/xv6-milkv-duo) — xv6 on Duo · 7★
 - [jiegegena/milkv-sg2002-xv6](https://github.com/jiegegena/milkv-sg2002-xv6) — xv6 on SG2002
 - [Lam920/xv6-cv1800b](https://github.com/Lam920/xv6-cv1800b) — xv6 on CV1800B
+- [Velcaen/Myxv6-milkvduo-riscv](https://github.com/Velcaen/Myxv6-milkvduo-riscv) — xv6-riscv portado al Duo 256M (SG2002 / C906), con una guía de portabilidad de 15 KB en chino (cuatro etapas: UART → interrupciones → sistema de archivos) y un análisis de diferencias · 0★
 - [rota1001/milkv-baremetal-toolkit](https://github.com/rota1001/milkv-baremetal-toolkit) — genera imágenes bare metal con un solo comando · 8★
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Forth en el Duo · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — comunicación por mailbox entre Zephyr y Linux

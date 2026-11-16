@@ -257,7 +257,7 @@
 
 ---
 
-## 9. Видео: YouTube (50 роликов)
+## 9. Видео: YouTube (51 роликов)
 
 Зарубежный сайт, открывается только через прокси; каждая страница также проверена по отдельности — она существует, и её содержание действительно касается Duo.
 
@@ -322,6 +322,7 @@
 - Lup Yuen Lee — #RISCV #Sophgo SG2000 Debian CoreMark: 2,470 (#MilkV Duo S) — [ql8hauB3Cyo](https://www.youtube.com/watch?v=ql8hauB3Cyo) · Duo S
 - Trey Dahlberg — Doom on the Duo S — [ZidiVE5-7M4](https://www.youtube.com/watch?v=ZidiVE5-7M4) · Duo S
 - Julian DeVante — Project Blue OS Alpha 1.5 update (Duo S) — [5p_DkVa_BQE](https://www.youtube.com/watch?v=5p_DkVa_BQE) · Duo S
+- hgfullspec — Duo 256M управляет матрицей 16×10 на WS2812 в роли бегущей строки RSS: ядро Linux получает заголовки, ядро FreeRTOS управляет 160 светодиодами — [X6sXmO1LhgM](https://www.youtube.com/watch?v=X6sXmO1LhgM) · Duo 256M
 
 ---
 
@@ -404,6 +405,7 @@
 - [zuki/xv6-milkv-duo](https://github.com/zuki/xv6-milkv-duo) — xv6 on Duo · 7★
 - [jiegegena/milkv-sg2002-xv6](https://github.com/jiegegena/milkv-sg2002-xv6) — xv6 on SG2002
 - [Lam920/xv6-cv1800b](https://github.com/Lam920/xv6-cv1800b) — xv6 on CV1800B
+- [Velcaen/Myxv6-milkvduo-riscv](https://github.com/Velcaen/Myxv6-milkvduo-riscv) — портирование xv6-riscv на Duo 256M (SG2002 / C906): руководство по портированию на китайском на 15 КБ (четыре этапа: UART → прерывания → файловая система) и разбор различий · 0★
 - [rota1001/milkv-baremetal-toolkit](https://github.com/rota1001/milkv-baremetal-toolkit) — генерация bare-metal образа одной командой · 8★
 - [PeterForth/MILKV-FORTH](https://github.com/PeterForth/MILKV-FORTH) — Forth на Duo · 8★
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — обмен через mailbox между Zephyr и Linux
