@@ -386,7 +386,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian（含 WiFi/藍牙/USB host/攝影機）· 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
-- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Duo S 的 Alpine Linux 移植：保留官方核心、裝置樹與引導器，使用者空間換成 Alpine aarch64（musl）+ apk / OpenRC / wpa_supplicant / Dropbear；映像檔已發到 v1.0.4（約 12 MB），rootfs 固定 768 MB、擴容要手動做 · 0★
+- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Duo S 的 Alpine Linux 移植：保留官方核心、裝置樹與引導器，使用者空間換成 Alpine aarch64（musl）+ apk / OpenRC / wpa_supplicant / Dropbear；映像檔已發到 v1.1.1（約 12 MB，附 `.sha256` 校驗檔），根檔案系統固定 768 MB、擴容用 `all growfs` 一條命令線上完成；v1.1 起 `build.sh` 預設互動式、必須選板型（`--list-boards` 列出，`--board` 跳過）· 0★
 - [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — Duo 256M（SG2002）的 Alpine 映像：Docker 建置，一次產出 RISC-V（C906）與 ARM64（A53）兩版，自動跟隨 Alpine 最新版本 · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — Docker 建置 Ubuntu 映像檔 · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — 建置並直接寫卡 · 21★
