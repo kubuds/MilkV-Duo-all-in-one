@@ -386,7 +386,7 @@
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Ubuntu для Duo · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Debian для Duo S 512MB (с WiFi/Bluetooth/USB host/камерой) · 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Alpine для Duo S · 9★
-- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — порт Alpine Linux для Duo S: официальные ядро, device tree и загрузчик сохраняются, пользовательское пространство заменено на Alpine aarch64 (musl) с apk / OpenRC / wpa_supplicant / Dropbear; образы выходят вплоть до v1.0.4 (около 12 MB), rootfs фиксирован на 768 MB и расширяется вручную · 0★
+- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — порт Alpine Linux для Duo S: официальные ядро, device tree и загрузчик сохраняются, пользовательское пространство заменено на Alpine aarch64 (musl) с apk / OpenRC / wpa_supplicant / Dropbear; образы выходят вплоть до v1.1.1 (около 12 MB, с файлом контрольной суммы `.sha256`), rootfs фиксирован на 768 MB и расширяется на месте одной командой `all growfs`; начиная с v1.1 `build.sh` по умолчанию интерактивен и требует выбрать профиль платы (`--list-boards` показывает список, `--board` пропускает запрос) · 0★
 - [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — образы Alpine для Duo 256M (SG2002): сборка в Docker сразу выдаёт варианты для RISC-V (C906) и ARM64 (A53) и следует за последним релизом Alpine · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — сборка образа Ubuntu в Docker · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — сборка с записью сразу на карту · 21★

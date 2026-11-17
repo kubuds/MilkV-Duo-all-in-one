@@ -386,7 +386,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [ambraglow/milkv-duo-ubuntu](https://github.com/ambraglow/milkv-duo-ubuntu) — Duo Ubuntu · 68★
 - [olivaw448/milkv-duo-s-512mb-debian](https://github.com/olivaw448/milkv-duo-s-512mb-debian) — Duo S 512MB Debian（WiFi/Bluetooth/USB host/カメラ対応）· 11★
 - [eznix86/milkv-duo-s-alpine-linux](https://github.com/eznix86/milkv-duo-s-alpine-linux) — Duo S Alpine · 9★
-- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Duo S 向け Alpine Linux 移植：公式のカーネル、デバイスツリー、ブートローダーを残し、ユーザー空間を Alpine aarch64（musl）+ apk / OpenRC / wpa_supplicant / Dropbear に置き換える。イメージは v1.0.4 まで公開済み（約 12 MB）、rootfs は 768 MB 固定で手動拡張が必要 · 0★
+- [BiaoZyx/Alpenglow](https://github.com/BiaoZyx/Alpenglow) — Duo S 向け Alpine Linux 移植：公式のカーネル、デバイスツリー、ブートローダーを残し、ユーザー空間を Alpine aarch64（musl）+ apk / OpenRC / wpa_supplicant / Dropbear に置き換える。イメージは v1.1.1 まで公開済み（約 12 MB、`.sha256` チェックサム付き）、rootfs は 768 MB 固定で `all growfs` 一発でオンライン拡張できる。v1.1 以降 `build.sh` は対話式が既定でボードプロファイルの選択が必須（`--list-boards` で一覧、`--board` でプロンプトを省略）· 0★
 - [hkcfs/alpine-milk-v](https://github.com/hkcfs/alpine-milk-v) — Duo 256M（SG2002）向け Alpine イメージ。Docker でビルドし、RISC-V（C906）版と ARM64（A53）版を同時に生成、Alpine の最新版に自動追従 · 0★
 - [CrocNet/duo-docker-builder](https://github.com/CrocNet/duo-docker-builder) — Docker で Ubuntu イメージをビルド · 9★
 - [logicethos/Milk-V_Duo_Linux2SD](https://github.com/logicethos/Milk-V_Duo_Linux2SD) — ビルドして直接カードに書き込み · 21★
