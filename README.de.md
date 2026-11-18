@@ -125,13 +125,13 @@ Die offizielle Download-Seite enthält eine [Tabelle der Drittanbieter-Images](h
 
 - [Fedora-41-Mirror](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/Duo256M/images/latest/)
 - [Debian (Fishwaldo / sophgo-sg200x-debian)](https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/tag/v1.4.0) – neueste Version v1.4.0 (2024-06-01), bringt eMMC-Unterstützung für den Duo S
-- [Debian sid (scpcom / sophgo-sg200x-debian)](https://github.com/scpcom/sophgo-sg200x-debian/releases) – deckt Duo 256M und Duo S ab (SD-Karten- und eMMC-Images); aktuell v1.9.24 (2026-11-09)
+- [Debian sid (scpcom / sophgo-sg200x-debian)](https://github.com/scpcom/sophgo-sg200x-debian/releases) – deckt Duo 256M und Duo S ab (SD-Karten- und eMMC-Images); aktuell v1.9.26 (2026-11-17)
 - [Ubuntu 22.04](https://github.com/ambraglow/milkv-duo-ubuntu) · [Arch Linux](https://community.milkv.io/t/debian-arch-linux-on-milkv-duo-256m-milkv-duo-256m-debian-arch-linux/1110) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1)
 
 ### Duo S (SG2000)
 
 - [Fedora-41-Mirror](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/DuoS/images/latest/) – Standardkonto `root` / Passwort `riscv`
-- [Debian (scpcom)](https://github.com/scpcom/sophgo-sg200x-debian/releases) – zwei Kontosätze: `root`/`rv` und `debian`/`rv`; aktuell v1.9.24 (2026-11-09)
+- [Debian (scpcom)](https://github.com/scpcom/sophgo-sg200x-debian/releases) – zwei Kontosätze: `root`/`rv` und `debian`/`rv`; aktuell v1.9.26 (2026-11-17)
 - [NuttX (lupyuen)](https://github.com/lupyuen/nuttx-sg2000/releases) – fertiges Image, um NuttX auf dem Duo S zu betreiben
 
 ---
@@ -257,7 +257,7 @@ Alle Einträge wurden einzeln geprüft: Die Seite existiert (HTTP 200), und Tite
 
 ---
 
-## 9. Videos: YouTube (52 Stück)
+## 9. Videos: YouTube (54 Stück)
 
 Seiten im Ausland, die sich nur über einen Proxy öffnen lassen; auch hier wurde jeder Eintrag einzeln geprüft, die Seite existiert und der Inhalt befasst sich tatsächlich mit dem Duo.
 
@@ -277,6 +277,7 @@ Seiten im Ausland, die sich nur über einen Proxy öffnen lassen; auch hier wurd
 - StableCore PC — Duo 256M: a RISC-V mini SBC — [c5FCJgvBkN8](https://www.youtube.com/watch?v=c5FCJgvBkN8) · Duo 256M
 - Hotel Foxtrot Tango Echo — Extremely small Linux computer, 1 GHz Duo 256M — [2MMSqUrZ0kk](https://www.youtube.com/watch?v=2MMSqUrZ0kk) · Duo 256M
 - Platima Tinkers — Duo Module 01 EvalBoard (briefly): RISC-V + ARM + 8051, 8GB eMMC on-board, dual LAN, Wi-Fi 6 — [klMoXcsrh20](https://www.youtube.com/watch?v=klMoXcsrh20) · Duo Module 01
+- Anh cốt đơ Review — vietnamesisches Review: Unboxing, Anschlüsse und erster Praxiseindruck (laut Titel 50-mal so schnell wie ein Arduino für rund 200.000 Dong) — [BNv4HiiqCZ8](https://www.youtube.com/watch?v=BNv4HiiqCZ8) · Duo
 
 **Einstieg, Flashen und Netzwerk**
 
@@ -299,6 +300,7 @@ Seiten im Ausland, die sich nur über einen Proxy öffnen lassen; auch hier wurd
 - Biblioman09 — Tinkering with the Milk-V Duo 256M (4): Ethernet connection — [O2bxdHN7nog](https://www.youtube.com/watch?v=O2bxdHN7nog) · Duo 256M
 - Biblioman09 — Tinkering with the Milk-V Duo 256M (5): 8051 MCU — [55JqqV7xPfk](https://www.youtube.com/watch?v=55JqqV7xPfk) · Duo 256M
 - Biblioman09 — Milk-V Duo with Arduino IDE 2.x: C and Python — [5TTUmC5YKqo](https://www.youtube.com/watch?v=5TTUmC5YKqo) · Duo
+- Longdilo — portugiesisches Tutorial: die Onboard-LED nach dem Linux-Setup in C blinken lassen — [lVJ-aOWjy44](https://www.youtube.com/watch?v=lVJ-aOWjy44) · Duo
 
 **Peripherie und KI**
 

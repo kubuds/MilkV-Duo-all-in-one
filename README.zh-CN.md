@@ -125,13 +125,13 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 
 - [Fedora 41 镜像站](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/Duo256M/images/latest/)
 - [Debian（Fishwaldo / sophgo-sg200x-debian）](https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/tag/v1.4.0) —— 最新 v1.4.0（2024-06-01），新增 Duo S eMMC 支持
-- [Debian sid（scpcom / sophgo-sg200x-debian）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— 同时覆盖 Duo 256M 与 Duo S（SD 卡与 eMMC 镜像），当前 v1.9.24（2026-11-09）
+- [Debian sid（scpcom / sophgo-sg200x-debian）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— 同时覆盖 Duo 256M 与 Duo S（SD 卡与 eMMC 镜像），当前 v1.9.26（2026-11-17）
 - [Ubuntu 22.04](https://github.com/ambraglow/milkv-duo-ubuntu) · [Arch Linux](https://community.milkv.io/t/debian-arch-linux-on-milkv-duo-256m-milkv-duo-256m-debian-arch-linux/1110) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1)
 
 ### Duo S（SG2000）
 
 - [Fedora 41 镜像站](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/DuoS/images/latest/) —— 默认账号 `root` / 密码 `riscv`
-- [Debian（scpcom）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— `root`/`rv` 与 `debian`/`rv` 两套账号；当前 v1.9.24（2026-11-09）
+- [Debian（scpcom）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— `root`/`rv` 与 `debian`/`rv` 两套账号；当前 v1.9.26（2026-11-17）
 - [NuttX（lupyuen）](https://github.com/lupyuen/nuttx-sg2000/releases) —— 在 Duo S 上跑 NuttX 的现成镜像
 
 ---
@@ -257,7 +257,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 
 ---
 
-## 9. 视频：YouTube（52 支）
+## 9. 视频：YouTube（54 支）
 
 国外站点，走代理才能打开；同样逐条核过页面存在且内容真的涉及 Duo。
 
@@ -277,6 +277,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - StableCore PC — Duo 256M: a RISC-V mini SBC — [c5FCJgvBkN8](https://www.youtube.com/watch?v=c5FCJgvBkN8) · Duo 256M
 - Hotel Foxtrot Tango Echo — Extremely small Linux computer, 1 GHz Duo 256M — [2MMSqUrZ0kk](https://www.youtube.com/watch?v=2MMSqUrZ0kk) · Duo 256M
 - Platima Tinkers — Duo Module 01 EvalBoard (briefly): RISC-V + ARM + 8051, 8GB eMMC on-board, dual LAN, Wi-Fi 6 — [klMoXcsrh20](https://www.youtube.com/watch?v=klMoXcsrh20) · Duo Module 01
+- Anh cốt đơ Review — 越南语评测：Duo 开箱、接口与上手（标题称性能是 Arduino 的 50 倍、售价约 20 万越南盾）— [BNv4HiiqCZ8](https://www.youtube.com/watch?v=BNv4HiiqCZ8) · Duo
 
 **入门、烧录与网络**
 
@@ -299,6 +300,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - Biblioman09 — 折腾 Milk-V Duo 256M（4）：以太网连接 — [O2bxdHN7nog](https://www.youtube.com/watch?v=O2bxdHN7nog) · Duo 256M
 - Biblioman09 — 折腾 Milk-V Duo 256M（5）：8051 小核 — [55JqqV7xPfk](https://www.youtube.com/watch?v=55JqqV7xPfk) · Duo 256M
 - Biblioman09 — Milk-V Duo 与 Arduino IDE 2.x：C 和 Python — [5TTUmC5YKqo](https://www.youtube.com/watch?v=5TTUmC5YKqo) · Duo
+- Longdilo — 葡萄牙语入门：Linux 配好之后用 C 让板载 LED 闪烁 — [lVJ-aOWjy44](https://www.youtube.com/watch?v=lVJ-aOWjy44) · Duo
 
 **外设与 AI**
 
