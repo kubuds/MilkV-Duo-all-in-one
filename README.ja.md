@@ -125,13 +125,13 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 
 - [Fedora 41 ミラーサイト](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/Duo256M/images/latest/)
 - [Debian（Fishwaldo / sophgo-sg200x-debian）](https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/tag/v1.4.0) —— 最新 v1.4.0（2024-06-01）、Duo S の eMMC 対応を追加
-- [Debian sid（scpcom / sophgo-sg200x-debian）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— Duo 256M と Duo S の両方をカバー（SD カードと eMMC のイメージ）、現在 v1.9.24（2026-11-09）
+- [Debian sid（scpcom / sophgo-sg200x-debian）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— Duo 256M と Duo S の両方をカバー（SD カードと eMMC のイメージ）、現在 v1.9.26（2026-11-17）
 - [Ubuntu 22.04](https://github.com/ambraglow/milkv-duo-ubuntu) · [Arch Linux](https://community.milkv.io/t/debian-arch-linux-on-milkv-duo-256m-milkv-duo-256m-debian-arch-linux/1110) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1)
 
 ### Duo S（SG2000）
 
 - [Fedora 41 ミラーサイト](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/DuoS/images/latest/) —— デフォルトのアカウントは `root`、パスワードは `riscv`
-- [Debian（scpcom）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— `root`/`rv` と `debian`/`rv` の 2 組のアカウント、現在 v1.9.24（2026-11-09）
+- [Debian（scpcom）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— `root`/`rv` と `debian`/`rv` の 2 組のアカウント、現在 v1.9.26（2026-11-17）
 - [NuttX（lupyuen）](https://github.com/lupyuen/nuttx-sg2000/releases) —— Duo S で NuttX を動かす既成イメージ
 
 ---
@@ -257,7 +257,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 
 ---
 
-## 9. 動画：YouTube（52 本）
+## 9. 動画：YouTube（54 本）
 
 海外サイトのため、プロキシ経由でないと開けません。こちらも 1 件ずつページの存在と、内容が実際に Duo に関係することを確認済みです。
 
@@ -277,6 +277,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - StableCore PC — Duo 256M: a RISC-V mini SBC — [c5FCJgvBkN8](https://www.youtube.com/watch?v=c5FCJgvBkN8) · Duo 256M
 - Hotel Foxtrot Tango Echo — Extremely small Linux computer, 1 GHz Duo 256M — [2MMSqUrZ0kk](https://www.youtube.com/watch?v=2MMSqUrZ0kk) · Duo 256M
 - Platima Tinkers — Duo Module 01 EvalBoard (briefly): RISC-V + ARM + 8051, 8GB eMMC on-board, dual LAN, Wi-Fi 6 — [klMoXcsrh20](https://www.youtube.com/watch?v=klMoXcsrh20) · Duo Module 01
+- Anh cốt đơ Review — ベトナム語のレビュー：開封・インターフェース・ファーストインプレッション（タイトルでは Arduino の 50 倍の性能、約 20 万ドンと謳う）— [BNv4HiiqCZ8](https://www.youtube.com/watch?v=BNv4HiiqCZ8) · Duo
 
 **入門、書き込み、ネットワーク**
 
@@ -299,6 +300,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - Biblioman09 — Tinkering with the Milk-V Duo 256M (4): Ethernet connection — [O2bxdHN7nog](https://www.youtube.com/watch?v=O2bxdHN7nog) · Duo 256M
 - Biblioman09 — Tinkering with the Milk-V Duo 256M (5): 8051 MCU — [55JqqV7xPfk](https://www.youtube.com/watch?v=55JqqV7xPfk) · Duo 256M
 - Biblioman09 — Milk-V Duo with Arduino IDE 2.x: C and Python — [5TTUmC5YKqo](https://www.youtube.com/watch?v=5TTUmC5YKqo) · Duo
+- Longdilo — ポルトガル語の入門：Linux 設定後に C でオンボード LED を点滅 — [lVJ-aOWjy44](https://www.youtube.com/watch?v=lVJ-aOWjy44) · Duo
 
 **ペリフェラルと AI**
 
