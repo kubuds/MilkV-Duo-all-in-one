@@ -458,6 +458,7 @@ Nach Einsatzzweck gegliedert. Star-Zahlen und Datum des letzten Commits sind ein
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — TPU-Matrixmultiplikation aus Rust auf der Duo S: Das Makefile holt host-tools, tpu-sdk-sg200x und tpu-mlir, kompiliert ONNX zu .cvimodel, cross-kompiliert Rust für riscv64 musl und überträgt per scp · 0★
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — ausführlicher Bericht zum CAM-GC2083 am Duo S: 1080p mit 29.7 fps an J1, die Treiber sind in Armbian main übernommen (PR #10936), H.265 läuft noch · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — YOLO11-Personenerkennung auf dem Duo S mit Camera Module 3: 60 fps, 35 ms von Bild bis Ergebnis, JSON-API / SSE / MJPEG-Vorschau, Debian-Pakete und systemd-Dienst · 0★
+- [ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S](https://github.com/ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S) — natives ROS 2 Humble auf einer Crazyflie-2.1-Nano-Drohne über ein eigenes Deck (BT-MV Duo 01 Deck) mit Duo Module 01 (SG2000): Der Crazyflie liefert die Lage mit 100 Hz über UART2, eine rclpy-Bridge auf dem einzelnen C906-Kern publiziert `/joint_states` per DDS mit gemessenen 35–45 Hz (510 mW für die ganze Platine), RViz2 auf dem Remote-PC zeigt die Orientierung live; dasselbe Image läuft auch auf einer eigenständigen Duo S, inklusive Schaltplan / Layout / BOM, Anleitung zum Nachbau von Grund auf und fertigem Image auf Zenodo · 1★
 
 **Hardware und Gehäuse**
 

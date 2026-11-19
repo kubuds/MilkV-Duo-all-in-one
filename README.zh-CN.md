@@ -458,6 +458,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — Duo S 上用 Rust 跑 TPU 矩阵乘法：Makefile 自动拉 host-tools、tpu-sdk-sg200x 与 tpu-mlir，把 ONNX 编成 .cvimodel，Rust 交叉编译到 riscv64 musl 后 scp 部署 · 0★
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Duo S 上驱动 CAM-GC2083 的完整记录：J1 接出 1080p 29.7 fps，相关驱动已并入 Armbian 主线（PR #10936），H.265 仍在做 · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — Duo S + Camera Module 3 的 YOLO11 人体检测：60 fps、端到端 35 ms，JSON API / SSE / MJPEG 预览，带 Debian 包与 systemd 服务 · 0★
+- [ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S](https://github.com/ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S) — 在 Crazyflie 2.1 微型无人机上挂自研扩展板（BT-MV Duo 01 Deck，载 Duo Module 01 / SG2000）跑原生 ROS 2 Humble：Crazyflie 侧以 100 Hz 经 UART2 送出姿态，板端 C906 单核上的 rclpy 桥接节点用 DDS 发布 `/joint_states`（实测 35–45 Hz，整板 510 mW），远端 RViz2 实时跟着转；同一镜像也能在独立 Duo S 上跑，附原理图 / 布局 / BOM、从零构建指南与 Zenodo 预编译镜像 · 1★
 
 **硬件与外壳**
 

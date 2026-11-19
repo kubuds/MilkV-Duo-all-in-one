@@ -458,6 +458,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — Duo S 上で Rust から TPU の行列演算を実行：Makefile が host-tools、tpu-sdk-sg200x、tpu-mlir を自動取得し、ONNX を .cvimodel に変換、Rust を riscv64 musl 向けにクロスコンパイルして scp で転送 · 0★
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Duo S で CAM-GC2083 を動かすまでの記録。J1 から 1080p 29.7 fps、ドライバは Armbian 本線にマージ済み（PR #10936）、H.265 は作業中 · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — Duo S + Camera Module 3 による YOLO11 人物検出。60 fps、エンドツーエンド 35 ms、JSON API / SSE / MJPEG プレビュー、Debian パッケージと systemd サービス付き · 0★
+- [ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S](https://github.com/ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S) — Crazyflie 2.1 ナノドローンに自作拡張ボード（BT-MV Duo 01 Deck、Duo Module 01 / SG2000 搭載）を載せてネイティブ ROS 2 Humble を実行：Crazyflie 側が UART2 で 100 Hz の姿勢データを送出し、C906 単一コア上の rclpy ブリッジが DDS で `/joint_states` を実測 35–45 Hz で配信（ボード全体で 510 mW）、遠隔の RViz2 が姿勢をリアルタイム表示；同じイメージは単体の Duo S でも動作し、回路図 / レイアウト / BOM、ゼロからの構築ガイド、Zenodo のビルド済みイメージを同梱 · 1★
 
 **ハードウェアとケース**
 
