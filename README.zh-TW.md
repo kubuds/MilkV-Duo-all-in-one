@@ -458,6 +458,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - [Tom-game-project/MilkV-DuoS-rust-tpu-example](https://github.com/Tom-game-project/MilkV-DuoS-rust-tpu-example) — 在 Duo S 上用 Rust 跑 TPU 矩陣乘法：Makefile 自動拉 host-tools、tpu-sdk-sg200x 與 tpu-mlir，把 ONNX 編成 .cvimodel，Rust 交叉編譯到 riscv64 musl 後以 scp 部署 · 0★
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Duo S 上驅動 CAM-GC2083 的完整記錄：J1 輸出 1080p 29.7 fps，相關驅動已併入 Armbian 主線（PR #10936），H.265 仍在進行 · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — Duo S + Camera Module 3 的 YOLO11 人體偵測：60 fps、端到端 35 ms，JSON API / SSE / MJPEG 預覽，附 Debian 套件與 systemd 服務 · 0★
+- [ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S](https://github.com/ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S) — 在 Crazyflie 2.1 微型無人機上掛自研擴充板（BT-MV Duo 01 Deck，載 Duo Module 01 / SG2000）跑原生 ROS 2 Humble：Crazyflie 側以 100 Hz 經 UART2 送出姿態，板端 C906 單核上的 rclpy 橋接節點用 DDS 發布 `/joint_states`（實測 35–45 Hz，整板 510 mW），遠端 RViz2 即時跟著轉；同一鏡像也能在獨立 Duo S 上跑，附原理圖 / 佈局 / BOM、從零建置指南與 Zenodo 預編譯鏡像 · 1★
 
 **硬體與外殼**
 
