@@ -125,13 +125,13 @@ La página oficial de descargas incluye una [tabla de imágenes de terceros](htt
 
 - [Espejo de Fedora 41](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/Duo256M/images/latest/)
 - [Debian (Fishwaldo / sophgo-sg200x-debian)](https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/tag/v1.4.0) — última versión v1.4.0 (2024-06-01), añade soporte de eMMC para el Duo S
-- [Debian sid (scpcom / sophgo-sg200x-debian)](https://github.com/scpcom/sophgo-sg200x-debian/releases) — cubre tanto el Duo 256M como el Duo S (imágenes para tarjeta SD y eMMC); actual v1.9.26 (2026-11-17)
+- [Debian sid (scpcom / sophgo-sg200x-debian)](https://github.com/scpcom/sophgo-sg200x-debian/releases) — cubre tanto el Duo 256M como el Duo S (imágenes para tarjeta SD y eMMC); actual v1.9.27 (2026-11-19), kernel actualizado a 6.12
 - [Ubuntu 22.04](https://github.com/ambraglow/milkv-duo-ubuntu) · [Arch Linux](https://community.milkv.io/t/debian-arch-linux-on-milkv-duo-256m-milkv-duo-256m-debian-arch-linux/1110) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1)
 
 ### Duo S (SG2000)
 
 - [Espejo de Fedora 41](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/DuoS/images/latest/) — cuenta por defecto `root` / contraseña `riscv`
-- [Debian (scpcom)](https://github.com/scpcom/sophgo-sg200x-debian/releases) — dos juegos de cuentas: `root`/`rv` y `debian`/`rv`; actual v1.9.26 (2026-11-17)
+- [Debian (scpcom)](https://github.com/scpcom/sophgo-sg200x-debian/releases) — dos juegos de cuentas: `root`/`rv` y `debian`/`rv`; actual v1.9.27 (2026-11-19)
 - [NuttX (lupyuen)](https://github.com/lupyuen/nuttx-sg2000/releases) — imagen lista para ejecutar NuttX en el Duo S
 
 ---
