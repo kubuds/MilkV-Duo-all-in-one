@@ -125,13 +125,13 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 
 - [Fedora 41 ミラーサイト](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/Duo256M/images/latest/)
 - [Debian（Fishwaldo / sophgo-sg200x-debian）](https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/tag/v1.4.0) —— 最新 v1.4.0（2024-06-01）、Duo S の eMMC 対応を追加
-- [Debian sid（scpcom / sophgo-sg200x-debian）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— Duo 256M と Duo S の両方をカバー（SD カードと eMMC のイメージ）、現在 v1.9.26（2026-11-17）
+- [Debian sid（scpcom / sophgo-sg200x-debian）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— Duo 256M と Duo S の両方をカバー（SD カードと eMMC のイメージ）、現在 v1.9.27（2026-11-19）、カーネルを 6.12 に更新
 - [Ubuntu 22.04](https://github.com/ambraglow/milkv-duo-ubuntu) · [Arch Linux](https://community.milkv.io/t/debian-arch-linux-on-milkv-duo-256m-milkv-duo-256m-debian-arch-linux/1110) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1)
 
 ### Duo S（SG2000）
 
 - [Fedora 41 ミラーサイト](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/DuoS/images/latest/) —— デフォルトのアカウントは `root`、パスワードは `riscv`
-- [Debian（scpcom）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— `root`/`rv` と `debian`/`rv` の 2 組のアカウント、現在 v1.9.26（2026-11-17）
+- [Debian（scpcom）](https://github.com/scpcom/sophgo-sg200x-debian/releases) —— `root`/`rv` と `debian`/`rv` の 2 組のアカウント、現在 v1.9.27（2026-11-19）
 - [NuttX（lupyuen）](https://github.com/lupyuen/nuttx-sg2000/releases) —— Duo S で NuttX を動かす既成イメージ
 
 ---

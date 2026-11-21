@@ -125,13 +125,13 @@
 
 - [Зеркало Fedora 41](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/Duo256M/images/latest/)
 - [Debian (Fishwaldo / sophgo-sg200x-debian)](https://github.com/Fishwaldo/sophgo-sg200x-debian/releases/tag/v1.4.0) — последняя версия v1.4.0 (2024-06-01), добавлена поддержка eMMC у Duo S
-- [Debian sid (scpcom / sophgo-sg200x-debian)](https://github.com/scpcom/sophgo-sg200x-debian/releases) — покрывает и Duo 256M, и Duo S (образы для SD-карты и eMMC); текущая версия v1.9.26 (2026-11-17)
+- [Debian sid (scpcom / sophgo-sg200x-debian)](https://github.com/scpcom/sophgo-sg200x-debian/releases) — покрывает и Duo 256M, и Duo S (образы для SD-карты и eMMC); текущая версия v1.9.27 (2026-11-19), ядро обновлено до 6.12
 - [Ubuntu 22.04](https://github.com/ambraglow/milkv-duo-ubuntu) · [Arch Linux](https://community.milkv.io/t/debian-arch-linux-on-milkv-duo-256m-milkv-duo-256m-debian-arch-linux/1110) · [Alpine Linux](https://github.com/cwt/duo-buildroot-sdk/releases/tag/poc1)
 
 ### Duo S (SG2000)
 
 - [Зеркало Fedora 41](https://mirror.iscas.ac.cn/fedora-riscv/dl/Milk-V/DuoS/images/latest/) — учётная запись по умолчанию `root`, пароль `riscv`
-- [Debian (scpcom)](https://github.com/scpcom/sophgo-sg200x-debian/releases) — два набора учётных данных: `root`/`rv` и `debian`/`rv`; текущая версия v1.9.26 (2026-11-17)
+- [Debian (scpcom)](https://github.com/scpcom/sophgo-sg200x-debian/releases) — два набора учётных данных: `root`/`rv` и `debian`/`rv`; текущая версия v1.9.27 (2026-11-19)
 - [NuttX (lupyuen)](https://github.com/lupyuen/nuttx-sg2000/releases) — готовый образ с NuttX для Duo S
 
 ---
