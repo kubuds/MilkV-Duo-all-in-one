@@ -397,6 +397,7 @@ Nach Einsatzzweck gegliedert. Star-Zahlen und Datum des letzten Commits sind ein
 - [Pillar1989/VizOS](https://github.com/Pillar1989/VizOS) — das OpenWrt-/VizOS-Projekt
 - [georgewhewell/nixos-nanokvm](https://github.com/georgewhewell/nixos-nanokvm) — NixOS-Konfiguration für SG2000/SG2002
 - [kinsamanka/meta-milkv](https://github.com/kinsamanka/meta-milkv) — Yocto-/OpenEmbedded-Layer
+- [cybersyn-stm/milkv_duo_sdk](https://github.com/cybersyn-stm/milkv_duo_sdk) — angepasstes SDK V2 für das Duo 256M (SG2002): der große Kern C906B läuft mit Linux, der kleine Kern C906L mit RT-Thread, beide unabhängig vom FSBL gestartet; dazu ein RTL8188FU-WLAN-Treiber mit hostapd-AP-Modus, DS3231-RTC (I2C1) zur Zeitsynchronisierung, ein eingebauter Webdienst und ein YOLOv5-Overlay zur Gestenerkennung; außerdem ist der Eigentümerfehler im Root-Dateisystem beim Bauen als Nicht-root behoben · 0★
 
 **RTOS und Bare-Metal**
 
@@ -414,6 +415,7 @@ Nach Einsatzzweck gegliedert. Star-Zahlen und Datum des letzten Commits sind ein
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — Mailbox-Kommunikation zwischen Zephyr und Linux
 - [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — monolithischer RISC-V-Kernel in Rust (insgesamt ca. 272 KB inklusive C++-Bootloader und Self-Hosting-C-Compiler); enthält SG2000-Plattformtreiber, Duo S ist als Zielplatine genannt · 0★
 - [iceice666/slime_os](https://github.com/iceice666/slime_os) — Rust-`no_std`-Userspace auf upstream seL4; das Ziel `riscv64-sel4-milkv-duo` enthält eine seL4-Konfiguration für cv1800b-duo, ein Skript zum Verpacken der Payload in ein bootfähiges Duo-FIT sowie Startprotokolle vom realen Board im S-Modus, der übrige Nachweis läuft noch überwiegend auf QEMU aarch64 · 3★
+- [allegro0132/vibeos](https://github.com/allegro0132/vibeos) — in Rust geschriebener capability-sicherer Kernel mit einem einzigen Adressraum, zu den Zielplatinen gehört das Milk-V Duo (CV1800B): festes Speicherlayout, Sv39, UART0/PLIC, 25-MHz-Zeitbasis, native microSD/DWMAC und DWC2-USB-Host (HID, CDC-ECM), FIT/SD-Images auf Basis des offiziellen Buildroot-SDK; am 2026-08-11 Basisabnahme auf einer echten CV1800B-Platine bestanden (Selbsttest 388 von 388, DHCP über USB-Netzwerkkarte plus acht TCP-Ströme, 11 SSH-Prüfungen); nur Single-Core C906B, C906L und SMP nicht unterstützt, noch keine Images veröffentlicht — in Arbeit, kein nutzbares Release · 1★
 
 **Toolchain und Build-Umgebung**
 
@@ -437,6 +439,8 @@ Nach Einsatzzweck gegliedert. Star-Zahlen und Datum des letzten Commits sind ein
 - [Tactical-TV-Remote/infrared_milkv](https://github.com/Tactical-TV-Remote/infrared_milkv) — Infrarot-Senden und -Empfangen (Rust)
 - [harshareddy1611/milkv-duo-s-baremetal-drivers](https://github.com/harshareddy1611/milkv-duo-s-baremetal-drivers) — Bare-Metal GPIO/UART für das Duo S
 - [wanghengZzz/Milkv-Duo-FreeRTOS-DMA](https://github.com/wanghengZzz/Milkv-Duo-FreeRTOS-DMA) — FreeRTOS-DMA-HAL
+- [qtopie/mt7603u](https://github.com/qtopie/mt7603u) — mac80211-Treiber für den MediaTek MT7603U (USB 802.11n 2T2R), C-Gerüst plus Logik in `no_std` Rust; auf dem Duo S (SG2000, Linux 5.10.4 musl) geprüft: USB-Enumeration, Firmware-Laden, Scan und RSSI, AP-Modus, Monitor-Modus; das README beschreibt die Cross-Kompilierung gegen den Kernelbaum des Duo-SDK · 4★
+- [open-ep/PIXPAPER-213-M](https://github.com/open-ep/PIXPAPER-213-M) — monochromes (4 Graustufen) E-Paper-Modul mit 2,13 Zoll, SPI-Schnittstelle und Teilaktualisierung, GPL-3.0; das Repository enthält eine Anleitung zu Verdrahtung und Treiber für das Duo 256M sowie Hinweise für Pico-, Zephyr- und Arduino-Platinen · 2★
 
 **Projekte aus der Praxis**
 - [tidesense](https://github.com/HumpbackLab/tidesense) — Stereo-Visual-Inertial-Odometrie auf SG2002 (eigene Platine, kein Duo 256M): zwei OV9281 mit Global Shutter plus SC7U22-IMU, SchurVINS mit 20 Hz visueller Korrektur / 200 Hz Prädiktion, dazu OpenVINS-Vergleich, Kalibrierung und Dataset-Werkzeuge; das VIO läuft auf dem Cortex-A53 und bootet ausschließlich von SD. Die Hardware ist unter CC BY-NC-SA 4.0 offen (Link im README des Repositories) · 142★
@@ -459,6 +463,8 @@ Nach Einsatzzweck gegliedert. Star-Zahlen und Datum des letzten Commits sind ein
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — ausführlicher Bericht zum CAM-GC2083 am Duo S: 1080p mit 29.7 fps an J1, die Treiber sind in Armbian main übernommen (PR #10936), H.265 läuft noch · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — YOLO11-Personenerkennung auf dem Duo S mit Camera Module 3: 60 fps, 35 ms von Bild bis Ergebnis, JSON-API / SSE / MJPEG-Vorschau, Debian-Pakete und systemd-Dienst · 0★
 - [ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S](https://github.com/ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S) — natives ROS 2 Humble auf einer Crazyflie-2.1-Nano-Drohne über ein eigenes Deck (BT-MV Duo 01 Deck) mit Duo Module 01 (SG2000): Der Crazyflie liefert die Lage mit 100 Hz über UART2, eine rclpy-Bridge auf dem einzelnen C906-Kern publiziert `/joint_states` per DDS mit gemessenen 35–45 Hz (510 mW für die ganze Platine), RViz2 auf dem Remote-PC zeigt die Orientierung live; dasselbe Image läuft auch auf einer eigenständigen Duo S, inklusive Schaltplan / Layout / BOM, Anleitung zum Nachbau von Grund auf und fertigem Image auf Zenodo · 1★
+- [aa-proxy/aa-proxy-rs](https://github.com/aa-proxy/aa-proxy-rs) — kabelgebundener und drahtloser Android-Auto-Proxy in Rust, die Liste der unterstützten Platinen enthält das Milk-V Duo S: auf dem Duo S wird der Hardware-H.264-Codec des Herstellers über `cvi_mpi` genutzt (`overlay_hw_accel = "cvi"`, benötigt die Module `cvi_vc_driver` und die Firmware unter `/usr/share/fw_vcodec`), die im Buildroot-Image bereits enthalten sind; ohne Hardware fällt er auf Software-Encoding zurück · 525★
+- [Laikulo/milkv-ups](https://github.com/Laikulo/milkv-ups) — externer Buildroot-Baum, der ein Image mit NUT für das Duo (CV1800B, Start von SD-Karte) baut und UPS-Überwachung in ein Minimalsystem bringt: buildroot 2025.02 LTS plus containerisierte Build-Umgebung (ccache, eigenes dl-Verzeichnis, UID-Mapping), Konfigurationsschnipsel werden über `confload` zusammengeführt · 1★
 
 **Hardware und Gehäuse**
 

@@ -397,6 +397,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [Pillar1989/VizOS](https://github.com/Pillar1989/VizOS) — OpenWrt / VizOS project
 - [georgewhewell/nixos-nanokvm](https://github.com/georgewhewell/nixos-nanokvm) — NixOS configuration for SG2000/SG2002
 - [kinsamanka/meta-milkv](https://github.com/kinsamanka/meta-milkv) — Yocto / OpenEmbedded layer
+- [cybersyn-stm/milkv_duo_sdk](https://github.com/cybersyn-stm/milkv_duo_sdk) — customised SDK V2 for the Duo 256M (SG2002): the big core C906B runs Linux and the little core C906L runs RT-Thread, each started independently by the FSBL; adds an RTL8188FU WiFi driver with hostapd AP mode, DS3231 RTC (I2C1) clock sync, a built-in web service and a YOLOv5 gesture-recognition overlay, and fixes the rootfs ownership problem when building as a non-root user · 0★
 
 **RTOS and bare metal**
 
@@ -414,6 +415,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — mailbox communication between Zephyr and Linux
 - [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — monolithic RISC-V kernel in Rust (~272 KB in total, including a C++ bootloader and a self-hosting C compiler); ships SG2000 platform drivers and lists Duo S as a target board · 0★
 - [iceice666/slime_os](https://github.com/iceice666/slime_os) — Rust `no_std` userspace on upstream seL4; the `riscv64-sel4-milkv-duo` target ships an seL4 config for cv1800b-duo, a script that wraps the payload into a bootable Duo FIT, and on-board boot logs from S-mode, while most other validation still runs on QEMU aarch64 · 3★
+- [allegro0132/vibeos](https://github.com/allegro0132/vibeos) — capability-secure single-address-space kernel written in Rust, with the Milk-V Duo (CV1800B) among its target boards: fixed memory layout, Sv39, UART0/PLIC, a 25 MHz timebase, native microSD/DWMAC and DWC2 USB host (HID, CDC-ECM), packaged as FIT/SD images on top of the official Buildroot SDK; base acceptance passed on a CV1800B board on 2026-08-11 (self-test 388/388, USB NIC DHCP plus eight TCP streams, 11 SSH gates); single-core C906B only, C906L and SMP unsupported, no images released yet — work in progress, not a usable release · 1★
 
 **Toolchains and build environments**
 
@@ -437,6 +439,8 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [Tactical-TV-Remote/infrared_milkv](https://github.com/Tactical-TV-Remote/infrared_milkv) — infrared transmit and receive (Rust)
 - [harshareddy1611/milkv-duo-s-baremetal-drivers](https://github.com/harshareddy1611/milkv-duo-s-baremetal-drivers) — Duo S bare-metal GPIO/UART
 - [wanghengZzz/Milkv-Duo-FreeRTOS-DMA](https://github.com/wanghengZzz/Milkv-Duo-FreeRTOS-DMA) — FreeRTOS DMA HAL
+- [qtopie/mt7603u](https://github.com/qtopie/mt7603u) — mac80211 driver for the MediaTek MT7603U (USB 802.11n 2T2R), a C skeleton plus `no_std` Rust logic; verified on the Duo S (SG2000, Linux 5.10.4 musl) for USB enumeration, firmware load, scan and RSSI, AP mode and monitor mode, with README steps for cross-compiling against the Duo SDK kernel tree · 4★
+- [open-ep/PIXPAPER-213-M](https://github.com/open-ep/PIXPAPER-213-M) — 2.13-inch mono (4-grayscale) e-paper module with an SPI interface and partial refresh, GPL-3.0; the repository ships a Duo 256M wiring and driver guide alongside notes for Pico, Zephyr and Arduino boards · 2★
 
 **Projects in practice**
 - [tidesense](https://github.com/HumpbackLab/tidesense) — stereo visual-inertial odometry on SG2002 (custom board, not a Duo 256M): dual OV9281 global-shutter cameras plus an SC7U22 IMU, SchurVINS at 20 Hz visual correction / 200 Hz prediction, with OpenVINS comparison, calibration and dataset tooling; the VIO runs on the Cortex-A53 and boots from SD only. Hardware is open under CC BY-NC-SA 4.0 (link in the repository README) · 142★
@@ -459,6 +463,8 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Full write-up of driving the CAM-GC2083 on the Duo S: 1080p at 29.7 fps on J1, with the drivers merged into Armbian main (PR #10936); H.265 still in progress · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — YOLO11 person detection on the Duo S with a Camera Module 3: 60 fps, 35 ms end to end, JSON API / SSE / MJPEG preview, Debian packages and a systemd service · 0★
 - [ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S](https://github.com/ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S) — native ROS 2 Humble on a Crazyflie 2.1 nano-UAV through a custom deck (BT-MV Duo 01 Deck) carrying a Duo Module 01 (SG2000): the Crazyflie streams attitude over UART2 at 100 Hz, an rclpy bridge on the single C906 core publishes `/joint_states` over DDS at a measured 35–45 Hz (510 mW for the whole board), and a remote RViz2 mirrors the orientation live; the same image also runs on a standalone Duo S, with schematic / layout / BOM, a from-scratch build guide and a prebuilt Zenodo image · 1★
+- [aa-proxy/aa-proxy-rs](https://github.com/aa-proxy/aa-proxy-rs) — wired and wireless Android Auto proxy (Rust) whose supported-board list includes the Milk-V Duo S: on the Duo S it uses the vendor `cvi_mpi` hardware H.264 codec (`overlay_hw_accel = "cvi"`, needs the `cvi_vc_driver` modules and the `/usr/share/fw_vcodec` firmware), which the Buildroot image already provides; falls back to software encoding when the hardware is unavailable · 525★
+- [Laikulo/milkv-ups](https://github.com/Laikulo/milkv-ups) — Buildroot external tree that builds a NUT-enabled image for the Duo (CV1800B, SD-card boot), putting UPS monitoring into a minimal system: buildroot 2025.02 LTS plus a containerised build workspace (ccache, separate dl directory, UID mapping), with config snippets merged by `confload` · 1★
 
 **Hardware and enclosures**
 
