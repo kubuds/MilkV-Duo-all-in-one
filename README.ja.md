@@ -397,6 +397,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [Pillar1989/VizOS](https://github.com/Pillar1989/VizOS) — OpenWrt / VizOS プロジェクト
 - [georgewhewell/nixos-nanokvm](https://github.com/georgewhewell/nixos-nanokvm) — SG2000/SG2002 の NixOS 設定
 - [kinsamanka/meta-milkv](https://github.com/kinsamanka/meta-milkv) — Yocto / OpenEmbedded レイヤー
+- [cybersyn-stm/milkv_duo_sdk](https://github.com/cybersyn-stm/milkv_duo_sdk) — Duo 256M（SG2002）向けカスタム SDK V2：大コア C906B で Linux、小コア C906L で RT-Thread を動かし、FSBL がそれぞれ独立に起動する。RTL8188FU WiFi ドライバと hostapd の AP モード、DS3231 RTC（I2C1）の時刻同期、組み込み Web サービス、YOLOv5 手ジェスチャー認識の overlay を含み、非 root ユーザーでのビルド時にルートファイルシステムの所有者が壊れる問題も修正 · 0★
 
 **RTOS とベアメタル**
 
@@ -414,6 +415,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — Zephyr と Linux の mailbox 通信
 - [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — Rust で書かれた RISC-V モノリシックカーネル（C++ ブートローダーとセルフホスト C コンパイラを含め全体で約 272 KB）。SG2000 のプラットフォームドライバを備え、対象ボードに Duo S を挙げています · 0★
 - [iceice666/slime_os](https://github.com/iceice666/slime_os) — upstream seL4 上で動く Rust の `no_std` ユーザー空間システム。`riscv64-sel4-milkv-duo` ターゲットには cv1800b-duo 向け seL4 設定、ペイロードを Duo で起動可能な FIT にまとめるスクリプト、S モードでの実機起動ログが含まれ、その他の検証は主に QEMU aarch64 で行われています · 3★
+- [allegro0132/vibeos](https://github.com/allegro0132/vibeos) — Rust で書かれた capability-secure な単一アドレス空間カーネル。対象ボードに Milk-V Duo（CV1800B）を含む：固定メモリ配置、Sv39、UART0/PLIC、25 MHz タイムベース、ネイティブ microSD/DWMAC、DWC2 USB host（HID、CDC-ECM）を備え、公式 Buildroot SDK 上で FIT/SD イメージを生成する。2026-08-11 に CV1800B 実機で基本検収に合格（セルフテスト 388 項目すべて成功、USB NIC の DHCP と TCP 8 本、SSH 11 項目）。単核 C906B のみ対応で C906L と SMP は未対応、イメージ未公開のため開発中で実用段階ではない · 1★
 
 **ツールチェーンとビルド環境**
 
@@ -437,6 +439,8 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [Tactical-TV-Remote/infrared_milkv](https://github.com/Tactical-TV-Remote/infrared_milkv) — 赤外線送受信（Rust）
 - [harshareddy1611/milkv-duo-s-baremetal-drivers](https://github.com/harshareddy1611/milkv-duo-s-baremetal-drivers) — Duo S ベアメタル GPIO/UART
 - [wanghengZzz/Milkv-Duo-FreeRTOS-DMA](https://github.com/wanghengZzz/Milkv-Duo-FreeRTOS-DMA) — FreeRTOS DMA HAL
+- [qtopie/mt7603u](https://github.com/qtopie/mt7603u) — MediaTek MT7603U（USB 802.11n 2T2R）向け mac80211 ドライバ。C の骨格に `no_std` Rust のロジックを組み合わせる。Duo S（SG2000、Linux 5.10.4 musl）で USB 列挙、ファームウェア読み込み、スキャンと RSSI、AP モード、monitor モードを実測し、Duo SDK のカーネルツリーに対するクロスコンパイル手順を README に記載 · 4★
+- [open-ep/PIXPAPER-213-M](https://github.com/open-ep/PIXPAPER-213-M) — 2.13 インチ単色（4 階調）電子ペーパーモジュール。SPI 接続で部分更新に対応、GPL-3.0。リポジトリには Duo 256M の配線とドライバのガイドがあり、Pico、Zephyr、Arduino 各ボード向けの説明も同梱 · 2★
 
 **実践プロジェクト**
 - [tidesense](https://github.com/HumpbackLab/tidesense) — SG2002 によるステレオ視覚惯性オドメトリ（自作ボードで、Duo 256M ではありません）：OV9281 グローバルシャッターのステレオ + SC7U22 IMU、SchurVINS が 20 Hz の視覚補正 / 200 Hz の予測、OpenVINS との比較・キャリブレーション・データセット用ツールを同梱。VIO は Cortex-A53 上で動作し、SD のみで起動。ハードウェアは CC BY-NC-SA 4.0 で公開（リンクはリポジトリの README）· 142★
@@ -459,6 +463,8 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Duo S で CAM-GC2083 を動かすまでの記録。J1 から 1080p 29.7 fps、ドライバは Armbian 本線にマージ済み（PR #10936）、H.265 は作業中 · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — Duo S + Camera Module 3 による YOLO11 人物検出。60 fps、エンドツーエンド 35 ms、JSON API / SSE / MJPEG プレビュー、Debian パッケージと systemd サービス付き · 0★
 - [ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S](https://github.com/ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S) — Crazyflie 2.1 ナノドローンに自作拡張ボード（BT-MV Duo 01 Deck、Duo Module 01 / SG2000 搭載）を載せてネイティブ ROS 2 Humble を実行：Crazyflie 側が UART2 で 100 Hz の姿勢データを送出し、C906 単一コア上の rclpy ブリッジが DDS で `/joint_states` を実測 35–45 Hz で配信（ボード全体で 510 mW）、遠隔の RViz2 が姿勢をリアルタイム表示；同じイメージは単体の Duo S でも動作し、回路図 / レイアウト / BOM、ゼロからの構築ガイド、Zenodo のビルド済みイメージを同梱 · 1★
+- [aa-proxy/aa-proxy-rs](https://github.com/aa-proxy/aa-proxy-rs) — Android Auto の有線・無線プロキシ（Rust）。対応ボード一覧に Milk-V Duo S を含む：Duo S ではベンダーの `cvi_mpi` によるハードウェア H.264 コーデックを使う（`overlay_hw_accel = "cvi"`、`cvi_vc_driver` モジュールと `/usr/share/fw_vcodec` のファームウェアが必要）。Buildroot イメージには同梱済み。ハードウェアが使えない場合はソフトウェアエンコードに戻る · 525★
+- [Laikulo/milkv-ups](https://github.com/Laikulo/milkv-ups) — Buildroot の外部ツリーで Duo（CV1800B、SD カード起動）向けの NUT 入りイメージを構築し、UPS 監視を最小構成に載せる：buildroot 2025.02 LTS とコンテナ化したビルド環境（ccache、独立した dl ディレクトリ、UID マッピング）を使い、設定スニペットは `confload` でマージ · 1★
 
 **ハードウェアとケース**
 

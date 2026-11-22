@@ -397,6 +397,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - [Pillar1989/VizOS](https://github.com/Pillar1989/VizOS) — OpenWrt / VizOS 專案
 - [georgewhewell/nixos-nanokvm](https://github.com/georgewhewell/nixos-nanokvm) — SG2000/SG2002 的 NixOS 設定
 - [kinsamanka/meta-milkv](https://github.com/kinsamanka/meta-milkv) — Yocto / OpenEmbedded 層
+- [cybersyn-stm/milkv_duo_sdk](https://github.com/cybersyn-stm/milkv_duo_sdk) — Duo 256M（SG2002）的定製 SDK V2：大核 C906B 跑 Linux、小核 C906L 跑 RT-Thread，由 FSBL 分別啟動、互不依賴；另帶 RTL8188FU WiFi 驅動與 hostapd AP 模式、DS3231 RTC（I2C1）時鐘同步、內建 Web 服務與 YOLOv5 手勢識別 overlay，並修掉非 root 使用者建置時根檔案系統的屬主問題 · 0★
 
 **RTOS 與裸機**
 
@@ -414,6 +415,7 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — Zephyr 與 Linux 的 mailbox 通訊
 - [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — 以 Rust 撰寫的 RISC-V 單體內核（整機約 272 KB，含 C++ 引導器與自舉 C 編譯器），內核帶 SG2000 平台驅動，目標板包括 Duo S · 0★
 - [iceice666/slime_os](https://github.com/iceice666/slime_os) — 跑在 upstream seL4 上的 Rust `no_std` 使用者空間系統；`riscv64-sel4-milkv-duo` 目標帶 cv1800b-duo 的 seL4 設定、把載荷封裝成 Duo 可啟動 FIT 的腳本，以及 S 模式實機啟動日誌，其餘驗證以 QEMU aarch64 為主 · 3★
+- [allegro0132/vibeos](https://github.com/allegro0132/vibeos) — 以 Rust 寫的 capability-secure 單一位址空間核心，目標板含 Milk-V Duo（CV1800B）：固定記憶體佈局、Sv39、UART0/PLIC、25 MHz 時基、原生 microSD/DWMAC 與 DWC2 USB host（HID、CDC-ECM），按官方 Buildroot SDK 打包 FIT/SD 映像；2026-08-11 在 CV1800B 實機通過基礎驗收（自檢 388 項全過、USB 網卡 DHCP 加 8 條 TCP、SSH 11 項）；只支援單核 C906B，C906L 與 SMP 未支援，尚未發映像，屬在做不等可用 · 1★
 
 **工具鏈與建置環境**
 
@@ -437,6 +439,8 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - [Tactical-TV-Remote/infrared_milkv](https://github.com/Tactical-TV-Remote/infrared_milkv) — 紅外線收發（Rust）
 - [harshareddy1611/milkv-duo-s-baremetal-drivers](https://github.com/harshareddy1611/milkv-duo-s-baremetal-drivers) — Duo S 裸機 GPIO/UART
 - [wanghengZzz/Milkv-Duo-FreeRTOS-DMA](https://github.com/wanghengZzz/Milkv-Duo-FreeRTOS-DMA) — FreeRTOS DMA HAL
+- [qtopie/mt7603u](https://github.com/qtopie/mt7603u) — MediaTek MT7603U（USB 802.11n 2T2R）的 mac80211 驅動，C 骨架加 `no_std` Rust 邏輯；在 Duo S（SG2000，Linux 5.10.4 musl）上實測 USB 列舉、韌體載入、掃描與 RSSI、AP 模式、monitor 模式，README 給出對著 Duo SDK 核心樹交叉編譯的步驟 · 4★
+- [open-ep/PIXPAPER-213-M](https://github.com/open-ep/PIXPAPER-213-M) — 2.13 吋單色（4 灰階）電子紙模組，SPI 介面、支援局部刷新，GPL-3.0；倉庫帶 Duo 256M 的接線與驅動指南，另有 Pico、Zephyr、Arduino 各板說明 · 2★
 
 **專案實作**
 - [tidesense](https://github.com/HumpbackLab/tidesense) — 基於 SG2002 的雙目視覺慣性里程計（自研板，不是 Duo 256M）：OV9281 全域快門雙目 + SC7U22 IMU，SchurVINS 做 20 Hz 視覺校正 / 200 Hz 預測，附 OpenVINS 比較、標定與資料集工具；VIO 跑在 Cortex-A53 上，純 SD 開機。硬體依 CC BY-NC-SA 4.0 開源（連結見儲存庫 README）· 142★
@@ -459,6 +463,8 @@ Duo S 那兩個是**同一個商品的兩個 SKU**（`id` 相同、`skuId` 不�
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — Duo S 上驅動 CAM-GC2083 的完整記錄：J1 輸出 1080p 29.7 fps，相關驅動已併入 Armbian 主線（PR #10936），H.265 仍在進行 · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — Duo S + Camera Module 3 的 YOLO11 人體偵測：60 fps、端到端 35 ms，JSON API / SSE / MJPEG 預覽，附 Debian 套件與 systemd 服務 · 0★
 - [ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S](https://github.com/ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S) — 在 Crazyflie 2.1 微型無人機上掛自研擴充板（BT-MV Duo 01 Deck，載 Duo Module 01 / SG2000）跑原生 ROS 2 Humble：Crazyflie 側以 100 Hz 經 UART2 送出姿態，板端 C906 單核上的 rclpy 橋接節點用 DDS 發布 `/joint_states`（實測 35–45 Hz，整板 510 mW），遠端 RViz2 即時跟著轉；同一鏡像也能在獨立 Duo S 上跑，附原理圖 / 佈局 / BOM、從零建置指南與 Zenodo 預編譯鏡像 · 1★
+- [aa-proxy/aa-proxy-rs](https://github.com/aa-proxy/aa-proxy-rs) — Android Auto 有線與無線轉發代理（Rust），支援板卡清單含 Milk-V Duo S：在 Duo S 上走廠商 `cvi_mpi` 的硬體 H.264 編解碼（`overlay_hw_accel = "cvi"`，需 `cvi_vc_driver` 模組與 `/usr/share/fw_vcodec` 韌體），Buildroot 映像已自帶；硬體不可用時回落軟體編解碼 · 525★
+- [Laikulo/milkv-ups](https://github.com/Laikulo/milkv-ups) — 用 Buildroot 外置樹給 Duo（CV1800B，SD 卡啟動）做帶 NUT 的映像，把 UPS 監控放進最小系統：buildroot 2025.02 LTS 加容器化建置環境（ccache、獨立 dl 目錄、UID 對映），設定片段由 `confload` 合併 · 1★
 
 **硬體與外殼**
 

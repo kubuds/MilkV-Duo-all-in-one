@@ -397,6 +397,7 @@
 - [Pillar1989/VizOS](https://github.com/Pillar1989/VizOS) — проект OpenWrt / VizOS
 - [georgewhewell/nixos-nanokvm](https://github.com/georgewhewell/nixos-nanokvm) — конфигурация NixOS для SG2000/SG2002
 - [kinsamanka/meta-milkv](https://github.com/kinsamanka/meta-milkv) — слой Yocto / OpenEmbedded
+- [cybersyn-stm/milkv_duo_sdk](https://github.com/cybersyn-stm/milkv_duo_sdk) — кастомный SDK V2 для Duo 256M (SG2002): большое ядро C906B работает под Linux, малое C906L — под RT-Thread, FSBL запускает их независимо друг от друга; добавлены драйвер WiFi RTL8188FU с режимом AP через hostapd, синхронизация часов по DS3231 RTC (I2C1), встроенный веб-сервис и overlay для распознавания жестов на YOLOv5, а также исправлена проблема с владельцем корневой ФС при сборке не от root · 0★
 
 **RTOS и bare-metal**
 
@@ -414,6 +415,7 @@
 - [xingrz/milkv-duo-zephyr-mailbox-example](https://github.com/xingrz/milkv-duo-zephyr-mailbox-example) — обмен через mailbox между Zephyr и Linux
 - [DivByDiamond/OnyxOS](https://github.com/DivByDiamond/OnyxOS) — монолитное ядро RISC-V на Rust (около 272 KB вместе с загрузчиком на C++ и самодостаточным компилятором C); содержит драйверы платформы SG2000, среди целевых плат указан Duo S · 0★
 - [iceice666/slime_os](https://github.com/iceice666/slime_os) — пользовательское пространство на Rust `no_std` поверх upstream seL4; цель `riscv64-sel4-milkv-duo` включает конфигурацию seL4 для cv1800b-duo, скрипт упаковки полезной нагрузки в загрузочный FIT для Duo и журналы запуска на реальной плате в режиме S, остальная проверка пока идёт на QEMU aarch64 · 3★
+- [allegro0132/vibeos](https://github.com/allegro0132/vibeos) — написанное на Rust capability-secure ядро с единым адресным пространством, среди целевых плат — Milk-V Duo (CV1800B): фиксированная раскладка памяти, Sv39, UART0/PLIC, тактовая частота 25 МГц, штатные microSD/DWMAC и DWC2 USB host (HID, CDC-ECM), сборка FIT/SD-образов поверх официального Buildroot SDK; 2026-08-11 базовая приёмка пройдена на реальной плате CV1800B (самотест 388 из 388, DHCP и восемь TCP-потоков через USB-сетевую карту, 11 проверок SSH); поддерживается только одно ядро C906B, C906L и SMP не поддерживаются, образы пока не публикуются — работа идёт, это не готовый релиз · 1★
 
 **Инструментальные цепочки и окружение сборки**
 
@@ -437,6 +439,8 @@
 - [Tactical-TV-Remote/infrared_milkv](https://github.com/Tactical-TV-Remote/infrared_milkv) — приём и передача ИК (Rust)
 - [harshareddy1611/milkv-duo-s-baremetal-drivers](https://github.com/harshareddy1611/milkv-duo-s-baremetal-drivers) — bare-metal GPIO/UART для Duo S
 - [wanghengZzz/Milkv-Duo-FreeRTOS-DMA](https://github.com/wanghengZzz/Milkv-Duo-FreeRTOS-DMA) — FreeRTOS DMA HAL
+- [qtopie/mt7603u](https://github.com/qtopie/mt7603u) — драйвер mac80211 для MediaTek MT7603U (USB 802.11n 2T2R): каркас на C плюс логика на `no_std` Rust; на Duo S (SG2000, Linux 5.10.4 musl) проверены перечисление USB, загрузка прошивки, сканирование и RSSI, режим AP и monitor; в README описана кросс-сборка под дерево ядра из Duo SDK · 4★
+- [open-ep/PIXPAPER-213-M](https://github.com/open-ep/PIXPAPER-213-M) — монохромный (4 градации) модуль электронной бумаги 2,13 дюйма, интерфейс SPI, поддержка частичного обновления, GPL-3.0; в репозитории есть руководство по подключению и драйверу для Duo 256M, а также материалы для плат Pico, Zephyr и Arduino · 2★
 
 **Практические проекты**
 - [tidesense](https://github.com/HumpbackLab/tidesense) — стерео визуально-инерционная одометрия на SG2002 (собственная плата, не Duo 256M): два глобальных затвора OV9281 плюс IMU SC7U22, SchurVINS с визуальной коррекцией 20 Гц и предсказанием 200 Гц, плюс сравнение с OpenVINS, калибровка и средства работы с датасетами; VIO работает на Cortex-A53 и загружается только с SD-карты. Аппаратная часть открыта под CC BY-NC-SA 4.0 (ссылка в README репозитория) · 142★
@@ -459,6 +463,8 @@
 - [lukaszsobala/duos-camera](https://github.com/lukaszsobala/duos-camera) — подробный отчёт о запуске CAM-GC2083 на Duo S: 1080p при 29.7 fps на J1, драйверы уже в основной ветке Armbian (PR #10936), H.265 пока в работе · 0★
 - [leafpmpmp/duos-detect](https://github.com/leafpmpmp/duos-detect) — детекция людей на YOLO11 на Duo S с Camera Module 3: 60 fps, 35 мс от кадра до результата, JSON API / SSE / MJPEG-превью, пакеты Debian и служба systemd · 0★
 - [ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S](https://github.com/ETH-PBL/ROS2-on-RISCV-MilkV-Duo-S) — нативный ROS 2 Humble на нано-дроне Crazyflie 2.1 через самодельную плату расширения (BT-MV Duo 01 Deck) с Duo Module 01 (SG2000): Crazyflie отдаёт ориентацию по UART2 на 100 Гц, мост на rclpy на единственном ядре C906 публикует `/joint_states` через DDS с измеренной частотой 35–45 Гц (510 мВт на всю плату), а RViz2 на удалённом ПК повторяет ориентацию в реальном времени; тот же образ работает и на отдельной Duo S, в комплекте схема / трассировка / BOM, руководство сборки с нуля и готовый образ на Zenodo · 1★
+- [aa-proxy/aa-proxy-rs](https://github.com/aa-proxy/aa-proxy-rs) — проводной и беспроводной прокси Android Auto на Rust, в списке поддерживаемых плат — Milk-V Duo S: на Duo S используется аппаратный кодек H.264 из вендорской `cvi_mpi` (`overlay_hw_accel = "cvi"`, нужны модули `cvi_vc_driver` и прошивка в `/usr/share/fw_vcodec`), которые уже входят в образ Buildroot; при недоступности аппаратного кодека включается программный · 525★
+- [Laikulo/milkv-ups](https://github.com/Laikulo/milkv-ups) — внешнее дерево Buildroot, собирающее образ с NUT для Duo (CV1800B, загрузка с SD-карты), — мониторинг UPS в минимальной системе: buildroot 2025.02 LTS и контейнерное окружение сборки (ccache, отдельный каталог dl, отображение UID), фрагменты конфигурации объединяются через `confload` · 1★
 
 **Аппаратная часть и корпуса**
 
