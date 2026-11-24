@@ -398,6 +398,7 @@ Grouped by use. Star counts and last-commit dates are a snapshot from 2026-10-31
 - [georgewhewell/nixos-nanokvm](https://github.com/georgewhewell/nixos-nanokvm) — NixOS configuration for SG2000/SG2002
 - [kinsamanka/meta-milkv](https://github.com/kinsamanka/meta-milkv) — Yocto / OpenEmbedded layer
 - [cybersyn-stm/milkv_duo_sdk](https://github.com/cybersyn-stm/milkv_duo_sdk) — customised SDK V2 for the Duo 256M (SG2002): the big core C906B runs Linux and the little core C906L runs RT-Thread, each started independently by the FSBL; adds an RTL8188FU WiFi driver with hostapd AP mode, DS3231 RTC (I2C1) clock sync, a built-in web service and a YOLOv5 gesture-recognition overlay, and fixes the rootfs ownership problem when building as a non-root user · 0★
+- [beitlab-inc/beitlab-os-milkv-duo-sdk](https://github.com/beitlab-inc/beitlab-os-milkv-duo-sdk) — robotics image and toolchain for the Duo S (MIT, 0.4.1): ten patches on top of the official SDK add the C906L `remoteproc` driver, reserved memory, a DTS fragment and a rootfs overlay; the image ships a serial Wi-Fi wizard on J22 (115200 8N1), a regular `beitlab` user with sudo and SSH public-key login, plus PlatformIO examples — cross-compile a C906 ELF on the PC and only the small core restarts, so Linux and the SSH session stay up; the 0.4.1 SD image is built locally and passed acceptance tests on a Duo S (2026-11-19), but no GitHub Release is published yet · 0★
 
 **RTOS and bare metal**
 
