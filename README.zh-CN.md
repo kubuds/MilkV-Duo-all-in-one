@@ -398,6 +398,7 @@ Duo S 那两个是**同一个商品的两个 SKU**（`id` 相同、`skuId` 不�
 - [georgewhewell/nixos-nanokvm](https://github.com/georgewhewell/nixos-nanokvm) — SG2000/SG2002 的 NixOS 配置
 - [kinsamanka/meta-milkv](https://github.com/kinsamanka/meta-milkv) — Yocto / OpenEmbedded 层
 - [cybersyn-stm/milkv_duo_sdk](https://github.com/cybersyn-stm/milkv_duo_sdk) — Duo 256M（SG2002）的定制 SDK V2：大核 C906B 跑 Linux、小核 C906L 跑 RT-Thread，由 FSBL 分别启动、互不依赖；另带 RTL8188FU WiFi 驱动与 hostapd AP 模式、DS3231 RTC（I2C1）时钟同步、内置 Web 服务与 YOLOv5 手势识别 overlay，并修掉非 root 用户构建时根文件系统的属主问题 · 0★
+- [beitlab-inc/beitlab-os-milkv-duo-sdk](https://github.com/beitlab-inc/beitlab-os-milkv-duo-sdk) — Duo S 的机器人镜像与工具链（MIT，0.4.1）：在官方 SDK 上打 10 个补丁，补上 C906L 的 `remoteproc` 驱动、保留内存与 DTS 片段、根文件系统 overlay；镜像内置串口配网向导（J22，115200 8N1）、普通用户 `beitlab` + sudo + SSH 公钥登录，并附 PlatformIO 示例——PC 侧把 C906 ELF 传上去后只重启小核，Linux 与 SSH 会话不断；0.4.1 的 SD 镜像已在本地构建并在 Duo S 上跑过验收（2026-11-19），GitHub Release 尚未发布 · 0★
 
 **RTOS 与裸机**
 

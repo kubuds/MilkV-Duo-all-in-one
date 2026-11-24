@@ -398,6 +398,7 @@ Duo S の 2 件は**同一商品の別 SKU** です（`id` が同じで `skuId` 
 - [georgewhewell/nixos-nanokvm](https://github.com/georgewhewell/nixos-nanokvm) — SG2000/SG2002 の NixOS 設定
 - [kinsamanka/meta-milkv](https://github.com/kinsamanka/meta-milkv) — Yocto / OpenEmbedded レイヤー
 - [cybersyn-stm/milkv_duo_sdk](https://github.com/cybersyn-stm/milkv_duo_sdk) — Duo 256M（SG2002）向けカスタム SDK V2：大コア C906B で Linux、小コア C906L で RT-Thread を動かし、FSBL がそれぞれ独立に起動する。RTL8188FU WiFi ドライバと hostapd の AP モード、DS3231 RTC（I2C1）の時刻同期、組み込み Web サービス、YOLOv5 手ジェスチャー認識の overlay を含み、非 root ユーザーでのビルド時にルートファイルシステムの所有者が壊れる問題も修正 · 0★
+- [beitlab-inc/beitlab-os-milkv-duo-sdk](https://github.com/beitlab-inc/beitlab-os-milkv-duo-sdk) — Duo S 向けのロボティクス用イメージとツールチェーン（MIT、0.4.1）：公式 SDK に 10 個のパッチを当て、C906L の `remoteproc` ドライバ、予約メモリ、DTS フラグメント、ルートファイルシステムの overlay を追加。イメージにはシリアル経由の Wi-Fi 設定ウィザード（J22、115200 8N1）、通常ユーザー `beitlab` と sudo・SSH 公開鍵ログイン、PlatformIO のサンプルを同梱——PC 側で C906 の ELF をクロスコンパイルして転送すると小コアだけが再起動し、Linux と SSH セッションは維持される。0.4.1 の SD イメージはローカルでビルドし Duo S 実機で受け入れ試験済み（2026-11-19）だが、GitHub Release は未公開 · 0★
 
 **RTOS とベアメタル**
 
